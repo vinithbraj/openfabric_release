@@ -1,0 +1,193 @@
+<!doctype html>
+<html lang="en" class="app-booting">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>OpenFabric Settings</title>
+    <script>
+      (() => {
+        const root = document.documentElement;
+        const allowedThemes = new Set([
+          "github",
+          "light",
+          "daylight",
+          "mint",
+          "citrus",
+          "rosewater",
+          "steel",
+          "graphite",
+          "midnight",
+          "aurora",
+          "ember",
+          "ubuntu",
+          "ubuntu-dark",
+          "dracula",
+          "nord",
+          "tokyo-night",
+          "catppuccin-mocha",
+          "solarized-dark",
+          "gruvbox-dark",
+          "nebula",
+          "moss",
+          "retro",
+          "lagoon",
+          "sakura",
+          "harbor",
+          "circuit",
+          "contrast",
+          "random-pastel",
+        ]);
+        const themeFromSettings = () => {
+          try {
+            const settings = JSON.parse("{}");
+            return typeof settings?.ui_theme === "string" ? settings.ui_theme : "";
+          } catch (_error) {
+            return "";
+          }
+        };
+        try {
+          const savedTheme = "" || themeFromSettings();
+          if (allowedThemes.has(savedTheme)) {
+            root.dataset.theme = savedTheme;
+          }
+        } catch (_error) {}
+      })();
+    </script>
+    <link rel="stylesheet" href="/agent-ui/static/app.css?v=20260606-prompt-gutters" />
+    <link rel="stylesheet" href="/agent-ui/static/settings.css?v=20260530-coherent-ui" />
+  </head>
+  <body class="mission-settings-body">
+    <div id="app-boot-screen" class="app-boot-screen" role="status" aria-live="polite">
+      <div class="app-boot-card">
+        <span class="app-boot-orbit" aria-hidden="true"></span>
+        <strong>OpenFabric Settings</strong>
+        <span>Loading mission control</span>
+      </div>
+    </div>
+    <main class="mission-settings-shell">
+      <header class="mission-settings-topbar">
+        <div class="mission-settings-brand">
+          <a href="/agent-ui" class="mission-settings-home">OpenFabric</a>
+          <h1>Mission Control</h1>
+        </div>
+        <div class="mission-settings-actions">
+          <label class="mission-settings-search" for="settings-search">
+            <span>Search</span>
+            <input
+              id="settings-search"
+              type="search"
+              autocomplete="off"
+              placeholder="Find a setting"
+              aria-label="Search settings"
+            />
+          </label>
+          <button id="settings-refresh-button" type="button">Refresh</button>
+          <a href="/directory" class="mission-settings-open-chat">Directory</a>
+          <a
+            href="http://127.0.0.1:8013/manual#doc=configuration-storage"
+            class="mission-settings-open-chat"
+            data-manual-link
+            data-manual-doc="configuration-storage"
+            data-manual-port="8013"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Manual
+          </a>
+          <a href="/agent-ui" class="mission-settings-open-chat">Chat</a>
+        </div>
+      </header>
+      <section class="mission-settings-statusbar" aria-label="Settings sync status">
+        <span id="settings-sync-status" class="mission-settings-sync-status" data-state="loading">
+          Loading settings registry
+        </span>
+        <span id="settings-scope-summary" class="mission-settings-scope-summary"></span>
+      </section>
+      <section class="mission-settings-layout" aria-label="Mission Control settings">
+        <aside class="mission-settings-sidebar" aria-label="Presets and sections">
+          <section class="mission-settings-optimization" aria-label="Optimize agent for">
+            <h2>Optimize agent for</h2>
+            <p>
+              Apply Accuracy or Speed profiles. Custom reflects edited settings.
+            </p>
+            <div
+              id="settings-optimization-control"
+              class="tri-state-toggle mission-optimization-control"
+              role="group"
+              aria-label="Optimize agent for"
+              data-profile="custom"
+            >
+              <button type="button" data-profile="accuracy" aria-pressed="false">Accuracy</button>
+              <button type="button" data-profile="custom" aria-pressed="true" title="Custom reflects your current settings.">Custom</button>
+              <button type="button" data-profile="speed" aria-pressed="false">Speed</button>
+            </div>
+            <div
+              id="settings-optimization-heat"
+              class="agent-optimization-heat mission-optimization-heat"
+              data-profile="custom"
+              data-score="50"
+              aria-label="Accuracy to Speed optimization balance"
+            >
+              <div class="agent-optimization-heat-labels" aria-hidden="true">
+                <span>Accuracy</span>
+                <span data-agent-optimization-value>50% Speed</span>
+                <span>Speed</span>
+              </div>
+              <div class="agent-optimization-heat-track" aria-hidden="true">
+                <span class="agent-optimization-heat-fill" data-agent-optimization-meter></span>
+              </div>
+            </div>
+          </section>
+          <section class="mission-settings-clarification" aria-label="Clarification mode">
+            <h2>Clarification</h2>
+            <p>
+              Choose how readily the agent asks follow-up questions before moving forward.
+            </p>
+            <div
+              id="settings-clarification-control"
+              class="tri-state-toggle mission-optimization-control agent-clarification-control"
+              role="group"
+              aria-label="Clarification mode"
+              data-mode="balanced"
+            >
+              <button type="button" data-mode="auto_pilot" aria-pressed="false">Auto-pilot</button>
+              <button type="button" data-mode="balanced" aria-pressed="true">Balanced</button>
+              <button type="button" data-mode="pedantic" aria-pressed="false">Pedantic</button>
+            </div>
+            <div
+              id="settings-clarification-heat"
+              class="agent-optimization-heat mission-optimization-heat agent-clarification-heat"
+              data-mode="balanced"
+              data-score="50"
+              aria-label="Pedantic to Auto-pilot clarification balance"
+            >
+              <div class="agent-optimization-heat-labels" aria-hidden="true">
+                <span>Pedantic</span>
+                <span data-agent-clarification-value>50% Auto-pilot</span>
+                <span>Auto-pilot</span>
+              </div>
+              <div class="agent-optimization-heat-track" aria-hidden="true">
+                <span class="agent-optimization-heat-fill" data-agent-clarification-meter></span>
+              </div>
+            </div>
+          </section>
+          <section class="mission-settings-presets" aria-label="Settings presets">
+            <h2>Presets</h2>
+            <p>
+              Apply a coherent behavior profile, then keep tuning individual settings below.
+            </p>
+            <div id="settings-presets" class="mission-settings-preset-list"></div>
+          </section>
+          <nav id="settings-section-nav" class="mission-settings-section-nav" aria-label="Settings sections"></nav>
+        </aside>
+        <section id="settings-sections" class="mission-settings-sections" aria-live="polite"></section>
+      </section>
+      <footer class="mission-settings-footer" aria-label="Storage details">
+        <span id="settings-registry-version">Registry pending</span>
+        <span>Autosave enabled</span>
+      </footer>
+    </main>
+    <script src="/agent-ui/static/agent_ui_shared.js?v=20260602-text-odometer" defer></script>
+    <script src="/agent-ui/static/settings.js?v=20260527-clarification-heat" defer></script>
+  </body>
+</html>

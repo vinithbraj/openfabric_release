@@ -1,0 +1,418 @@
+<!doctype html>
+<html lang="en" class="app-booting">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>OpenFabric Prompt Editor</title>
+    <script>
+      (() => {
+        const root = document.documentElement;
+        const allowedThemes = new Set([
+          "github",
+          "light",
+          "daylight",
+          "mint",
+          "citrus",
+          "rosewater",
+          "steel",
+          "graphite",
+          "midnight",
+          "aurora",
+          "ember",
+          "ubuntu",
+          "ubuntu-dark",
+          "dracula",
+          "nord",
+          "tokyo-night",
+          "catppuccin-mocha",
+          "solarized-dark",
+          "gruvbox-dark",
+          "nebula",
+          "moss",
+          "retro",
+          "lagoon",
+          "sakura",
+          "harbor",
+          "circuit",
+          "contrast",
+          "random-pastel",
+        ]);
+        try {
+          const savedTheme = "";
+          if (allowedThemes.has(savedTheme)) {
+            root.dataset.theme = savedTheme;
+          }
+        } catch (_error) {}
+      })();
+    </script>
+    <link rel="stylesheet" href="/agent-ui/static/app.css?v=20260606-prompt-gutters" />
+    <link rel="stylesheet" href="/agent-ui/static/prompt_editor.css?v=20260530-coherent-ui" />
+  </head>
+  <body class="prompt-editor-body">
+    <div id="app-boot-screen" class="app-boot-screen" role="status" aria-live="polite">
+      <div class="app-boot-card">
+        <span class="app-boot-orbit" aria-hidden="true"></span>
+        <strong>OpenFabric Prompt Editor</strong>
+        <span>Loading editor</span>
+      </div>
+    </div>
+    <main class="prompt-editor-shell">
+      <header class="prompt-editor-topbar">
+        <div class="prompt-editor-brand">
+          <a href="/agent-ui" class="prompt-editor-home">OpenFabric</a>
+          <h1>Prompt Editor</h1>
+        </div>
+        <nav class="editor-resource-tabs" aria-label="Editor mode">
+          <button id="prompts-mode-button" type="button" class="editor-resource-tab active">
+            Prompts
+          </button>
+          <button id="memories-mode-button" type="button" class="editor-resource-tab">
+            Memories
+          </button>
+          <button id="parameters-mode-button" type="button" class="editor-resource-tab">
+            Parameters
+          </button>
+        </nav>
+        <div class="prompt-editor-topbar-actions">
+          <span id="editor-db-path" class="prompt-editor-db-path"></span>
+          <label class="prompt-editor-theme" for="theme-select">
+            <span>Theme</span>
+            <select id="theme-select" name="theme">
+              <option value="github">GitHub Dark</option>
+              <option value="light">Light</option>
+              <option value="daylight">Daylight</option>
+              <option value="mint">Mint</option>
+              <option value="citrus">Citrus</option>
+              <option value="rosewater">Rosewater</option>
+              <option value="steel">Steel</option>
+              <option value="graphite">Graphite</option>
+              <option value="midnight">Midnight</option>
+              <option value="aurora">Aurora</option>
+              <option value="ember">Ember</option>
+              <option value="ubuntu">Ubuntu</option>
+              <option value="ubuntu-dark">Ubuntu Dark</option>
+              <option value="dracula">Dracula</option>
+              <option value="nord">Nord</option>
+              <option value="tokyo-night">Tokyo Night</option>
+              <option value="catppuccin-mocha">Catppuccin Mocha</option>
+              <option value="solarized-dark">Solarized Dark</option>
+              <option value="gruvbox-dark">Gruvbox Dark</option>
+              <option value="nebula">Nebula</option>
+              <option value="moss">Moss</option>
+              <option value="retro">Retro</option>
+              <option value="lagoon">Lagoon</option>
+              <option value="sakura">Sakura</option>
+              <option value="harbor">Harbor</option>
+              <option value="circuit">Circuit</option>
+              <option value="contrast">Contrast</option>
+              <option value="random-pastel">Random Pastel</option>
+            </select>
+          </label>
+          <a href="/directory" class="prompt-editor-topbar-link">Directory</a>
+          <a
+            href="http://127.0.0.1:8013/manual#doc=tasks-parameters-prompts-learning"
+            class="prompt-editor-topbar-link"
+            data-manual-link
+            data-manual-doc="tasks-parameters-prompts-learning"
+            data-manual-port="8013"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Manual
+          </a>
+        </div>
+      </header>
+
+      <section class="prompt-editor-layout" aria-label="Prompt templates">
+        <aside class="prompt-template-sidebar" aria-label="Template list">
+          <div class="prompt-sidebar-tools">
+            <input
+              id="template-search"
+              type="search"
+              autocomplete="off"
+              placeholder="Search prompts"
+              aria-label="Search prompts"
+            />
+            <select id="scope-filter" aria-label="Filter by scope">
+              <option value="">All scopes</option>
+            </select>
+            <button id="new-memory-button" type="button" class="secondary-action new-memory-button" hidden>
+              New Memory
+            </button>
+            <button id="new-parameter-button" type="button" class="secondary-action new-memory-button" hidden>
+              New Parameter
+            </button>
+            <button id="save-button" type="button" class="primary-action" disabled>
+              Save
+            </button>
+          </div>
+          <div id="template-count" class="template-count">0 prompts</div>
+          <nav id="template-list" class="template-list" aria-label="Prompt template keys"></nav>
+        </aside>
+
+        <section class="prompt-template-editor" aria-label="Template editor">
+          <header class="template-editor-header">
+            <div class="template-heading">
+              <h2 id="template-title">Select a prompt</h2>
+              <div id="template-meta" class="template-meta"></div>
+            </div>
+            <div class="template-actions">
+              <span id="dirty-indicator" class="dirty-indicator">Saved</span>
+              <button id="render-button" type="button" class="secondary-action" disabled>
+                Render Preview
+              </button>
+              <button id="reveal-parameter-button" type="button" class="secondary-action" hidden disabled>
+                Reveal Value
+              </button>
+              <button id="reset-button" type="button" class="secondary-action" disabled>
+                Reset
+              </button>
+            </div>
+          </header>
+          <div id="template-status" class="template-status" role="status" aria-live="polite"></div>
+          <div id="placeholder-chips" class="placeholder-chips" aria-label="Template variables"></div>
+          <div id="memory-fields" class="memory-fields" hidden>
+            <label class="memory-field memory-field-wide" for="memory-summary">
+              <span>Summary</span>
+              <textarea id="memory-summary" rows="2" spellcheck="false"></textarea>
+            </label>
+            <div class="memory-field-grid">
+              <label class="memory-field" for="memory-status">
+                <span>Status</span>
+                <select id="memory-status">
+                  <option value="active">active</option>
+                  <option value="proposed">proposed</option>
+                  <option value="retired">retired</option>
+                </select>
+              </label>
+              <label class="memory-field" for="memory-kind">
+                <span>Kind</span>
+                <select id="memory-kind">
+                  <option value="task_memory">task memory</option>
+                  <option value="preference_memory">preference memory</option>
+                  <option value="validation_policy">validation policy</option>
+                </select>
+              </label>
+              <label class="memory-field" for="memory-scope">
+                <span>Scope</span>
+                <select id="memory-scope">
+                  <option value="global">global</option>
+                  <option value="model_family">model family</option>
+                  <option value="exact_model">exact model</option>
+                </select>
+              </label>
+              <label class="memory-field" for="memory-model-name">
+                <span>Model</span>
+                <input id="memory-model-name" type="text" autocomplete="off" />
+              </label>
+              <label class="memory-field" for="memory-model-family">
+                <span>Family</span>
+                <input id="memory-model-family" type="text" autocomplete="off" />
+              </label>
+              <label class="memory-field" for="memory-task-type">
+                <span>Task</span>
+                <input id="memory-task-type" type="text" autocomplete="off" />
+              </label>
+              <label class="memory-field" for="memory-tool-type">
+                <span>Tool</span>
+                <input id="memory-tool-type" type="text" autocomplete="off" />
+              </label>
+              <label class="memory-field" for="memory-intent-type">
+                <span>Intent</span>
+                <input id="memory-intent-type" type="text" autocomplete="off" />
+              </label>
+            </div>
+            <label class="memory-field memory-field-wide" for="memory-validator-error-type">
+              <span>Validator error type</span>
+              <input id="memory-validator-error-type" type="text" autocomplete="off" />
+            </label>
+            <label class="memory-field memory-field-wide" for="memory-tags">
+              <span>Tags</span>
+              <input id="memory-tags" type="text" autocomplete="off" placeholder="macos, cli, gateway" />
+            </label>
+            <label class="memory-field memory-field-wide" for="memory-rationale">
+              <span>Rationale</span>
+              <textarea id="memory-rationale" rows="2" spellcheck="false"></textarea>
+            </label>
+          </div>
+          <div id="parameter-fields" class="memory-fields parameter-editor-fields" hidden>
+            <section class="parameter-editor-section parameter-editor-section-intro">
+              <h3 class="parameter-editor-section-title">How Parameter Context Is Used</h3>
+              <p class="parameter-section-hint">
+                Keep executable connection details, tokens, paths, IDs, and generated discovery data in <code>value_json</code>.
+                Put non-secret domain guidance in <code>context_json</code>. Normal agent prompts receive bounded summary and prompt guidance;
+                the clarification resolver receives matched concepts, metrics, relationships, and clarification guidance when it is deciding whether
+                to ask the user or continue with a high-confidence assumption. Context helps the agent choose better entities, but it never bypasses
+                validators, SQL safety, credential handling, join warnings, or mutation approvals.
+              </p>
+            </section>
+            <div class="memory-field-grid">
+              <label class="memory-field" for="parameter-key">
+                <span>Key</span>
+                <input id="parameter-key" type="text" autocomplete="off" />
+              </label>
+              <label class="memory-field" for="parameter-description">
+                <span>Description</span>
+                <input id="parameter-description" type="text" autocomplete="off" />
+              </label>
+              <label class="memory-field" for="parameter-aliases">
+                <span>Aliases</span>
+                <input id="parameter-aliases" type="text" autocomplete="off" placeholder="canonical, dicom" />
+              </label>
+              <label class="memory-field memory-field-wide" for="parameter-tags">
+                <span>Tags</span>
+                <input id="parameter-tags" type="text" autocomplete="off" placeholder="database, postgresql" />
+              </label>
+              <label class="memory-field parameter-sensitive-field" for="parameter-sensitive">
+                <span>Sensitive</span>
+                <input id="parameter-sensitive" type="checkbox" checked />
+              </label>
+            </div>
+            <section class="parameter-editor-section">
+              <h3 class="parameter-editor-section-title">Value JSON</h3>
+              <p class="parameter-section-hint">
+                Enter the executable payload the runtime may actually use: hosts, ports, usernames, passwords, tokens, paths, service IDs,
+                database names, and generated SQL metadata such as <code>schema_catalog</code>, <code>relation_foreign_scheme</code>, and
+                <code>schema_discovery</code>. Sensitive entries stay masked until Reveal is used. This JSON can be converted into runtime
+                execution values and shell environment names, so do not put prompt-only notes here.
+              </p>
+              <label class="memory-field memory-field-wide" for="parameter-value-json">
+                <span>Value JSON</span>
+                <textarea id="parameter-value-json" class="json-code-input" rows="9" spellcheck="false" autocomplete="off"></textarea>
+              </label>
+            </section>
+            <section class="parameter-editor-section">
+              <h3 class="parameter-editor-section-title">Context summary</h3>
+              <p class="parameter-section-hint">
+                Write a short plain-language description of what this parameter represents. This appears in masked UI summaries, audits,
+                parameter matching, and compact prompt context. Good examples: "Canonical DICOM/RT oncology database" or
+                "Production GitHub deploy key for the imaging repo." Keep it non-secret and concise.
+              </p>
+              <label class="memory-field memory-field-wide" for="parameter-context-summary">
+                <span>Context summary</span>
+                <textarea id="parameter-context-summary" rows="2" spellcheck="false"></textarea>
+              </label>
+            </section>
+            <section class="parameter-editor-section">
+              <h3 class="parameter-editor-section-title">Prompt guidance</h3>
+              <p class="parameter-section-hint">
+                Add compact instructions that should be included when this parameter is relevant to a normal agent prompt. Use this for stable
+                domain rules, preferred terminology, default interpretations, query-shaping rules, or workflow conventions. For SQL profiles,
+                include bounded guidance such as "rtplans maps to RTPlan" or "patient counts should use a scalar outer count over grouped patients."
+              </p>
+              <label class="memory-field memory-field-wide" for="parameter-context-prompt-guidance">
+                <span>Prompt guidance</span>
+                <textarea id="parameter-context-prompt-guidance" rows="3" spellcheck="false"></textarea>
+              </label>
+            </section>
+            <section class="parameter-editor-section">
+              <h3 class="parameter-editor-section-title">Clarification guidance</h3>
+              <p class="parameter-section-hint">
+                Add richer guidance for moments when the agent is about to ask the user a question. The typed clarification resolver uses this,
+                along with candidate tables/files/options and the current clarification mode, to decide whether to ask or continue with an assumption.
+                Use it for "do not ask if..." rules, synonym handling, ambiguity thresholds, evidence fields to inspect first, and cases where the
+                user must be asked.
+              </p>
+              <label class="memory-field memory-field-wide" for="parameter-context-clarification-guidance">
+                <span>Clarification guidance</span>
+                <textarea id="parameter-context-clarification-guidance" rows="3" spellcheck="false"></textarea>
+              </label>
+            </section>
+            <section class="parameter-editor-section">
+              <h3 class="parameter-editor-section-title">Concepts JSON</h3>
+              <p class="parameter-section-hint">
+                Enter a JSON array of domain concepts the agent should recognize. Each object can include <code>concept_id</code>,
+                <code>display_name</code>, <code>one_line_definition</code>, <code>user_phrases</code>, <code>synonyms</code>, and preferred
+                evidence such as tables, columns, files, or option values. These concepts are used for parameter matching, SQL/entity selection,
+                and clarification auto-resolution.
+              </p>
+              <label class="memory-field memory-field-wide" for="parameter-context-concepts">
+                <span>Concepts JSON</span>
+                <textarea id="parameter-context-concepts" rows="5" spellcheck="false"></textarea>
+              </label>
+            </section>
+            <section class="parameter-editor-section">
+              <h3 class="parameter-editor-section-title">Metrics JSON</h3>
+              <p class="parameter-section-hint">
+                Enter a JSON array of reusable metric definitions, cohorts, thresholds, formulas, or aggregation rules. Useful fields include
+                <code>metric_id</code>, <code>display_name</code>, <code>one_line_definition</code>, <code>user_phrases</code>, <code>formula</code>,
+                <code>default_threshold</code>, and <code>preferred_aggregation</code>. The agent can use these to turn vague reporting requests
+                into concrete plans without asking unnecessary clarifications.
+              </p>
+              <label class="memory-field memory-field-wide" for="parameter-context-metrics">
+                <span>Metrics JSON</span>
+                <textarea id="parameter-context-metrics" rows="5" spellcheck="false"></textarea>
+              </label>
+            </section>
+            <section class="parameter-editor-section">
+              <h3 class="parameter-editor-section-title">Relationships JSON</h3>
+              <p class="parameter-section-hint">
+                Enter a JSON array of semantic relationships that help the agent understand how concepts, tables, files, services, or workflows
+                relate. For SQL, these are prompt and clarification evidence only: they can help generate a sensible read-only join and explain
+                warnings, but they do not become DB-approved foreign keys and cannot bypass SQL validation.
+              </p>
+              <label class="memory-field memory-field-wide" for="parameter-context-relationships">
+                <span>Relationships JSON</span>
+                <textarea id="parameter-context-relationships" rows="5" spellcheck="false"></textarea>
+              </label>
+            </section>
+            <section class="parameter-editor-section">
+              <h3 class="parameter-editor-section-title">Advanced context</h3>
+              <p class="parameter-section-hint">
+                This is the full raw <code>context_json</code> object. The structured fields above are synchronized into
+                <code>user_provided_domain_context</code>. Use this area only when you need to inspect or edit advanced non-secret metadata while
+                preserving the canonical shape. Invalid JSON will block saving context but will not reveal or modify masked secrets.
+              </p>
+              <label class="memory-field memory-field-wide" for="parameter-context-json">
+                <span>Advanced context_json</span>
+                <textarea id="parameter-context-json" class="json-code-input" rows="7" spellcheck="false" autocomplete="off"></textarea>
+              </label>
+            </section>
+          </div>
+          <textarea
+            id="template-body"
+            class="template-body"
+            spellcheck="false"
+            autocomplete="off"
+            aria-label="Prompt template body"
+            disabled
+          ></textarea>
+        </section>
+
+        <aside class="prompt-template-inspector" aria-label="Template details">
+          <section class="inspector-panel default-panel">
+            <header class="inspector-header">
+              <h2 id="default-panel-title">Default</h2>
+              <span id="default-status" class="inspector-status"></span>
+            </header>
+            <pre id="default-body" class="default-body"></pre>
+          </section>
+
+          <section class="inspector-panel">
+            <header class="inspector-header">
+              <h2 id="variable-panel-title">Variables</h2>
+              <span id="variable-count" class="inspector-status">0</span>
+            </header>
+            <div id="variable-fields" class="variable-fields"></div>
+          </section>
+
+          <section class="inspector-panel render-panel">
+            <header class="inspector-header">
+              <h2 id="render-panel-title">Preview</h2>
+              <span id="render-status" class="inspector-status"></span>
+            </header>
+            <pre id="render-output" class="render-output"></pre>
+          </section>
+        </aside>
+      </section>
+      <footer class="prompt-editor-footer" aria-label="Version details">
+        <span id="prompt-editor-footer-version" class="prompt-editor-footer-version">OpenFabric</span>
+        <span id="prompt-editor-footer-runtime" class="prompt-editor-footer-item"></span>
+        <span id="prompt-editor-footer-git" class="prompt-editor-footer-item"></span>
+        <span id="prompt-editor-footer-count" class="prompt-editor-footer-item">0 prompts</span>
+      </footer>
+    </main>
+    <script src="/agent-ui/static/agent_ui_shared.js?v=20260602-text-odometer" defer></script>
+    <script src="/agent-ui/static/prompt_editor.js?v=20260527-list-pills-v11" defer></script>
+  </body>
+</html>

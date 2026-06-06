@@ -1,0 +1,442 @@
+html,
+body.directory-body {
+  min-width: 0;
+  min-height: 100%;
+}
+
+body.directory-body {
+  margin: 0;
+  overflow: hidden;
+  background: var(--bg);
+  color: var(--text);
+}
+
+.directory-shell {
+  display: grid;
+  grid-template-rows: auto auto minmax(0, 1fr);
+  width: 100%;
+  height: 100dvh;
+  min-height: 100dvh;
+  background: var(--bg);
+}
+
+.directory-topbar,
+.directory-statusbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  min-width: 0;
+  padding: 12px 18px;
+  border-bottom: 1px solid var(--border);
+  background: var(--topbar-bg);
+}
+
+.directory-topbar {
+  min-height: 64px;
+  box-shadow: 0 8px 24px var(--shadow);
+}
+
+.directory-brand {
+  display: flex;
+  align-items: baseline;
+  gap: 14px;
+  min-width: 0;
+}
+
+.directory-brand a,
+.directory-action-link {
+  color: var(--accent);
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.directory-brand a:hover,
+.directory-brand a:focus,
+.directory-action-link:hover,
+.directory-action-link:focus {
+  text-decoration: underline;
+}
+
+.directory-brand h1,
+.directory-section-header h2,
+.directory-card-title,
+.directory-route-group-title {
+  margin: 0;
+  color: var(--heading);
+  letter-spacing: 0;
+}
+
+.directory-brand h1 {
+  font-size: 18px;
+}
+
+.directory-actions {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 10px;
+  min-width: 0;
+}
+
+.directory-search {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  min-width: min(38vw, 360px);
+  color: var(--muted);
+  font-size: 12px;
+}
+
+.directory-search input {
+  width: 100%;
+  min-width: 0;
+  padding: 9px 11px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: var(--form-bg);
+  color: var(--text);
+  outline: none;
+}
+
+.directory-search input:focus {
+  border-color: var(--accent);
+  box-shadow: 0 0 0 3px rgba(var(--accent-rgb), 0.15);
+}
+
+.directory-action-link {
+  display: inline-flex;
+  align-items: center;
+  min-height: 34px;
+  padding: 0 10px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: var(--panel-alt);
+  white-space: nowrap;
+}
+
+.directory-statusbar {
+  color: var(--muted);
+  font-size: 12px;
+}
+
+.directory-statusbar [data-state="ready"] {
+  color: var(--success);
+}
+
+.directory-statusbar [data-state="error"] {
+  color: var(--error);
+}
+
+.directory-content {
+  min-height: 0;
+  overflow: auto;
+  padding: 18px;
+}
+
+.directory-section {
+  max-width: 1280px;
+  margin: 0 auto 22px;
+}
+
+.directory-section-header {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 14px;
+  margin-bottom: 12px;
+}
+
+.directory-section-header h2 {
+  font-size: 16px;
+}
+
+.directory-section-header span {
+  color: var(--muted);
+  font-size: 12px;
+}
+
+.directory-card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 12px;
+}
+
+.directory-card {
+  display: grid;
+  gap: 12px;
+  min-width: 0;
+  padding: 14px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: var(--panel);
+  box-shadow: 0 10px 24px var(--shadow);
+}
+
+.directory-card-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 10px;
+  min-width: 0;
+}
+
+.directory-card-title {
+  overflow-wrap: anywhere;
+  font-size: 15px;
+}
+
+.directory-card-path {
+  display: inline-flex;
+  align-items: center;
+  min-width: 0;
+  color: var(--accent);
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  font-size: 12px;
+  text-decoration: none;
+  overflow-wrap: anywhere;
+}
+
+.directory-card-path:hover,
+.directory-card-path:focus {
+  text-decoration: underline;
+}
+
+.directory-card-summary,
+.directory-empty {
+  margin: 0;
+  color: var(--muted);
+  line-height: 1.45;
+}
+
+.directory-card-meta,
+.directory-manual-links,
+.directory-route-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  min-width: 0;
+}
+
+.directory-pill,
+.directory-manual-pill {
+  display: inline-flex;
+  align-items: center;
+  min-height: 24px;
+  max-width: 100%;
+  padding: 0 8px;
+  border: 1px solid var(--border-soft);
+  border-radius: 999px;
+  background: var(--panel-alt);
+  color: var(--muted);
+  font-size: 11px;
+  text-decoration: none;
+}
+
+.directory-manual-pill {
+  color: var(--accent);
+}
+
+.directory-manual-pill:hover,
+.directory-manual-pill:focus {
+  text-decoration: underline;
+}
+
+.directory-route-groups {
+  display: grid;
+  gap: 10px;
+}
+
+.directory-route-group {
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: var(--panel);
+  overflow: hidden;
+}
+
+.directory-route-group summary {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 12px 14px;
+  cursor: pointer;
+  list-style: none;
+}
+
+.directory-route-group summary::-webkit-details-marker {
+  display: none;
+}
+
+.directory-route-group-count {
+  color: var(--muted);
+  font-size: 12px;
+}
+
+.directory-route-list {
+  display: grid;
+  gap: 0;
+  border-top: 1px solid var(--border-soft);
+}
+
+.directory-route-row {
+  display: grid;
+  grid-template-columns: minmax(150px, 260px) minmax(0, 1fr);
+  gap: 12px;
+  min-width: 0;
+  padding: 12px 14px;
+  border-bottom: 1px solid var(--border-soft);
+}
+
+.directory-route-row:last-child {
+  border-bottom: 0;
+}
+
+.directory-route-path {
+  color: var(--accent);
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  font-size: 12px;
+  text-decoration: none;
+  overflow-wrap: anywhere;
+}
+
+.directory-route-path:hover,
+.directory-route-path:focus {
+  text-decoration: underline;
+}
+
+.directory-route-body {
+  min-width: 0;
+}
+
+.directory-route-title {
+  margin: 0 0 4px;
+  color: var(--heading);
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.directory-route-summary {
+  margin: 0 0 8px;
+  color: var(--muted);
+  line-height: 1.4;
+}
+
+/* Coherent UI pass: align Directory cards and route rows with the agent surface. */
+.directory-topbar,
+.directory-statusbar {
+  border-color: var(--ui-border, var(--border));
+  background: var(--topbar-bg);
+}
+
+.directory-card,
+.directory-route-group,
+.directory-route-row,
+.directory-empty {
+  border-color: var(--ui-border-soft, var(--border-soft));
+  background: var(--ui-surface, var(--panel));
+}
+
+.directory-card,
+.directory-route-group,
+.directory-empty {
+  border-radius: var(--ui-radius-md, 8px);
+  box-shadow: 0 10px 26px rgba(0, 0, 0, 0.1);
+}
+
+.directory-route-row {
+  transition:
+    border-color var(--ui-transition, 140ms ease),
+    background var(--ui-transition, 140ms ease);
+}
+
+.directory-route-row:hover,
+.directory-route-row:focus-within {
+  border-color: rgba(var(--accent-rgb), 0.45);
+  background: var(--ui-surface-selected, rgba(var(--accent-rgb), 0.12));
+}
+
+.directory-search input,
+.directory-action-link,
+.directory-card-path,
+.directory-route-path {
+  border-radius: var(--ui-radius-sm, 6px);
+}
+
+.directory-action-link,
+.directory-pill,
+.directory-manual-pill,
+.directory-route-group-count {
+  border-color: var(--ui-border-soft, var(--border-soft));
+  background: var(--ui-surface-raised, var(--panel-alt));
+}
+
+.directory-action-link,
+.directory-card-path,
+.directory-route-path,
+.directory-manual-pill {
+  transition:
+    border-color var(--ui-transition, 140ms ease),
+    background var(--ui-transition, 140ms ease),
+    color var(--ui-transition, 140ms ease);
+}
+
+.directory-action-link:hover,
+.directory-action-link:focus-visible,
+.directory-card-path:hover,
+.directory-card-path:focus-visible,
+.directory-route-path:hover,
+.directory-route-path:focus-visible,
+.directory-manual-pill:hover,
+.directory-manual-pill:focus-visible {
+  border-color: rgba(var(--accent-rgb), 0.55);
+  background: var(--ui-surface-selected, rgba(var(--accent-rgb), 0.12));
+  color: var(--accent);
+  outline: none;
+  text-decoration: none;
+}
+
+.directory-search input:focus {
+  border-color: var(--ui-control-focus-border-color);
+  box-shadow: var(--ui-control-focus-ring);
+}
+
+.directory-pill,
+.directory-manual-pill,
+.directory-route-group-count {
+  border-radius: 999px;
+}
+
+@media (max-width: 760px) {
+  body.directory-body {
+    overflow: auto;
+  }
+
+  .directory-shell {
+    height: auto;
+    min-height: 100dvh;
+  }
+
+  .directory-topbar,
+  .directory-statusbar,
+  .directory-section-header,
+  .directory-actions {
+    align-items: stretch;
+    flex-direction: column;
+  }
+
+  .directory-actions,
+  .directory-search {
+    width: 100%;
+    min-width: 0;
+  }
+
+  .directory-content {
+    overflow: visible;
+    padding: 14px;
+  }
+
+  .directory-route-row {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}

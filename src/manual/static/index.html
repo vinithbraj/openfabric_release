@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en" data-theme="github">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>OpenFabric Manual</title>
+    <script>
+      (() => {
+        const root = document.documentElement;
+        const allowedThemes = new Set([
+          "github",
+          "light",
+          "daylight",
+          "mint",
+          "citrus",
+          "rosewater",
+          "steel",
+          "graphite",
+          "midnight",
+          "aurora",
+          "ember",
+          "ubuntu",
+          "ubuntu-dark",
+          "dracula",
+          "nord",
+          "tokyo-night",
+          "catppuccin-mocha",
+          "solarized-dark",
+          "gruvbox-dark",
+          "nebula",
+          "moss",
+          "retro",
+          "lagoon",
+          "sakura",
+          "harbor",
+          "circuit",
+          "contrast",
+        ]);
+        const normalizedTheme = (theme) => (allowedThemes.has(theme) ? theme : "");
+        const themeFromSettings = () => {
+          try {
+            const settings = JSON.parse(localStorage.getItem("openfabric.agentUi.settings") || "{}");
+            return typeof settings?.ui_theme === "string" ? settings.ui_theme : "";
+          } catch (_error) {
+            return "";
+          }
+        };
+        try {
+          const savedTheme = normalizedTheme(localStorage.getItem("openfabric.agentUi.theme"))
+            || normalizedTheme(themeFromSettings());
+          if (savedTheme) {
+            root.dataset.theme = savedTheme;
+          }
+        } catch (_error) {
+          const savedTheme = normalizedTheme(themeFromSettings());
+          if (savedTheme) {
+            root.dataset.theme = savedTheme;
+          }
+        }
+      })();
+    </script>
+    <link rel="stylesheet" href="/manual/static/app.css" />
+  </head>
+  <body>
+    <div class="manual-shell">
+      <header class="manual-topbar">
+        <button id="nav-toggle" class="icon-button nav-toggle" type="button" aria-label="Toggle navigation" title="Toggle navigation">
+          <span aria-hidden="true">&#9776;</span>
+        </button>
+        <a class="manual-brand" href="#doc=manual-home" aria-label="OpenFabric Manual home">
+          <span class="brand-mark" aria-hidden="true">OF</span>
+          <span class="brand-copy">
+            <strong>OpenFabric</strong>
+            <small>Manual</small>
+          </span>
+        </a>
+        <label class="search-box" for="manual-search">
+          <span aria-hidden="true">&#8981;</span>
+          <input id="manual-search" type="search" autocomplete="off" placeholder="Search manual" />
+        </label>
+        <label class="theme-picker" for="theme-select">
+          <span>Theme</span>
+          <select id="theme-select" name="theme" aria-label="Theme">
+            <option value="github">GitHub</option>
+            <option value="light">Light</option>
+            <option value="daylight">Daylight</option>
+            <option value="mint">Mint</option>
+            <option value="citrus">Citrus</option>
+            <option value="rosewater">Rosewater</option>
+            <option value="steel">Steel</option>
+            <option value="graphite">Graphite</option>
+            <option value="midnight">Midnight</option>
+            <option value="aurora">Aurora</option>
+            <option value="ember">Ember</option>
+            <option value="ubuntu">Ubuntu</option>
+            <option value="ubuntu-dark">Ubuntu Dark</option>
+            <option value="dracula">Dracula</option>
+            <option value="nord">Nord</option>
+            <option value="tokyo-night">Tokyo Night</option>
+            <option value="catppuccin-mocha">Catppuccin Mocha</option>
+            <option value="solarized-dark">Solarized Dark</option>
+            <option value="gruvbox-dark">Gruvbox Dark</option>
+            <option value="nebula">Nebula</option>
+            <option value="moss">Moss</option>
+            <option value="retro">Retro</option>
+            <option value="lagoon">Lagoon</option>
+            <option value="sakura">Sakura</option>
+            <option value="harbor">Harbor</option>
+            <option value="circuit">Circuit</option>
+            <option value="contrast">Contrast</option>
+          </select>
+        </label>
+      </header>
+
+      <div class="manual-layout">
+        <aside id="manual-nav" class="manual-nav" aria-label="Manual navigation">
+          <div class="nav-section filter-section">
+            <div class="section-label">Kind</div>
+            <div id="kind-filters" class="segmented-filters"></div>
+          </div>
+          <div class="nav-section filter-section">
+            <div class="section-label">Tags</div>
+            <div id="tag-filters" class="tag-filters"></div>
+          </div>
+          <nav id="document-nav" class="document-nav"></nav>
+        </aside>
+
+        <main class="manual-main">
+          <div id="search-results" class="search-results" hidden></div>
+          <article id="manual-article" class="manual-article" tabindex="-1"></article>
+        </main>
+
+        <aside class="manual-aside" aria-label="Document details">
+          <section class="doc-meta-panel">
+            <div id="doc-meta" class="doc-meta"></div>
+          </section>
+          <section class="outline-panel">
+            <div class="section-label">Outline</div>
+            <nav id="outline-nav" class="outline-nav"></nav>
+          </section>
+          <section class="related-panel">
+            <div class="section-label">Related</div>
+            <div id="related-list" class="related-list"></div>
+          </section>
+        </aside>
+      </div>
+    </div>
+    <script src="/manual/static/vendor/mermaid/mermaid.min.js"></script>
+    <script src="/manual/static/app.js" type="module"></script>
+  </body>
+</html>

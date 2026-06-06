@@ -1,0 +1,125 @@
+name: openfabric-all-services
+
+x-openfabric-image: &openfabric-image
+  build:
+    context: ..
+    dockerfile: docker/server.Dockerfile
+    args:
+      AOR_BUILD_AUDIO: "1"
+  image: ${OPENFABRIC_IMAGE:-openfabric-all-services}:${OPENFABRIC_VERSION:-latest}
+
+services:
+  server:
+    <<: *openfabric-image
+    container_name: openfabric-all-server
+    depends_on:
+      - audio
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    ports:
+      - "8011:8011"
+    environment:
+      AOR_HOST: 0.0.0.0
+      AOR_PORT: "8011"
+      AOR_SSL_ENABLED: "0"
+      AOR_AVAILABLE_NODES: localhost
+      AOR_DEFAULT_NODE: localhost
+      AOR_GATEWAY_URL: http://host.docker.internal:8787
+      AOR_GATEWAY_TIMEOUT_SECONDS: "30"
+      AOR_ONLINE_AI_CHECK_HEADLESS: "1"
+      AOR_LLM_PREFLIGHT_ENABLED: "0"
+      AOR_AUDIO_TRANSCRIBER_ENABLED: "1"
+      AOR_AUDIO_TRANSCRIBER_ENGINE: whisper_cpp
+      AOR_AUDIO_TRANSCRIBER_MODEL_TIER: low
+      AOR_AUDIO_TRANSCRIBER_MODEL_PATH: /data/models/whisper/ggml-base.en.bin
+      AOR_AUDIO_TRANSCRIBER_BINARY: whisper-cli
+      AOR_AUDIO_TRANSCRIBER_MAX_SECONDS: "120"
+      AOR_AUDIO_TRANSCRIBER_MAX_UPLOAD_MB: "25"
+      AOR_AUDIO_TRANSCRIBER_LANGUAGE: auto
+      AOR_AUDIO_TRANSCRIBER_SERVICE_URL: http://audio:8012
+      AOR_DOWNLOAD_WHISPER_MODEL: "0"
+      # Optional legacy bootstrap config:
+      # AOR_APP_CONFIG_PATH: /data/config.yaml
+    volumes:
+      - openfabric-all-services-data:/data
+      # Mount an explicit bootstrap config only when AOR_APP_CONFIG_PATH is set:
+      # - ../config.yaml:/data/config.yaml:ro
+    restart: unless-stopped
+
+  audio:
+    <<: *openfabric-image
+    container_name: openfabric-all-audio
+    entrypoint: ["openfabric-audio-entrypoint"]
+    expose:
+      - "8012"
+    environment:
+      AOR_AUDIO_TRANSCRIBER_ENABLED: "1"
+      AOR_AUDIO_TRANSCRIBER_ENGINE: whisper_cpp
+      AOR_AUDIO_TRANSCRIBER_MODEL_TIER: low
+      AOR_AUDIO_TRANSCRIBER_MODEL_PATH: /data/models/whisper/ggml-base.en.bin
+      AOR_AUDIO_TRANSCRIBER_BINARY: whisper-cli
+      AOR_AUDIO_TRANSCRIBER_MAX_SECONDS: "120"
+      AOR_AUDIO_TRANSCRIBER_MAX_UPLOAD_MB: "25"
+      AOR_AUDIO_TRANSCRIBER_LANGUAGE: auto
+      AOR_AUDIO_RUNTIME_HOST: 0.0.0.0
+      AOR_AUDIO_RUNTIME_PORT: "8012"
+      AOR_DOWNLOAD_WHISPER_MODEL: "1"
+    volumes:
+      - openfabric-all-services-data:/data
+    restart: unless-stopped
+
+  manual:
+    <<: *openfabric-image
+    container_name: openfabric-all-manual
+    ports:
+      - "8013:8013"
+    entrypoint:
+      - python
+      - -m
+      - uvicorn
+    command:
+      - --app-dir
+      - /opt/openfabric/src
+      - manual.app:create_app
+      - --factory
+      - --host
+      - 0.0.0.0
+      - --port
+      - "8013"
+    environment:
+      AOR_MANUAL_HOST: 0.0.0.0
+      AOR_MANUAL_PORT: "8013"
+    restart: unless-stopped
+
+  website:
+    <<: *openfabric-image
+    container_name: openfabric-all-website
+    depends_on:
+      - server
+      - manual
+    ports:
+      - "8014:8014"
+    entrypoint:
+      - python
+      - -m
+      - uvicorn
+    command:
+      - --app-dir
+      - /opt/openfabric/src
+      - website.app:create_app
+      - --factory
+      - --host
+      - 0.0.0.0
+      - --port
+      - "8014"
+    environment:
+      AOR_HOST: 0.0.0.0
+      AOR_PORT: "8011"
+      AOR_MANUAL_HOST: 0.0.0.0
+      AOR_MANUAL_PORT: "8013"
+      AOR_WEBSITE_HOST: 0.0.0.0
+      AOR_WEBSITE_PORT: "8014"
+    restart: unless-stopped
+
+volumes:
+  openfabric-all-services-data:
