@@ -1,3 +1,4 @@
 # Binary release artifacts for SMTO (large files tracked with Git LFS)
 # NOTE: filenames use an underscore (linux-x86_64), not a dot, so the pattern must match that.
 LINUX/binary/smto-* filter=lfs diff=lfs store=lfs bump=lfs
+MACOS/dist/binary/smto-* filter=lfs diff=lfs store=lfs bump=lfs
