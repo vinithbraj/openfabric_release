@@ -1,0 +1,16 @@
+{
+  "server": {
+    "artifact": "smto-server-linux-x86_64",
+    "artifact_size_bytes": 285462652,
+    "first_launch_seconds": 11.615435387,
+    "warm_launch_seconds": 5.709684273,
+    "runtime_cache_bytes": 885186015
+  },
+  "agent": {
+    "artifact": "smto-agent-linux-x86_64",
+    "artifact_size_bytes": 286097532,
+    "first_launch_seconds": 11.27107461,
+    "warm_launch_seconds": 5.657220311,
+    "runtime_cache_bytes": 874058545
+  }
+}
