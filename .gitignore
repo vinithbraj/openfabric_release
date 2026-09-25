@@ -53,7 +53,7 @@ node_modules/
 /artifacts/runtime.db
 
 # Track the macOS release binary artifacts (large binaries stored via Git LFS).
-# They live under the gitignored `dist/` tree, so re-include the parent
-# directories first; .DS_Store stays ignored via the global .DS_Store rule above.
-!MACOS/dist/
-!MACOS/dist/binary/
+# They now live directly under MACOS/binary/ (matching LINUX/binary/), so
+# re-include that parent directory; .DS_Store stays ignored via the global
+# .DS_Store rule above.
+!MACOS/binary/
