@@ -2,9 +2,9 @@
   "artifacts": [
     {
       "arch": "x86_64",
-      "build_id": "17a53d921bd0152adf9039af1edaf145bb2a98035db9bbd3d5513995b4394ff9",
+      "build_id": "e0967dbb0b28804fe0a8ff2c3a0f94cdd762d9f6f1bfe0fa5d38852233d4238d",
       "component": "server",
-      "expanded_size": 745062400,
+      "expanded_size": 775946240,
       "inventory": {
         "native": {
           "build_host": {
@@ -572,7 +572,7 @@
           },
           {
             "name": "coverage",
-            "version": "7.16.1"
+            "version": "7.16.2"
           },
           {
             "name": "cryptography",
@@ -608,11 +608,11 @@
           },
           {
             "name": "fastapi",
-            "version": "0.141.1"
+            "version": "0.142.0"
           },
           {
             "name": "filelock",
-            "version": "4.0.3"
+            "version": "4.0.6"
           },
           {
             "name": "flake8",
@@ -620,11 +620,11 @@
           },
           {
             "name": "fonttools",
-            "version": "4.66.0"
+            "version": "4.66.1"
           },
           {
             "name": "google-auth",
-            "version": "2.58.0"
+            "version": "2.59.0"
           },
           {
             "name": "h11",
@@ -640,7 +640,7 @@
           },
           {
             "name": "identify",
-            "version": "2.6.19"
+            "version": "2.6.20"
           },
           {
             "name": "idna",
@@ -688,7 +688,7 @@
           },
           {
             "name": "librt",
-            "version": "0.15.0"
+            "version": "0.16.0"
           },
           {
             "name": "license-expression",
@@ -720,7 +720,7 @@
           },
           {
             "name": "msgpack",
-            "version": "1.2.2"
+            "version": "1.2.3"
           },
           {
             "name": "mypy",
@@ -740,7 +740,7 @@
           },
           {
             "name": "nodeenv",
-            "version": "1.10.0"
+            "version": "1.11.0"
           },
           {
             "name": "numpy",
@@ -749,6 +749,10 @@
           {
             "name": "openpyxl",
             "version": "3.1.5"
+          },
+          {
+            "name": "opentelemetry-api",
+            "version": "1.45.0"
           },
           {
             "name": "orjson",
@@ -796,7 +800,7 @@
           },
           {
             "name": "platformdirs",
-            "version": "4.11.12"
+            "version": "4.12.2"
           },
           {
             "name": "plotly",
@@ -856,7 +860,7 @@
           },
           {
             "name": "pylint",
-            "version": "4.0.9"
+            "version": "4.0.10"
           },
           {
             "name": "pyparsing",
@@ -912,7 +916,7 @@
           },
           {
             "name": "regex",
-            "version": "2026.9.10"
+            "version": "2026.9.29"
           },
           {
             "name": "requests",
@@ -936,7 +940,7 @@
           },
           {
             "name": "ruff",
-            "version": "0.16.8"
+            "version": "0.16.9"
           },
           {
             "name": "setuptools",
@@ -1008,7 +1012,7 @@
           },
           {
             "name": "uvicorn",
-            "version": "0.53.0"
+            "version": "0.54.0"
           },
           {
             "name": "uvloop",
@@ -1016,7 +1020,7 @@
           },
           {
             "name": "virtualenv",
-            "version": "21.12.0"
+            "version": "21.13.0"
           },
           {
             "name": "watchfiles",
@@ -1053,8 +1057,8 @@
           },
           {
             "name": "aor_runtime-0.10.0-py3-none-any.whl",
-            "sha256": "6ac62cc233ee68e1442018e7c245530d5034f3828bac3304412e48ca8120d74c",
-            "size_bytes": 3948653
+            "sha256": "9e4ad76137fb4b4a16edb2e61cf38ff65d04aeebe25401cc1bde7c4c35d686e3",
+            "size_bytes": 4579372
           },
           {
             "name": "astroid-4.0.4-py3-none-any.whl",
@@ -1127,9 +1131,9 @@
             "size_bytes": 297302
           },
           {
-            "name": "coverage-7.16.1-cp312-cp312-macosx_10_13_x86_64.whl",
-            "sha256": "b7f2c26ce6ce0b1e0ca0d5fae96ea510e3a2e78b7207f06e76b7f2c87fa3d0af",
-            "size_bytes": 223475
+            "name": "coverage-7.16.2-cp312-cp312-macosx_10_13_x86_64.whl",
+            "sha256": "218d742afca2b5ad5ca759e93eddedfbcc6eadf8322f080dcefc40b7bd4e2d48",
+            "size_bytes": 223969
           },
           {
             "name": "cryptography-48.0.1-cp311-abi3-macosx_10_9_universal2.whl",
@@ -1172,14 +1176,14 @@
             "size_bytes": 18059
           },
           {
-            "name": "fastapi-0.141.1-py3-none-any.whl",
-            "sha256": "bfb91aa2d334c61cb35ba9a116fc123b3d3df31640b801cf57a7a78ec3f603b3",
-            "size_bytes": 131954
+            "name": "fastapi-0.142.0-py3-none-any.whl",
+            "sha256": "a42da52ec744e7b0e8a0ea6e0cbc7292c6df3cbbda8606a91aecf5c166b156da",
+            "size_bytes": 144389
           },
           {
-            "name": "filelock-4.0.3-py3-none-any.whl",
-            "sha256": "30cd166e2aee2c7534ce2c33c6367c4cd051b8368e20e2c4eb0c34f699bacfab",
-            "size_bytes": 108444
+            "name": "filelock-4.0.6-py3-none-any.whl",
+            "sha256": "9b139fb93b2ac5807f7feaf63aa4546fbd74074a2d3f554c040f40a4694d7b9f",
+            "size_bytes": 109077
           },
           {
             "name": "flake8-7.4.1-py2.py3-none-any.whl",
@@ -1187,14 +1191,14 @@
             "size_bytes": 57449
           },
           {
-            "name": "fonttools-4.66.0-cp312-cp312-macosx_10_13_x86_64.whl",
-            "sha256": "dbee639a23c4e067aedfbcf84d2e466a71a1a1156ad04d6d09023791ed167495",
-            "size_bytes": 2586926
+            "name": "fonttools-4.66.1-cp312-cp312-macosx_10_13_x86_64.whl",
+            "sha256": "6946fe7bfb28590a1fd4061a17609c9a843952deb65dcf30d1fe725070c3e7a4",
+            "size_bytes": 2587566
           },
           {
-            "name": "google_auth-2.58.0-py3-none-any.whl",
-            "sha256": "8a9c4645bb4c8e91668fb1934b95ae6a8687084232753639220ba9bf04a1610d",
-            "size_bytes": 262404
+            "name": "google_auth-2.59.0-py3-none-any.whl",
+            "sha256": "43e47b1d3067fb90d77bd9ba21f139bb0577b3f2b9f3e2516fc00f37435efcad",
+            "size_bytes": 262487
           },
           {
             "name": "h11-0.16.0-py3-none-any.whl",
@@ -1212,9 +1216,9 @@
             "size_bytes": 14689
           },
           {
-            "name": "identify-2.6.19-py2.py3-none-any.whl",
-            "sha256": "20e6a87f786f768c092a721ad107fc9df0eb89347be9396cadf3f4abbd1fb78a",
-            "size_bytes": 99397
+            "name": "identify-2.6.20-py2.py3-none-any.whl",
+            "sha256": "6a16b69b93187244e0548cbfd25b3e4a6f9a7a2ad784625c3bec2b8d27b81aaa",
+            "size_bytes": 99506
           },
           {
             "name": "idna-3.20-py3-none-any.whl",
@@ -1272,9 +1276,9 @@
             "size_bytes": 66487
           },
           {
-            "name": "librt-0.15.0-cp312-cp312-macosx_10_13_x86_64.whl",
-            "sha256": "e87bc679f86a99aa3b26e3c78eeb821a247c9a28eae48eaafcc32c3bf4c3bb9e",
-            "size_bytes": 151021
+            "name": "librt-0.16.0-cp312-cp312-macosx_10_13_x86_64.whl",
+            "sha256": "fe52bf4641069e7978a14253b036cb9002def1926317e710f2e249f8a8c47742",
+            "size_bytes": 151028
           },
           {
             "name": "license_expression-30.4.4-py3-none-any.whl",
@@ -1312,9 +1316,9 @@
             "size_bytes": 72226
           },
           {
-            "name": "msgpack-1.2.2-cp312-cp312-macosx_10_13_x86_64.whl",
-            "sha256": "4a4348705be86e029d04e741cf9ed0dfe03e942d7d3b92e838fa80d3aa2c3ebc",
-            "size_bytes": 84275
+            "name": "msgpack-1.2.3-cp312-cp312-macosx_10_13_x86_64.whl",
+            "sha256": "89c930aece4e972b208ba589c8410b4167b05e411a5ea2cb25fd96f8bc47ee43",
+            "size_bytes": 91577
           },
           {
             "name": "mypy-1.20.2-cp312-cp312-macosx_10_13_x86_64.whl",
@@ -1337,9 +1341,9 @@
             "size_bytes": 1493959
           },
           {
-            "name": "nodeenv-1.10.0-py2.py3-none-any.whl",
-            "sha256": "5bb13e3eed2923615535339b3c620e76779af4cb4c6a90deccc9e36b274d3827",
-            "size_bytes": 23438
+            "name": "nodeenv-1.11.0-py2.py3-none-any.whl",
+            "sha256": "edaa16e6c14d7cf395d75d4bbd5a26390f4dc06501a33b4e76282b02cc688a25",
+            "size_bytes": 34277
           },
           {
             "name": "numpy-2.5.3-cp312-cp312-macosx_10_13_x86_64.whl",
@@ -1350,6 +1354,11 @@
             "name": "openpyxl-3.1.5-py2.py3-none-any.whl",
             "sha256": "5282c12b107bffeef825f4617dc029afaf41d0ea60823bbb665ef3079dc79de2",
             "size_bytes": 250910
+          },
+          {
+            "name": "opentelemetry_api-1.45.0-py3-none-any.whl",
+            "sha256": "80e068aba7cd56c8b58512d6a36f8d25cb1dfaa0c0a4cc1c938ccf9f362d9cb3",
+            "size_bytes": 60020
           },
           {
             "name": "orjson-3.12.0-cp312-cp312-macosx_10_15_x86_64.macosx_11_0_arm64.macosx_10_15_universal2.whl",
@@ -1407,9 +1416,9 @@
             "size_bytes": 50879
           },
           {
-            "name": "platformdirs-4.11.12-py3-none-any.whl",
-            "sha256": "b1ba966ac76153d9985a0787ffab951e7c18416189873d4e4ddb2c8a04a0a254",
-            "size_bytes": 24976
+            "name": "platformdirs-4.12.2-py3-none-any.whl",
+            "sha256": "29dbf06d96c500bc6bdbce75fb0a14d63279c93b1842f97e72a135b33e856983",
+            "size_bytes": 32457
           },
           {
             "name": "plotly-6.9.0-py3-none-any.whl",
@@ -1482,9 +1491,9 @@
             "size_bytes": 1250147
           },
           {
-            "name": "pylint-4.0.9-py3-none-any.whl",
-            "sha256": "c4ba5bbaf1e70ecf05f08cd7d6091ea04824b79a2b2d9f5b10dc25fc34cb1124",
-            "size_bytes": 542068
+            "name": "pylint-4.0.10-py3-none-any.whl",
+            "sha256": "c259421f734e6262407b6a421a26f9513b13ac2c5ac2c160775c1658afb57fea",
+            "size_bytes": 542432
           },
           {
             "name": "pyparsing-3.3.3-py3-none-any.whl",
@@ -1552,9 +1561,9 @@
             "size_bytes": 26766
           },
           {
-            "name": "regex-2026.9.10-cp312-cp312-macosx_10_13_x86_64.whl",
-            "sha256": "b9d36b03dc362aa40ffaaec9d9bd75e87763529563ec008c43b0e07782f5be7a",
-            "size_bytes": 297024
+            "name": "regex-2026.9.29-cp312-cp312-macosx_10_13_x86_64.whl",
+            "sha256": "3a21a9509d0ee88e7a70e1ad228cd2f0e0fd1e187458db132e8a8d18c97daf9d",
+            "size_bytes": 296416
           },
           {
             "name": "requests-2.34.2-py3-none-any.whl",
@@ -1582,9 +1591,9 @@
             "size_bytes": 343691
           },
           {
-            "name": "ruff-0.16.8-py3-none-macosx_10_12_x86_64.whl",
-            "sha256": "42ed6b878ed61e3acca92f2730a17acff39286944ea82398544696366a6f925e",
-            "size_bytes": 10165498
+            "name": "ruff-0.16.9-py3-none-macosx_10_12_x86_64.whl",
+            "sha256": "a5f27be168556594a86d2f415db0cf43f5291917849318f873c7e2791f7a8c67",
+            "size_bytes": 10236360
           },
           {
             "name": "setuptools-80.9.0-py3-none-any.whl",
@@ -1672,9 +1681,9 @@
             "size_bytes": 135717
           },
           {
-            "name": "uvicorn-0.53.0-py3-none-any.whl",
-            "sha256": "e8dca71ec86dce5f04e333f0d56cdedf942446e6643b9cea1af0d6d3a02cb03e",
-            "size_bytes": 87081
+            "name": "uvicorn-0.54.0-py3-none-any.whl",
+            "sha256": "505bdb0f318731d45f1f712071fc781a8981f6847a31c902c9f5e652d4f67faf",
+            "size_bytes": 87427
           },
           {
             "name": "uvloop-0.22.1-cp312-cp312-macosx_10_13_x86_64.whl",
@@ -1682,9 +1691,9 @@
             "size_bytes": 752769
           },
           {
-            "name": "virtualenv-21.12.0-py3-none-any.whl",
-            "sha256": "7c48862b3f355c3f5f08d0e21af8a9ea601e0c56385f8e189c7117809ef0b4db",
-            "size_bytes": 5485590
+            "name": "virtualenv-21.13.0-py3-none-any.whl",
+            "sha256": "ca16ceba89e58d8e2f376769349c63f3ed66f79881ae68bc13e19a9d50e0e987",
+            "size_bytes": 5486498
           },
           {
             "name": "watchfiles-1.3.0-cp310-abi3-macosx_10_12_x86_64.whl",
@@ -1707,22 +1716,22 @@
       "name": "smto-server-macos-x86_64",
       "os": "macos",
       "packaging_backend": "go-embed-cpython-image-v1",
-      "payload_sha256": "17a53d921bd0152adf9039af1edaf145bb2a98035db9bbd3d5513995b4394ff9",
-      "payload_size": 226767475,
+      "payload_sha256": "e0967dbb0b28804fe0a8ff2c3a0f94cdd762d9f6f1bfe0fa5d38852233d4238d",
+      "payload_size": 232870433,
       "product": "SMTO",
       "product_expansion": "Small Model Task Orchestration",
       "python": "repo/.venv/bin/python3",
       "python_version": "3.12.14",
-      "runtime_size_bytes": 720724991,
+      "runtime_size_bytes": 750961588,
       "schema_version": 1,
-      "sha256": "7f0954c56c045bd6eef3020d1c5fbd0f733ce3090eda8da61d53ff766435e9eb",
+      "sha256": "357da0c5afba23c3a36f2da68a6cdbf8ecf437ce46eef0e6d3d02513ee158fde",
       "signed": false,
-      "size_bytes": 235279296,
+      "size_bytes": 241542080,
       "source": {
         "dirty": false,
-        "file_count": 2364,
-        "revision": "12b756f5c955c63b5cec71960f71b8f0378f2aaf",
-        "snapshot_sha256": "06cfe7f10d559a039370bc7b7346495ffba8076f90456514420807c30f4a4866"
+        "file_count": 2976,
+        "revision": "8a597bd78c7892a1bc4fabefc871cdf86c5ad048",
+        "snapshot_sha256": "71ef43b0ffd1bcc4e438a89d6a44f9c198aaaa8afac65562b14532e51722b243"
       },
       "source_date_epoch": 0,
       "toolchains": {
@@ -1786,9 +1795,9 @@
     },
     {
       "arch": "x86_64",
-      "build_id": "978fadc26a675cd6ff9983548aa570c51de2908c75513a9c6316320fb24513ff",
+      "build_id": "a433e6e0e6518c4bae1eeb05767e295c07ad71357728b125d28ad4607474b909",
       "component": "agent",
-      "expanded_size": 748881920,
+      "expanded_size": 779827200,
       "inventory": {
         "native": {
           "build_host": {
@@ -2356,7 +2365,7 @@
           },
           {
             "name": "coverage",
-            "version": "7.16.1"
+            "version": "7.16.2"
           },
           {
             "name": "cryptography",
@@ -2392,11 +2401,11 @@
           },
           {
             "name": "fastapi",
-            "version": "0.141.1"
+            "version": "0.142.0"
           },
           {
             "name": "filelock",
-            "version": "4.0.3"
+            "version": "4.0.6"
           },
           {
             "name": "flake8",
@@ -2404,11 +2413,11 @@
           },
           {
             "name": "fonttools",
-            "version": "4.66.0"
+            "version": "4.66.1"
           },
           {
             "name": "google-auth",
-            "version": "2.58.0"
+            "version": "2.59.0"
           },
           {
             "name": "h11",
@@ -2424,7 +2433,7 @@
           },
           {
             "name": "identify",
-            "version": "2.6.19"
+            "version": "2.6.20"
           },
           {
             "name": "idna",
@@ -2472,7 +2481,7 @@
           },
           {
             "name": "librt",
-            "version": "0.15.0"
+            "version": "0.16.0"
           },
           {
             "name": "license-expression",
@@ -2504,7 +2513,7 @@
           },
           {
             "name": "msgpack",
-            "version": "1.2.2"
+            "version": "1.2.3"
           },
           {
             "name": "mypy",
@@ -2524,7 +2533,7 @@
           },
           {
             "name": "nodeenv",
-            "version": "1.10.0"
+            "version": "1.11.0"
           },
           {
             "name": "numpy",
@@ -2533,6 +2542,10 @@
           {
             "name": "openpyxl",
             "version": "3.1.5"
+          },
+          {
+            "name": "opentelemetry-api",
+            "version": "1.45.0"
           },
           {
             "name": "orjson",
@@ -2580,7 +2593,7 @@
           },
           {
             "name": "platformdirs",
-            "version": "4.11.12"
+            "version": "4.12.2"
           },
           {
             "name": "plotly",
@@ -2640,7 +2653,7 @@
           },
           {
             "name": "pylint",
-            "version": "4.0.9"
+            "version": "4.0.10"
           },
           {
             "name": "pyparsing",
@@ -2696,7 +2709,7 @@
           },
           {
             "name": "regex",
-            "version": "2026.9.10"
+            "version": "2026.9.29"
           },
           {
             "name": "requests",
@@ -2720,7 +2733,7 @@
           },
           {
             "name": "ruff",
-            "version": "0.16.8"
+            "version": "0.16.9"
           },
           {
             "name": "setuptools",
@@ -2792,7 +2805,7 @@
           },
           {
             "name": "uvicorn",
-            "version": "0.53.0"
+            "version": "0.54.0"
           },
           {
             "name": "uvloop",
@@ -2800,7 +2813,7 @@
           },
           {
             "name": "virtualenv",
-            "version": "21.12.0"
+            "version": "21.13.0"
           },
           {
             "name": "watchfiles",
@@ -2837,8 +2850,8 @@
           },
           {
             "name": "aor_runtime-0.10.0-py3-none-any.whl",
-            "sha256": "6ac62cc233ee68e1442018e7c245530d5034f3828bac3304412e48ca8120d74c",
-            "size_bytes": 3948653
+            "sha256": "9e4ad76137fb4b4a16edb2e61cf38ff65d04aeebe25401cc1bde7c4c35d686e3",
+            "size_bytes": 4579372
           },
           {
             "name": "astroid-4.0.4-py3-none-any.whl",
@@ -2911,9 +2924,9 @@
             "size_bytes": 297302
           },
           {
-            "name": "coverage-7.16.1-cp312-cp312-macosx_10_13_x86_64.whl",
-            "sha256": "b7f2c26ce6ce0b1e0ca0d5fae96ea510e3a2e78b7207f06e76b7f2c87fa3d0af",
-            "size_bytes": 223475
+            "name": "coverage-7.16.2-cp312-cp312-macosx_10_13_x86_64.whl",
+            "sha256": "218d742afca2b5ad5ca759e93eddedfbcc6eadf8322f080dcefc40b7bd4e2d48",
+            "size_bytes": 223969
           },
           {
             "name": "cryptography-48.0.1-cp311-abi3-macosx_10_9_universal2.whl",
@@ -2956,14 +2969,14 @@
             "size_bytes": 18059
           },
           {
-            "name": "fastapi-0.141.1-py3-none-any.whl",
-            "sha256": "bfb91aa2d334c61cb35ba9a116fc123b3d3df31640b801cf57a7a78ec3f603b3",
-            "size_bytes": 131954
+            "name": "fastapi-0.142.0-py3-none-any.whl",
+            "sha256": "a42da52ec744e7b0e8a0ea6e0cbc7292c6df3cbbda8606a91aecf5c166b156da",
+            "size_bytes": 144389
           },
           {
-            "name": "filelock-4.0.3-py3-none-any.whl",
-            "sha256": "30cd166e2aee2c7534ce2c33c6367c4cd051b8368e20e2c4eb0c34f699bacfab",
-            "size_bytes": 108444
+            "name": "filelock-4.0.6-py3-none-any.whl",
+            "sha256": "9b139fb93b2ac5807f7feaf63aa4546fbd74074a2d3f554c040f40a4694d7b9f",
+            "size_bytes": 109077
           },
           {
             "name": "flake8-7.4.1-py2.py3-none-any.whl",
@@ -2971,14 +2984,14 @@
             "size_bytes": 57449
           },
           {
-            "name": "fonttools-4.66.0-cp312-cp312-macosx_10_13_x86_64.whl",
-            "sha256": "dbee639a23c4e067aedfbcf84d2e466a71a1a1156ad04d6d09023791ed167495",
-            "size_bytes": 2586926
+            "name": "fonttools-4.66.1-cp312-cp312-macosx_10_13_x86_64.whl",
+            "sha256": "6946fe7bfb28590a1fd4061a17609c9a843952deb65dcf30d1fe725070c3e7a4",
+            "size_bytes": 2587566
           },
           {
-            "name": "google_auth-2.58.0-py3-none-any.whl",
-            "sha256": "8a9c4645bb4c8e91668fb1934b95ae6a8687084232753639220ba9bf04a1610d",
-            "size_bytes": 262404
+            "name": "google_auth-2.59.0-py3-none-any.whl",
+            "sha256": "43e47b1d3067fb90d77bd9ba21f139bb0577b3f2b9f3e2516fc00f37435efcad",
+            "size_bytes": 262487
           },
           {
             "name": "h11-0.16.0-py3-none-any.whl",
@@ -2996,9 +3009,9 @@
             "size_bytes": 14689
           },
           {
-            "name": "identify-2.6.19-py2.py3-none-any.whl",
-            "sha256": "20e6a87f786f768c092a721ad107fc9df0eb89347be9396cadf3f4abbd1fb78a",
-            "size_bytes": 99397
+            "name": "identify-2.6.20-py2.py3-none-any.whl",
+            "sha256": "6a16b69b93187244e0548cbfd25b3e4a6f9a7a2ad784625c3bec2b8d27b81aaa",
+            "size_bytes": 99506
           },
           {
             "name": "idna-3.20-py3-none-any.whl",
@@ -3056,9 +3069,9 @@
             "size_bytes": 66487
           },
           {
-            "name": "librt-0.15.0-cp312-cp312-macosx_10_13_x86_64.whl",
-            "sha256": "e87bc679f86a99aa3b26e3c78eeb821a247c9a28eae48eaafcc32c3bf4c3bb9e",
-            "size_bytes": 151021
+            "name": "librt-0.16.0-cp312-cp312-macosx_10_13_x86_64.whl",
+            "sha256": "fe52bf4641069e7978a14253b036cb9002def1926317e710f2e249f8a8c47742",
+            "size_bytes": 151028
           },
           {
             "name": "license_expression-30.4.4-py3-none-any.whl",
@@ -3096,9 +3109,9 @@
             "size_bytes": 72226
           },
           {
-            "name": "msgpack-1.2.2-cp312-cp312-macosx_10_13_x86_64.whl",
-            "sha256": "4a4348705be86e029d04e741cf9ed0dfe03e942d7d3b92e838fa80d3aa2c3ebc",
-            "size_bytes": 84275
+            "name": "msgpack-1.2.3-cp312-cp312-macosx_10_13_x86_64.whl",
+            "sha256": "89c930aece4e972b208ba589c8410b4167b05e411a5ea2cb25fd96f8bc47ee43",
+            "size_bytes": 91577
           },
           {
             "name": "mypy-1.20.2-cp312-cp312-macosx_10_13_x86_64.whl",
@@ -3121,9 +3134,9 @@
             "size_bytes": 1493959
           },
           {
-            "name": "nodeenv-1.10.0-py2.py3-none-any.whl",
-            "sha256": "5bb13e3eed2923615535339b3c620e76779af4cb4c6a90deccc9e36b274d3827",
-            "size_bytes": 23438
+            "name": "nodeenv-1.11.0-py2.py3-none-any.whl",
+            "sha256": "edaa16e6c14d7cf395d75d4bbd5a26390f4dc06501a33b4e76282b02cc688a25",
+            "size_bytes": 34277
           },
           {
             "name": "numpy-2.5.3-cp312-cp312-macosx_10_13_x86_64.whl",
@@ -3134,6 +3147,11 @@
             "name": "openpyxl-3.1.5-py2.py3-none-any.whl",
             "sha256": "5282c12b107bffeef825f4617dc029afaf41d0ea60823bbb665ef3079dc79de2",
             "size_bytes": 250910
+          },
+          {
+            "name": "opentelemetry_api-1.45.0-py3-none-any.whl",
+            "sha256": "80e068aba7cd56c8b58512d6a36f8d25cb1dfaa0c0a4cc1c938ccf9f362d9cb3",
+            "size_bytes": 60020
           },
           {
             "name": "orjson-3.12.0-cp312-cp312-macosx_10_15_x86_64.macosx_11_0_arm64.macosx_10_15_universal2.whl",
@@ -3191,9 +3209,9 @@
             "size_bytes": 50879
           },
           {
-            "name": "platformdirs-4.11.12-py3-none-any.whl",
-            "sha256": "b1ba966ac76153d9985a0787ffab951e7c18416189873d4e4ddb2c8a04a0a254",
-            "size_bytes": 24976
+            "name": "platformdirs-4.12.2-py3-none-any.whl",
+            "sha256": "29dbf06d96c500bc6bdbce75fb0a14d63279c93b1842f97e72a135b33e856983",
+            "size_bytes": 32457
           },
           {
             "name": "plotly-6.9.0-py3-none-any.whl",
@@ -3266,9 +3284,9 @@
             "size_bytes": 1250147
           },
           {
-            "name": "pylint-4.0.9-py3-none-any.whl",
-            "sha256": "c4ba5bbaf1e70ecf05f08cd7d6091ea04824b79a2b2d9f5b10dc25fc34cb1124",
-            "size_bytes": 542068
+            "name": "pylint-4.0.10-py3-none-any.whl",
+            "sha256": "c259421f734e6262407b6a421a26f9513b13ac2c5ac2c160775c1658afb57fea",
+            "size_bytes": 542432
           },
           {
             "name": "pyparsing-3.3.3-py3-none-any.whl",
@@ -3336,9 +3354,9 @@
             "size_bytes": 26766
           },
           {
-            "name": "regex-2026.9.10-cp312-cp312-macosx_10_13_x86_64.whl",
-            "sha256": "b9d36b03dc362aa40ffaaec9d9bd75e87763529563ec008c43b0e07782f5be7a",
-            "size_bytes": 297024
+            "name": "regex-2026.9.29-cp312-cp312-macosx_10_13_x86_64.whl",
+            "sha256": "3a21a9509d0ee88e7a70e1ad228cd2f0e0fd1e187458db132e8a8d18c97daf9d",
+            "size_bytes": 296416
           },
           {
             "name": "requests-2.34.2-py3-none-any.whl",
@@ -3366,9 +3384,9 @@
             "size_bytes": 343691
           },
           {
-            "name": "ruff-0.16.8-py3-none-macosx_10_12_x86_64.whl",
-            "sha256": "42ed6b878ed61e3acca92f2730a17acff39286944ea82398544696366a6f925e",
-            "size_bytes": 10165498
+            "name": "ruff-0.16.9-py3-none-macosx_10_12_x86_64.whl",
+            "sha256": "a5f27be168556594a86d2f415db0cf43f5291917849318f873c7e2791f7a8c67",
+            "size_bytes": 10236360
           },
           {
             "name": "setuptools-80.9.0-py3-none-any.whl",
@@ -3456,9 +3474,9 @@
             "size_bytes": 135717
           },
           {
-            "name": "uvicorn-0.53.0-py3-none-any.whl",
-            "sha256": "e8dca71ec86dce5f04e333f0d56cdedf942446e6643b9cea1af0d6d3a02cb03e",
-            "size_bytes": 87081
+            "name": "uvicorn-0.54.0-py3-none-any.whl",
+            "sha256": "505bdb0f318731d45f1f712071fc781a8981f6847a31c902c9f5e652d4f67faf",
+            "size_bytes": 87427
           },
           {
             "name": "uvloop-0.22.1-cp312-cp312-macosx_10_13_x86_64.whl",
@@ -3466,9 +3484,9 @@
             "size_bytes": 752769
           },
           {
-            "name": "virtualenv-21.12.0-py3-none-any.whl",
-            "sha256": "7c48862b3f355c3f5f08d0e21af8a9ea601e0c56385f8e189c7117809ef0b4db",
-            "size_bytes": 5485590
+            "name": "virtualenv-21.13.0-py3-none-any.whl",
+            "sha256": "ca16ceba89e58d8e2f376769349c63f3ed66f79881ae68bc13e19a9d50e0e987",
+            "size_bytes": 5486498
           },
           {
             "name": "watchfiles-1.3.0-cp310-abi3-macosx_10_12_x86_64.whl",
@@ -3491,22 +3509,22 @@
       "name": "smto-agent-macos-x86_64",
       "os": "macos",
       "packaging_backend": "go-embed-cpython-image-v1",
-      "payload_sha256": "978fadc26a675cd6ff9983548aa570c51de2908c75513a9c6316320fb24513ff",
-      "payload_size": 226925700,
+      "payload_sha256": "a433e6e0e6518c4bae1eeb05767e295c07ad71357728b125d28ad4607474b909",
+      "payload_size": 233036540,
       "product": "SMTO",
       "product_expansion": "Small Model Task Orchestration",
       "python": "repo/src/gateway_macos/.venv/bin/python3",
       "python_version": "3.12.14",
-      "runtime_size_bytes": 720733432,
+      "runtime_size_bytes": 750970029,
       "schema_version": 1,
-      "sha256": "e75c056183b5dce9839c2f2aba8fb7049bc6e3f6d53a1785bfc941cfe4f983e7",
+      "sha256": "7883bbf536f02b80ecf969a07e86ee6cd1191498cb5eee559d890bc24d1e61c3",
       "signed": false,
-      "size_bytes": 235832256,
+      "size_bytes": 242103232,
       "source": {
         "dirty": false,
-        "file_count": 2364,
-        "revision": "12b756f5c955c63b5cec71960f71b8f0378f2aaf",
-        "snapshot_sha256": "06cfe7f10d559a039370bc7b7346495ffba8076f90456514420807c30f4a4866"
+        "file_count": 2976,
+        "revision": "8a597bd78c7892a1bc4fabefc871cdf86c5ad048",
+        "snapshot_sha256": "71ef43b0ffd1bcc4e438a89d6a44f9c198aaaa8afac65562b14532e51722b243"
       },
       "source_date_epoch": 0,
       "toolchains": {
@@ -3574,8 +3592,8 @@
   "schema_version": 1,
   "source": {
     "dirty": false,
-    "file_count": 2364,
-    "revision": "12b756f5c955c63b5cec71960f71b8f0378f2aaf",
-    "snapshot_sha256": "06cfe7f10d559a039370bc7b7346495ffba8076f90456514420807c30f4a4866"
+    "file_count": 2976,
+    "revision": "8a597bd78c7892a1bc4fabefc871cdf86c5ad048",
+    "snapshot_sha256": "71ef43b0ffd1bcc4e438a89d6a44f9c198aaaa8afac65562b14532e51722b243"
   }
 }
