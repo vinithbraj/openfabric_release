@@ -2,9 +2,9 @@
   "artifacts": [
     {
       "arch": "x86_64",
-      "build_id": "17744ff50f39c098fed39d350cdb8db84ece10489cd88ee3a8772865978b2d34",
+      "build_id": "4cdac641938b8de5a83ca583ed3d5718d222e1a30ff6f010d03f14ce400ffcbf",
       "component": "server",
-      "expanded_size": 903055360,
+      "expanded_size": 934144000,
       "inventory": {
         "native": {
           "build_host": {
@@ -573,7 +573,7 @@
           },
           {
             "name": "coverage",
-            "version": "7.16.1"
+            "version": "7.16.2"
           },
           {
             "name": "cryptography",
@@ -609,11 +609,11 @@
           },
           {
             "name": "fastapi",
-            "version": "0.141.1"
+            "version": "0.142.0"
           },
           {
             "name": "filelock",
-            "version": "4.0.3"
+            "version": "4.0.6"
           },
           {
             "name": "flake8",
@@ -621,11 +621,11 @@
           },
           {
             "name": "fonttools",
-            "version": "4.66.0"
+            "version": "4.66.1"
           },
           {
             "name": "google-auth",
-            "version": "2.58.0"
+            "version": "2.59.0"
           },
           {
             "name": "h11",
@@ -641,7 +641,7 @@
           },
           {
             "name": "identify",
-            "version": "2.6.19"
+            "version": "2.6.20"
           },
           {
             "name": "idna",
@@ -693,7 +693,7 @@
           },
           {
             "name": "librt",
-            "version": "0.15.0"
+            "version": "0.16.0"
           },
           {
             "name": "license-expression",
@@ -725,7 +725,7 @@
           },
           {
             "name": "msgpack",
-            "version": "1.2.2"
+            "version": "1.2.3"
           },
           {
             "name": "mypy",
@@ -745,7 +745,7 @@
           },
           {
             "name": "nodeenv",
-            "version": "1.10.0"
+            "version": "1.11.0"
           },
           {
             "name": "numpy",
@@ -754,6 +754,10 @@
           {
             "name": "openpyxl",
             "version": "3.1.5"
+          },
+          {
+            "name": "opentelemetry-api",
+            "version": "1.45.0"
           },
           {
             "name": "orjson",
@@ -801,7 +805,7 @@
           },
           {
             "name": "platformdirs",
-            "version": "4.11.12"
+            "version": "4.12.2"
           },
           {
             "name": "plotly",
@@ -861,7 +865,7 @@
           },
           {
             "name": "pylint",
-            "version": "4.0.9"
+            "version": "4.0.10"
           },
           {
             "name": "pyparsing",
@@ -901,7 +905,7 @@
           },
           {
             "name": "pytz",
-            "version": "2026.3.post1"
+            "version": "2026.4"
           },
           {
             "name": "PyYAML",
@@ -917,7 +921,7 @@
           },
           {
             "name": "regex",
-            "version": "2026.9.10"
+            "version": "2026.9.29"
           },
           {
             "name": "requests",
@@ -941,7 +945,7 @@
           },
           {
             "name": "ruff",
-            "version": "0.16.8"
+            "version": "0.16.9"
           },
           {
             "name": "SecretStorage",
@@ -1017,7 +1021,7 @@
           },
           {
             "name": "uvicorn",
-            "version": "0.53.0"
+            "version": "0.54.0"
           },
           {
             "name": "uvloop",
@@ -1025,7 +1029,7 @@
           },
           {
             "name": "virtualenv",
-            "version": "21.12.0"
+            "version": "21.14.0"
           },
           {
             "name": "watchfiles",
@@ -1062,8 +1066,8 @@
           },
           {
             "name": "aor_runtime-0.10.0-py3-none-any.whl",
-            "sha256": "6ac62cc233ee68e1442018e7c245530d5034f3828bac3304412e48ca8120d74c",
-            "size_bytes": 3948653
+            "sha256": "9e4ad76137fb4b4a16edb2e61cf38ff65d04aeebe25401cc1bde7c4c35d686e3",
+            "size_bytes": 4579372
           },
           {
             "name": "astroid-4.0.4-py3-none-any.whl",
@@ -1136,9 +1140,9 @@
             "size_bytes": 383243
           },
           {
-            "name": "coverage-7.16.1-cp312-cp312-manylinux1_x86_64.manylinux_2_28_x86_64.manylinux_2_5_x86_64.whl",
-            "sha256": "e82e10b9d290f60b63459cfb245a841aec347603997206296b93881463a93dcf",
-            "size_bytes": 258078
+            "name": "coverage-7.16.2-cp312-cp312-manylinux1_x86_64.manylinux_2_28_x86_64.manylinux_2_5_x86_64.whl",
+            "sha256": "5375ebd99038021b35e99dc88255022912c06565d316212f4a576e4b08d30f5d",
+            "size_bytes": 258571
           },
           {
             "name": "cryptography-48.0.1-cp311-abi3-manylinux_2_34_x86_64.whl",
@@ -1181,14 +1185,14 @@
             "size_bytes": 18059
           },
           {
-            "name": "fastapi-0.141.1-py3-none-any.whl",
-            "sha256": "bfb91aa2d334c61cb35ba9a116fc123b3d3df31640b801cf57a7a78ec3f603b3",
-            "size_bytes": 131954
+            "name": "fastapi-0.142.0-py3-none-any.whl",
+            "sha256": "a42da52ec744e7b0e8a0ea6e0cbc7292c6df3cbbda8606a91aecf5c166b156da",
+            "size_bytes": 144389
           },
           {
-            "name": "filelock-4.0.3-py3-none-any.whl",
-            "sha256": "30cd166e2aee2c7534ce2c33c6367c4cd051b8368e20e2c4eb0c34f699bacfab",
-            "size_bytes": 108444
+            "name": "filelock-4.0.6-py3-none-any.whl",
+            "sha256": "9b139fb93b2ac5807f7feaf63aa4546fbd74074a2d3f554c040f40a4694d7b9f",
+            "size_bytes": 109077
           },
           {
             "name": "flake8-7.4.1-py2.py3-none-any.whl",
@@ -1196,14 +1200,14 @@
             "size_bytes": 57449
           },
           {
-            "name": "fonttools-4.66.0-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.whl",
-            "sha256": "aea0cc5609a5f2a2500f91bd6e1989fdd22da0f225be00dc1c4cec775838a7d0",
-            "size_bytes": 5396689
+            "name": "fonttools-4.66.1-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.whl",
+            "sha256": "7b8ff9e0edbcee2fbf7dff0c41b9041c1901c26acf64e23adb67495012df11de",
+            "size_bytes": 5397326
           },
           {
-            "name": "google_auth-2.58.0-py3-none-any.whl",
-            "sha256": "8a9c4645bb4c8e91668fb1934b95ae6a8687084232753639220ba9bf04a1610d",
-            "size_bytes": 262404
+            "name": "google_auth-2.59.0-py3-none-any.whl",
+            "sha256": "43e47b1d3067fb90d77bd9ba21f139bb0577b3f2b9f3e2516fc00f37435efcad",
+            "size_bytes": 262487
           },
           {
             "name": "h11-0.16.0-py3-none-any.whl",
@@ -1221,9 +1225,9 @@
             "size_bytes": 14689
           },
           {
-            "name": "identify-2.6.19-py2.py3-none-any.whl",
-            "sha256": "20e6a87f786f768c092a721ad107fc9df0eb89347be9396cadf3f4abbd1fb78a",
-            "size_bytes": 99397
+            "name": "identify-2.6.20-py2.py3-none-any.whl",
+            "sha256": "6a16b69b93187244e0548cbfd25b3e4a6f9a7a2ad784625c3bec2b8d27b81aaa",
+            "size_bytes": 99506
           },
           {
             "name": "idna-3.20-py3-none-any.whl",
@@ -1286,9 +1290,9 @@
             "size_bytes": 1477929
           },
           {
-            "name": "librt-0.15.0-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
-            "sha256": "89cc46cfd15022e35084355478c9ac809d90b1152222706ac9a7655ec21df6fa",
-            "size_bytes": 531904
+            "name": "librt-0.16.0-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
+            "sha256": "36e53948e99bbe3ffea257124cfcae1cfb01831555c9a9c903c9f9a72db7fd07",
+            "size_bytes": 531952
           },
           {
             "name": "license_expression-30.4.4-py3-none-any.whl",
@@ -1326,9 +1330,9 @@
             "size_bytes": 72226
           },
           {
-            "name": "msgpack-1.2.2-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
-            "sha256": "77c2e018417dc1d66f235e383877ee885b60ade9d29e494dd581e08af2cb1923",
-            "size_bytes": 420619
+            "name": "msgpack-1.2.3-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
+            "sha256": "ede33b2892ceb976283e009ad12fa1834cfdf1f9c43ee9c97849fc588d00a618",
+            "size_bytes": 472998
           },
           {
             "name": "mypy-1.20.2-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
@@ -1351,9 +1355,9 @@
             "size_bytes": 832161
           },
           {
-            "name": "nodeenv-1.10.0-py2.py3-none-any.whl",
-            "sha256": "5bb13e3eed2923615535339b3c620e76779af4cb4c6a90deccc9e36b274d3827",
-            "size_bytes": 23438
+            "name": "nodeenv-1.11.0-py2.py3-none-any.whl",
+            "sha256": "edaa16e6c14d7cf395d75d4bbd5a26390f4dc06501a33b4e76282b02cc688a25",
+            "size_bytes": 34277
           },
           {
             "name": "numpy-2.5.3-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
@@ -1364,6 +1368,11 @@
             "name": "openpyxl-3.1.5-py2.py3-none-any.whl",
             "sha256": "5282c12b107bffeef825f4617dc029afaf41d0ea60823bbb665ef3079dc79de2",
             "size_bytes": 250910
+          },
+          {
+            "name": "opentelemetry_api-1.45.0-py3-none-any.whl",
+            "sha256": "80e068aba7cd56c8b58512d6a36f8d25cb1dfaa0c0a4cc1c938ccf9f362d9cb3",
+            "size_bytes": 60020
           },
           {
             "name": "orjson-3.12.0-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
@@ -1421,9 +1430,9 @@
             "size_bytes": 50879
           },
           {
-            "name": "platformdirs-4.11.12-py3-none-any.whl",
-            "sha256": "b1ba966ac76153d9985a0787ffab951e7c18416189873d4e4ddb2c8a04a0a254",
-            "size_bytes": 24976
+            "name": "platformdirs-4.12.2-py3-none-any.whl",
+            "sha256": "29dbf06d96c500bc6bdbce75fb0a14d63279c93b1842f97e72a135b33e856983",
+            "size_bytes": 32457
           },
           {
             "name": "plotly-6.9.0-py3-none-any.whl",
@@ -1496,9 +1505,9 @@
             "size_bytes": 1250147
           },
           {
-            "name": "pylint-4.0.9-py3-none-any.whl",
-            "sha256": "c4ba5bbaf1e70ecf05f08cd7d6091ea04824b79a2b2d9f5b10dc25fc34cb1124",
-            "size_bytes": 542068
+            "name": "pylint-4.0.10-py3-none-any.whl",
+            "sha256": "c259421f734e6262407b6a421a26f9513b13ac2c5ac2c160775c1658afb57fea",
+            "size_bytes": 542432
           },
           {
             "name": "pyparsing-3.3.3-py3-none-any.whl",
@@ -1546,9 +1555,9 @@
             "size_bytes": 269779
           },
           {
-            "name": "pytz-2026.3.post1-py2.py3-none-any.whl",
-            "sha256": "dd95840dd199baea12d9cc096a1d452caa6596a1c1e4b5f3dbd1541855d5e815",
-            "size_bytes": 508283
+            "name": "pytz-2026.4-py2.py3-none-any.whl",
+            "sha256": "9d514388fbc89ca0833203464272ac485b8828568ab73532f5020f17e892a0ff",
+            "size_bytes": 506747
           },
           {
             "name": "pyyaml-6.0.3-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
@@ -1566,9 +1575,9 @@
             "size_bytes": 26766
           },
           {
-            "name": "regex-2026.9.10-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
-            "sha256": "2e67f8843f0e4b931f1fa860bf3bbe4134b714c0155cc5c7c0d7ea450230aae0",
-            "size_bytes": 804587
+            "name": "regex-2026.9.29-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
+            "sha256": "39ab5894d971f9ac68baa6eca5c50387db579cfcacf36ae8df3feceb1815e6d0",
+            "size_bytes": 807783
           },
           {
             "name": "requests-2.34.2-py3-none-any.whl",
@@ -1596,9 +1605,9 @@
             "size_bytes": 366189
           },
           {
-            "name": "ruff-0.16.8-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
-            "sha256": "15e7d226246961db9235098333caa13063906d3851136b84c2900b82f5daa1df",
-            "size_bytes": 10323796
+            "name": "ruff-0.16.9-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+            "sha256": "a21713e629d3e5bdb2f5c2def1cc7f04f47fa8e1a7eb0571b4a28e1da64bc728",
+            "size_bytes": 10406494
           },
           {
             "name": "secretstorage-3.5.0-py3-none-any.whl",
@@ -1691,9 +1700,9 @@
             "size_bytes": 135717
           },
           {
-            "name": "uvicorn-0.53.0-py3-none-any.whl",
-            "sha256": "e8dca71ec86dce5f04e333f0d56cdedf942446e6643b9cea1af0d6d3a02cb03e",
-            "size_bytes": 87081
+            "name": "uvicorn-0.54.0-py3-none-any.whl",
+            "sha256": "505bdb0f318731d45f1f712071fc781a8981f6847a31c902c9f5e652d4f67faf",
+            "size_bytes": 87427
           },
           {
             "name": "uvloop-0.22.1-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
@@ -1701,9 +1710,9 @@
             "size_bytes": 4426307
           },
           {
-            "name": "virtualenv-21.12.0-py3-none-any.whl",
-            "sha256": "7c48862b3f355c3f5f08d0e21af8a9ea601e0c56385f8e189c7117809ef0b4db",
-            "size_bytes": 5485590
+            "name": "virtualenv-21.14.0-py3-none-any.whl",
+            "sha256": "c345b0b744c70e7df7e33be20ea1ba5309db1cca3c98eacc10afb0276cf99356",
+            "size_bytes": 5486534
           },
           {
             "name": "watchfiles-1.3.0-cp310-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
@@ -1726,22 +1735,22 @@
       "name": "smto-server-linux-x86_64",
       "os": "linux",
       "packaging_backend": "go-embed-cpython-image-v1",
-      "payload_sha256": "17744ff50f39c098fed39d350cdb8db84ece10489cd88ee3a8772865978b2d34",
-      "payload_size": 277475026,
+      "payload_sha256": "4cdac641938b8de5a83ca583ed3d5718d222e1a30ff6f010d03f14ce400ffcbf",
+      "payload_size": 283640665,
       "product": "SMTO",
       "product_expansion": "Small Model Task Orchestration",
       "python": "repo/.venv/bin/python3",
       "python_version": "3.12.14",
-      "runtime_size_bytes": 876488304,
+      "runtime_size_bytes": 906929924,
       "schema_version": 1,
-      "sha256": "fa78350717adebead063b2df4d5ca9e1617f507b1b84f09d0d178c9c2cfec09a",
+      "sha256": "54f758ce3cf7b6cfdb54a951f0be5d5cd805f642888745ff4490fcbeb039a294",
       "signed": false,
-      "size_bytes": 286511228,
+      "size_bytes": 292835452,
       "source": {
         "dirty": false,
-        "file_count": 2364,
-        "revision": "ee2c4c8f071a3bd7d65e6455084f872e040f54c9",
-        "snapshot_sha256": "32218b2642acac1972d5128fa09da7e94c93f1780975263e32192c36d6aff902"
+        "file_count": 2976,
+        "revision": "8a597bd78c7892a1bc4fabefc871cdf86c5ad048",
+        "snapshot_sha256": "71ef43b0ffd1bcc4e438a89d6a44f9c198aaaa8afac65562b14532e51722b243"
       },
       "source_date_epoch": 0,
       "toolchains": {
@@ -1805,9 +1814,9 @@
     },
     {
       "arch": "x86_64",
-      "build_id": "d28793373917924b84afa3c4739493c57326bef3bbe9daa4b47070169f09a688",
+      "build_id": "561ff534099329aec06ab3a1c2e4730889e00fafa530284301eb3dc309411348",
       "component": "agent",
-      "expanded_size": 907079680,
+      "expanded_size": 938240000,
       "inventory": {
         "native": {
           "build_host": {
@@ -2376,7 +2385,7 @@
           },
           {
             "name": "coverage",
-            "version": "7.16.1"
+            "version": "7.16.2"
           },
           {
             "name": "cryptography",
@@ -2412,11 +2421,11 @@
           },
           {
             "name": "fastapi",
-            "version": "0.141.1"
+            "version": "0.142.0"
           },
           {
             "name": "filelock",
-            "version": "4.0.3"
+            "version": "4.0.6"
           },
           {
             "name": "flake8",
@@ -2424,11 +2433,11 @@
           },
           {
             "name": "fonttools",
-            "version": "4.66.0"
+            "version": "4.66.1"
           },
           {
             "name": "google-auth",
-            "version": "2.58.0"
+            "version": "2.59.0"
           },
           {
             "name": "h11",
@@ -2444,7 +2453,7 @@
           },
           {
             "name": "identify",
-            "version": "2.6.19"
+            "version": "2.6.20"
           },
           {
             "name": "idna",
@@ -2496,7 +2505,7 @@
           },
           {
             "name": "librt",
-            "version": "0.15.0"
+            "version": "0.16.0"
           },
           {
             "name": "license-expression",
@@ -2528,7 +2537,7 @@
           },
           {
             "name": "msgpack",
-            "version": "1.2.2"
+            "version": "1.2.3"
           },
           {
             "name": "mypy",
@@ -2548,7 +2557,7 @@
           },
           {
             "name": "nodeenv",
-            "version": "1.10.0"
+            "version": "1.11.0"
           },
           {
             "name": "numpy",
@@ -2557,6 +2566,10 @@
           {
             "name": "openpyxl",
             "version": "3.1.5"
+          },
+          {
+            "name": "opentelemetry-api",
+            "version": "1.45.0"
           },
           {
             "name": "orjson",
@@ -2604,7 +2617,7 @@
           },
           {
             "name": "platformdirs",
-            "version": "4.11.12"
+            "version": "4.12.2"
           },
           {
             "name": "plotly",
@@ -2664,7 +2677,7 @@
           },
           {
             "name": "pylint",
-            "version": "4.0.9"
+            "version": "4.0.10"
           },
           {
             "name": "pyparsing",
@@ -2704,7 +2717,7 @@
           },
           {
             "name": "pytz",
-            "version": "2026.3.post1"
+            "version": "2026.4"
           },
           {
             "name": "PyYAML",
@@ -2720,7 +2733,7 @@
           },
           {
             "name": "regex",
-            "version": "2026.9.10"
+            "version": "2026.9.29"
           },
           {
             "name": "requests",
@@ -2744,7 +2757,7 @@
           },
           {
             "name": "ruff",
-            "version": "0.16.8"
+            "version": "0.16.9"
           },
           {
             "name": "SecretStorage",
@@ -2820,7 +2833,7 @@
           },
           {
             "name": "uvicorn",
-            "version": "0.53.0"
+            "version": "0.54.0"
           },
           {
             "name": "uvloop",
@@ -2828,7 +2841,7 @@
           },
           {
             "name": "virtualenv",
-            "version": "21.12.0"
+            "version": "21.14.0"
           },
           {
             "name": "watchfiles",
@@ -2865,8 +2878,8 @@
           },
           {
             "name": "aor_runtime-0.10.0-py3-none-any.whl",
-            "sha256": "6ac62cc233ee68e1442018e7c245530d5034f3828bac3304412e48ca8120d74c",
-            "size_bytes": 3948653
+            "sha256": "9e4ad76137fb4b4a16edb2e61cf38ff65d04aeebe25401cc1bde7c4c35d686e3",
+            "size_bytes": 4579372
           },
           {
             "name": "astroid-4.0.4-py3-none-any.whl",
@@ -2939,9 +2952,9 @@
             "size_bytes": 383243
           },
           {
-            "name": "coverage-7.16.1-cp312-cp312-manylinux1_x86_64.manylinux_2_28_x86_64.manylinux_2_5_x86_64.whl",
-            "sha256": "e82e10b9d290f60b63459cfb245a841aec347603997206296b93881463a93dcf",
-            "size_bytes": 258078
+            "name": "coverage-7.16.2-cp312-cp312-manylinux1_x86_64.manylinux_2_28_x86_64.manylinux_2_5_x86_64.whl",
+            "sha256": "5375ebd99038021b35e99dc88255022912c06565d316212f4a576e4b08d30f5d",
+            "size_bytes": 258571
           },
           {
             "name": "cryptography-48.0.1-cp311-abi3-manylinux_2_34_x86_64.whl",
@@ -2984,14 +2997,14 @@
             "size_bytes": 18059
           },
           {
-            "name": "fastapi-0.141.1-py3-none-any.whl",
-            "sha256": "bfb91aa2d334c61cb35ba9a116fc123b3d3df31640b801cf57a7a78ec3f603b3",
-            "size_bytes": 131954
+            "name": "fastapi-0.142.0-py3-none-any.whl",
+            "sha256": "a42da52ec744e7b0e8a0ea6e0cbc7292c6df3cbbda8606a91aecf5c166b156da",
+            "size_bytes": 144389
           },
           {
-            "name": "filelock-4.0.3-py3-none-any.whl",
-            "sha256": "30cd166e2aee2c7534ce2c33c6367c4cd051b8368e20e2c4eb0c34f699bacfab",
-            "size_bytes": 108444
+            "name": "filelock-4.0.6-py3-none-any.whl",
+            "sha256": "9b139fb93b2ac5807f7feaf63aa4546fbd74074a2d3f554c040f40a4694d7b9f",
+            "size_bytes": 109077
           },
           {
             "name": "flake8-7.4.1-py2.py3-none-any.whl",
@@ -2999,14 +3012,14 @@
             "size_bytes": 57449
           },
           {
-            "name": "fonttools-4.66.0-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.whl",
-            "sha256": "aea0cc5609a5f2a2500f91bd6e1989fdd22da0f225be00dc1c4cec775838a7d0",
-            "size_bytes": 5396689
+            "name": "fonttools-4.66.1-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.whl",
+            "sha256": "7b8ff9e0edbcee2fbf7dff0c41b9041c1901c26acf64e23adb67495012df11de",
+            "size_bytes": 5397326
           },
           {
-            "name": "google_auth-2.58.0-py3-none-any.whl",
-            "sha256": "8a9c4645bb4c8e91668fb1934b95ae6a8687084232753639220ba9bf04a1610d",
-            "size_bytes": 262404
+            "name": "google_auth-2.59.0-py3-none-any.whl",
+            "sha256": "43e47b1d3067fb90d77bd9ba21f139bb0577b3f2b9f3e2516fc00f37435efcad",
+            "size_bytes": 262487
           },
           {
             "name": "h11-0.16.0-py3-none-any.whl",
@@ -3024,9 +3037,9 @@
             "size_bytes": 14689
           },
           {
-            "name": "identify-2.6.19-py2.py3-none-any.whl",
-            "sha256": "20e6a87f786f768c092a721ad107fc9df0eb89347be9396cadf3f4abbd1fb78a",
-            "size_bytes": 99397
+            "name": "identify-2.6.20-py2.py3-none-any.whl",
+            "sha256": "6a16b69b93187244e0548cbfd25b3e4a6f9a7a2ad784625c3bec2b8d27b81aaa",
+            "size_bytes": 99506
           },
           {
             "name": "idna-3.20-py3-none-any.whl",
@@ -3089,9 +3102,9 @@
             "size_bytes": 1477929
           },
           {
-            "name": "librt-0.15.0-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
-            "sha256": "89cc46cfd15022e35084355478c9ac809d90b1152222706ac9a7655ec21df6fa",
-            "size_bytes": 531904
+            "name": "librt-0.16.0-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
+            "sha256": "36e53948e99bbe3ffea257124cfcae1cfb01831555c9a9c903c9f9a72db7fd07",
+            "size_bytes": 531952
           },
           {
             "name": "license_expression-30.4.4-py3-none-any.whl",
@@ -3129,9 +3142,9 @@
             "size_bytes": 72226
           },
           {
-            "name": "msgpack-1.2.2-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
-            "sha256": "77c2e018417dc1d66f235e383877ee885b60ade9d29e494dd581e08af2cb1923",
-            "size_bytes": 420619
+            "name": "msgpack-1.2.3-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
+            "sha256": "ede33b2892ceb976283e009ad12fa1834cfdf1f9c43ee9c97849fc588d00a618",
+            "size_bytes": 472998
           },
           {
             "name": "mypy-1.20.2-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
@@ -3154,9 +3167,9 @@
             "size_bytes": 832161
           },
           {
-            "name": "nodeenv-1.10.0-py2.py3-none-any.whl",
-            "sha256": "5bb13e3eed2923615535339b3c620e76779af4cb4c6a90deccc9e36b274d3827",
-            "size_bytes": 23438
+            "name": "nodeenv-1.11.0-py2.py3-none-any.whl",
+            "sha256": "edaa16e6c14d7cf395d75d4bbd5a26390f4dc06501a33b4e76282b02cc688a25",
+            "size_bytes": 34277
           },
           {
             "name": "numpy-2.5.3-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
@@ -3167,6 +3180,11 @@
             "name": "openpyxl-3.1.5-py2.py3-none-any.whl",
             "sha256": "5282c12b107bffeef825f4617dc029afaf41d0ea60823bbb665ef3079dc79de2",
             "size_bytes": 250910
+          },
+          {
+            "name": "opentelemetry_api-1.45.0-py3-none-any.whl",
+            "sha256": "80e068aba7cd56c8b58512d6a36f8d25cb1dfaa0c0a4cc1c938ccf9f362d9cb3",
+            "size_bytes": 60020
           },
           {
             "name": "orjson-3.12.0-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
@@ -3224,9 +3242,9 @@
             "size_bytes": 50879
           },
           {
-            "name": "platformdirs-4.11.12-py3-none-any.whl",
-            "sha256": "b1ba966ac76153d9985a0787ffab951e7c18416189873d4e4ddb2c8a04a0a254",
-            "size_bytes": 24976
+            "name": "platformdirs-4.12.2-py3-none-any.whl",
+            "sha256": "29dbf06d96c500bc6bdbce75fb0a14d63279c93b1842f97e72a135b33e856983",
+            "size_bytes": 32457
           },
           {
             "name": "plotly-6.9.0-py3-none-any.whl",
@@ -3299,9 +3317,9 @@
             "size_bytes": 1250147
           },
           {
-            "name": "pylint-4.0.9-py3-none-any.whl",
-            "sha256": "c4ba5bbaf1e70ecf05f08cd7d6091ea04824b79a2b2d9f5b10dc25fc34cb1124",
-            "size_bytes": 542068
+            "name": "pylint-4.0.10-py3-none-any.whl",
+            "sha256": "c259421f734e6262407b6a421a26f9513b13ac2c5ac2c160775c1658afb57fea",
+            "size_bytes": 542432
           },
           {
             "name": "pyparsing-3.3.3-py3-none-any.whl",
@@ -3349,9 +3367,9 @@
             "size_bytes": 269779
           },
           {
-            "name": "pytz-2026.3.post1-py2.py3-none-any.whl",
-            "sha256": "dd95840dd199baea12d9cc096a1d452caa6596a1c1e4b5f3dbd1541855d5e815",
-            "size_bytes": 508283
+            "name": "pytz-2026.4-py2.py3-none-any.whl",
+            "sha256": "9d514388fbc89ca0833203464272ac485b8828568ab73532f5020f17e892a0ff",
+            "size_bytes": 506747
           },
           {
             "name": "pyyaml-6.0.3-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
@@ -3369,9 +3387,9 @@
             "size_bytes": 26766
           },
           {
-            "name": "regex-2026.9.10-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
-            "sha256": "2e67f8843f0e4b931f1fa860bf3bbe4134b714c0155cc5c7c0d7ea450230aae0",
-            "size_bytes": 804587
+            "name": "regex-2026.9.29-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
+            "sha256": "39ab5894d971f9ac68baa6eca5c50387db579cfcacf36ae8df3feceb1815e6d0",
+            "size_bytes": 807783
           },
           {
             "name": "requests-2.34.2-py3-none-any.whl",
@@ -3399,9 +3417,9 @@
             "size_bytes": 366189
           },
           {
-            "name": "ruff-0.16.8-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
-            "sha256": "15e7d226246961db9235098333caa13063906d3851136b84c2900b82f5daa1df",
-            "size_bytes": 10323796
+            "name": "ruff-0.16.9-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+            "sha256": "a21713e629d3e5bdb2f5c2def1cc7f04f47fa8e1a7eb0571b4a28e1da64bc728",
+            "size_bytes": 10406494
           },
           {
             "name": "secretstorage-3.5.0-py3-none-any.whl",
@@ -3494,9 +3512,9 @@
             "size_bytes": 135717
           },
           {
-            "name": "uvicorn-0.53.0-py3-none-any.whl",
-            "sha256": "e8dca71ec86dce5f04e333f0d56cdedf942446e6643b9cea1af0d6d3a02cb03e",
-            "size_bytes": 87081
+            "name": "uvicorn-0.54.0-py3-none-any.whl",
+            "sha256": "505bdb0f318731d45f1f712071fc781a8981f6847a31c902c9f5e652d4f67faf",
+            "size_bytes": 87427
           },
           {
             "name": "uvloop-0.22.1-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl",
@@ -3504,9 +3522,9 @@
             "size_bytes": 4426307
           },
           {
-            "name": "virtualenv-21.12.0-py3-none-any.whl",
-            "sha256": "7c48862b3f355c3f5f08d0e21af8a9ea601e0c56385f8e189c7117809ef0b4db",
-            "size_bytes": 5485590
+            "name": "virtualenv-21.14.0-py3-none-any.whl",
+            "sha256": "c345b0b744c70e7df7e33be20ea1ba5309db1cca3c98eacc10afb0276cf99356",
+            "size_bytes": 5486534
           },
           {
             "name": "watchfiles-1.3.0-cp310-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
@@ -3529,22 +3547,22 @@
       "name": "smto-agent-linux-x86_64",
       "os": "linux",
       "packaging_backend": "go-embed-cpython-image-v1",
-      "payload_sha256": "d28793373917924b84afa3c4739493c57326bef3bbe9daa4b47070169f09a688",
-      "payload_size": 277660995,
+      "payload_sha256": "561ff534099329aec06ab3a1c2e4730889e00fafa530284301eb3dc309411348",
+      "payload_size": 283808901,
       "product": "SMTO",
       "product_expansion": "Small Model Task Orchestration",
       "python": "repo/src/gateway_agent/.venv/bin/python3",
       "python_version": "3.12.14",
-      "runtime_size_bytes": 876496763,
+      "runtime_size_bytes": 906938383,
       "schema_version": 1,
-      "sha256": "2dc59a83505a3eeaf87abb5947c998804670e578e713f01c0faa184359bcc41d",
+      "sha256": "76619ba0d5758753e003523f873dec951b885a79c9cac7f95caa90e56127f277",
       "signed": false,
-      "size_bytes": 287142012,
+      "size_bytes": 293453948,
       "source": {
         "dirty": false,
-        "file_count": 2364,
-        "revision": "ee2c4c8f071a3bd7d65e6455084f872e040f54c9",
-        "snapshot_sha256": "32218b2642acac1972d5128fa09da7e94c93f1780975263e32192c36d6aff902"
+        "file_count": 2976,
+        "revision": "8a597bd78c7892a1bc4fabefc871cdf86c5ad048",
+        "snapshot_sha256": "71ef43b0ffd1bcc4e438a89d6a44f9c198aaaa8afac65562b14532e51722b243"
       },
       "source_date_epoch": 0,
       "toolchains": {
@@ -3612,8 +3630,8 @@
   "schema_version": 1,
   "source": {
     "dirty": false,
-    "file_count": 2364,
-    "revision": "ee2c4c8f071a3bd7d65e6455084f872e040f54c9",
-    "snapshot_sha256": "32218b2642acac1972d5128fa09da7e94c93f1780975263e32192c36d6aff902"
+    "file_count": 2976,
+    "revision": "8a597bd78c7892a1bc4fabefc871cdf86c5ad048",
+    "snapshot_sha256": "71ef43b0ffd1bcc4e438a89d6a44f9c198aaaa8afac65562b14532e51722b243"
   }
 }
