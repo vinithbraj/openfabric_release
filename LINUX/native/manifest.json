@@ -1,0 +1,95 @@
+{
+  "acceptance": "pending clean-machine matrix",
+  "artifacts": [
+    {
+      "build_id": "9350cc7ebcd690a398a891cf891151b82786761af8750adeb0a1e1209bd253de",
+      "cmake": "cmake version 3.31.6",
+      "compiler": {
+        "identity": "c++ (Ubuntu 15.2.0-4ubuntu4) 15.2.0",
+        "sha256": "148558fc6e291be5a3a1c14adef7638c4c8bec30d085ebaff740244c0204be37"
+      },
+      "component": "server",
+      "configuration": "release",
+      "dependency_lock_sha256": "cee7dccfc747f77118224151a38496d36d3cde127674ef2c99cb100019425854",
+      "name": "openfabric-server-linux-x86_64",
+      "native_errors": [
+        "GLIBC 2.38 exceeds release baseline 2.35"
+      ],
+      "native_file_count": 145,
+      "notarized": false,
+      "packaging_backend": "cpp-cpython-v1",
+      "packaging_source_sha256": "83d0e394484298382fd24b1e88d197eca4c45ddcbacba20715be5973c0f412ce",
+      "payload_sha256": "84c4a66ddc458be0367b6390ad807c4a09f948feee204288a71e21665079ec3d",
+      "payload_size": 651940642,
+      "product": "SMTO",
+      "product_version": "0.10.0",
+      "python": "python/bin/python3",
+      "python_input": {
+        "sha256": "72748da13197c1fb161e3afeef20a6a385ff24f2165e6e2758e47008e7faba4c",
+        "url": "https://github.com/astral-sh/python-build-standalone/releases/download/20260901/cpython-3.12.14%2B20260901-x86_64-unknown-linux-gnu-install_only_stripped.tar.gz"
+      },
+      "python_package_count": 72,
+      "python_version": "3.12.14",
+      "release": false,
+      "schema_version": 1,
+      "sha256": "faa9c7b6b8be8c022de5fb6bf4fd1df43cf9c53dba3b983532fe778075cd3dd1",
+      "signed": false,
+      "size_bytes": 656370082,
+      "source_date_epoch": 0,
+      "source_dirty": false,
+      "source_revision": "95742414b496fc017b88cf287646c8b259106242",
+      "source_snapshot_sha256": "d4a0ec4c1e312970350190e9e296d8598a09a1a9a6514dea77e51692acdccf7a",
+      "target": "linux-x86_64",
+      "target_arch": "x86_64",
+      "target_os": "linux",
+      "unresolved_reviews": 225
+    },
+    {
+      "build_id": "99cb67952c889a8610d1489622bb03440f20b1f953414f543d20e76788ec8a4d",
+      "cmake": "cmake version 3.31.6",
+      "compiler": {
+        "identity": "c++ (Ubuntu 15.2.0-4ubuntu4) 15.2.0",
+        "sha256": "148558fc6e291be5a3a1c14adef7638c4c8bec30d085ebaff740244c0204be37"
+      },
+      "component": "gateway",
+      "configuration": "release",
+      "dependency_lock_sha256": "cee7dccfc747f77118224151a38496d36d3cde127674ef2c99cb100019425854",
+      "name": "openfabric-gateway-linux-x86_64",
+      "native_errors": [
+        "GLIBC 2.38 exceeds release baseline 2.35"
+      ],
+      "native_file_count": 145,
+      "notarized": false,
+      "packaging_backend": "cpp-cpython-v1",
+      "packaging_source_sha256": "83d0e394484298382fd24b1e88d197eca4c45ddcbacba20715be5973c0f412ce",
+      "payload_sha256": "5df410ff91a23548dbe7888efb75571851678d98e486b67e1d5a06065cd05611",
+      "payload_size": 639539225,
+      "product": "SMTO",
+      "product_version": "0.10.0",
+      "python": "python/bin/python3",
+      "python_input": {
+        "sha256": "72748da13197c1fb161e3afeef20a6a385ff24f2165e6e2758e47008e7faba4c",
+        "url": "https://github.com/astral-sh/python-build-standalone/releases/download/20260901/cpython-3.12.14%2B20260901-x86_64-unknown-linux-gnu-install_only_stripped.tar.gz"
+      },
+      "python_package_count": 72,
+      "python_version": "3.12.14",
+      "release": false,
+      "schema_version": 1,
+      "sha256": "90cf77ad7f904127c4dee14c69dd207941023ddd78feef8281543cf377ca0608",
+      "signed": false,
+      "size_bytes": 643903129,
+      "source_date_epoch": 0,
+      "source_dirty": false,
+      "source_revision": "95742414b496fc017b88cf287646c8b259106242",
+      "source_snapshot_sha256": "d4a0ec4c1e312970350190e9e296d8598a09a1a9a6514dea77e51692acdccf7a",
+      "target": "linux-x86_64",
+      "target_arch": "x86_64",
+      "target_os": "linux",
+      "unresolved_reviews": 224
+    }
+  ],
+  "product": "SMTO",
+  "product_expansion": "Small Model Task Orchestration",
+  "release": false,
+  "schema_version": 2
+}

@@ -1,0 +1,30 @@
+{
+  "build_id": "99cb67952c889a8610d1489622bb03440f20b1f953414f543d20e76788ec8a4d",
+  "cmake": "cmake version 3.31.6",
+  "compiler": {
+    "identity": "c++ (Ubuntu 15.2.0-4ubuntu4) 15.2.0",
+    "sha256": "148558fc6e291be5a3a1c14adef7638c4c8bec30d085ebaff740244c0204be37"
+  },
+  "component": "gateway",
+  "configuration": "release",
+  "dependency_lock_sha256": "cee7dccfc747f77118224151a38496d36d3cde127674ef2c99cb100019425854",
+  "packaging_backend": "cpp-cpython-v1",
+  "packaging_source_sha256": "83d0e394484298382fd24b1e88d197eca4c45ddcbacba20715be5973c0f412ce",
+  "product": "SMTO",
+  "product_version": "0.10.0",
+  "python": "python/bin/python3",
+  "python_input": {
+    "sha256": "72748da13197c1fb161e3afeef20a6a385ff24f2165e6e2758e47008e7faba4c",
+    "url": "https://github.com/astral-sh/python-build-standalone/releases/download/20260901/cpython-3.12.14%2B20260901-x86_64-unknown-linux-gnu-install_only_stripped.tar.gz"
+  },
+  "python_version": "3.12.14",
+  "release": false,
+  "schema_version": 1,
+  "source_date_epoch": 0,
+  "source_dirty": false,
+  "source_revision": "95742414b496fc017b88cf287646c8b259106242",
+  "source_snapshot_sha256": "d4a0ec4c1e312970350190e9e296d8598a09a1a9a6514dea77e51692acdccf7a",
+  "target": "linux-x86_64",
+  "target_arch": "x86_64",
+  "target_os": "linux"
+}

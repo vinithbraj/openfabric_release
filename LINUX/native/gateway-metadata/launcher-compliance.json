@@ -1,0 +1,30 @@
+{
+  "artifact_sha256": "148558fc6e291be5a3a1c14adef7638c4c8bec30d085ebaff740244c0204be37",
+  "declared_license": "Compiler runtime incorporated code; exact terms require review",
+  "license_files": [
+    "LICENSES/native/common-licenses/Apache-2.0",
+    "LICENSES/native/common-licenses/Artistic",
+    "LICENSES/native/common-licenses/GFDL-1.2",
+    "LICENSES/native/common-licenses/GPL",
+    "LICENSES/native/common-licenses/GPL-3",
+    "LICENSES/native/libcrypt1_amd64-copyright",
+    "LICENSES/native/libgcc-s1_amd64-copyright",
+    "LICENSES/native/libstdc++6_amd64-copyright",
+    "LICENSES/native/zlib1g_amd64-copyright"
+  ],
+  "license_files_sha256": {
+    "LICENSES/native/common-licenses/Apache-2.0": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+    "LICENSES/native/common-licenses/Artistic": "b7fd9b73ea99602016a326e0b62e6646060d18febdd065ceca8bb482208c3d88",
+    "LICENSES/native/common-licenses/GFDL-1.2": "2652c22ba086f92e55ae4a9f9c890ad4766ffd7814a73d318e22a597edf857a4",
+    "LICENSES/native/common-licenses/GPL": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
+    "LICENSES/native/common-licenses/GPL-3": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
+    "LICENSES/native/libcrypt1_amd64-copyright": "5a5e7ca0e9f3f9679977e3a3e9ede45ad92885a3297ea78e766979f9866c5a16",
+    "LICENSES/native/libgcc-s1_amd64-copyright": "f5529be9ac02a2226580745380c596b3a2537f86809042ddce1b86a77a34379f",
+    "LICENSES/native/libstdc++6_amd64-copyright": "f5529be9ac02a2226580745380c596b3a2537f86809042ddce1b86a77a34379f",
+    "LICENSES/native/zlib1g_amd64-copyright": "9e5b96d63773a5d177ba264254390f792be07e41748ebd94730981c6cac31cc6"
+  },
+  "name": "launcher-runtime:linux-x86_64",
+  "review": null,
+  "review_state": "review-required",
+  "version": "c++ (Ubuntu 15.2.0-4ubuntu4) 15.2.0"
+}

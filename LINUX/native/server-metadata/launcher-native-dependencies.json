@@ -1,0 +1,18 @@
+{
+  "errors": [
+    "GLIBC 2.38 exceeds release baseline 2.35"
+  ],
+  "files": [
+    {
+      "dependencies": [
+        "libc.so.6",
+        "ld-linux-x86-64.so.2"
+      ],
+      "path": "openfabric-server-linux-x86_64",
+      "search_paths": [],
+      "sha256": "faa9c7b6b8be8c022de5fb6bf4fd1df43cf9c53dba3b983532fe778075cd3dd1"
+    }
+  ],
+  "highest_glibc_symbol": "2.38",
+  "target": "linux-x86_64"
+}

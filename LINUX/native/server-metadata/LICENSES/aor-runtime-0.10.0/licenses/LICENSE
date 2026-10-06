@@ -1,0 +1,246 @@
+Agentic Framework
+
+Copyright (c) 2026 Vinith Raj
+
+Licensed under the Apache License, Version 2.0.
+
+======================================================================
+APACHE LICENSE 2.0 NOTICE
+=========================
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this software except in compliance with the License.
+
+You may obtain a copy of the License at:
+
+https://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+
+See the License for the specific language governing permissions and
+limitations under the License.
+
+======================================================================
+PROJECT NOTICE
+==============
+
+The Agentic Framework project is released under the Apache License 2.0.
+
+This project represents the author's research, architectural design,
+methodology, orchestration patterns, workflow structures, execution
+strategies, and software engineering practices for building reliable,
+agentic AI systems.
+
+The author believes that the primary value of this project resides in
+its architectural concepts, system design decisions, execution
+methodologies, orchestration patterns, reliability mechanisms,
+workflow structures, and operational practices.
+
+Examples include but are not limited to:
+
+* Multi-stage agent orchestration
+* Self-briefing workflows
+* Self-correction and introspection loops
+* Capability-driven execution planning
+* Tool routing and execution strategies
+* Autonomous workflow execution patterns
+* Reliability and guardrail architectures
+* Structured planning methodologies
+* Retrospection and reflection mechanisms
+* Local-model optimization patterns
+* Hybrid deterministic and LLM-driven execution systems
+* Agent observability and monitoring patterns
+* Execution recovery and failure handling mechanisms
+* Agent workflow coordination techniques
+* Prompt layering and execution control systems
+
+Publication of this repository serves as public disclosure of these
+concepts and their implementation as of the publication date.
+
+Nothing in this notice modifies, restricts, supersedes, or limits
+the permissions granted by the Apache License 2.0.
+
+======================================================================
+ATTRIBUTION
+===========
+
+If you build upon, modify, extend, or redistribute this project,
+retaining attribution to the original author and project is appreciated.
+
+The copyright notice and license notice must be preserved in all
+copies or substantial portions of the Software as required by
+Apache License 2.0.
+
+======================================================================
+TRADEMARKS AND BRANDING
+=======================
+
+The names "Agentic Framework", associated logos, branding,
+visual identities, service marks, trademarks, and related branding
+assets are not licensed under Apache License 2.0.
+
+Use of project branding, logos, trademarks, or marks in a manner
+suggesting endorsement, sponsorship, partnership, certification,
+or approval by the original author requires prior written permission.
+
+======================================================================
+NO WARRANTY
+===========
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED.
+
+TO THE MAXIMUM EXTENT PERMITTED BY LAW, THE AUTHOR DISCLAIMS ALL
+WARRANTIES INCLUDING BUT NOT LIMITED TO:
+
+* MERCHANTABILITY
+* FITNESS FOR A PARTICULAR PURPOSE
+* NON-INFRINGEMENT
+* SECURITY
+* ACCURACY
+* RELIABILITY
+* AVAILABILITY
+* PERFORMANCE
+* QUALITY
+* CORRECTNESS
+
+THE ENTIRE RISK ARISING OUT OF THE USE OR PERFORMANCE OF THE SOFTWARE
+REMAINS WITH THE USER.
+
+======================================================================
+LIMITATION OF LIABILITY
+=======================
+
+TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT SHALL
+THE AUTHOR, COPYRIGHT HOLDERS, CONTRIBUTORS, AFFILIATES, EMPLOYERS,
+CONTRACTORS, LICENSORS, DISTRIBUTORS, OR ANY RELATED PARTY BE LIABLE
+FOR ANY CLAIM, DAMAGES, LOSSES, COSTS, OR OTHER LIABILITY ARISING
+FROM, OUT OF, OR IN CONNECTION WITH THE SOFTWARE OR ITS USE.
+
+THIS LIMITATION APPLIES TO ALL FORMS OF LIABILITY INCLUDING:
+
+* CONTRACT
+* TORT
+* NEGLIGENCE
+* STRICT LIABILITY
+* PRODUCT LIABILITY
+* STATUTORY LIABILITY
+* EQUITABLE CLAIMS
+* ANY OTHER LEGAL THEORY
+
+WITHOUT LIMITATION, THIS INCLUDES:
+
+* DIRECT DAMAGES
+* INDIRECT DAMAGES
+* INCIDENTAL DAMAGES
+* CONSEQUENTIAL DAMAGES
+* SPECIAL DAMAGES
+* EXEMPLARY DAMAGES
+* PUNITIVE DAMAGES
+* LOSS OF PROFITS
+* LOSS OF REVENUE
+* LOSS OF DATA
+* LOSS OF GOODWILL
+* BUSINESS INTERRUPTION
+* SECURITY INCIDENTS
+* SERVICE OUTAGES
+* DATA CORRUPTION
+* SYSTEM FAILURES
+* REGULATORY CLAIMS
+* LEGAL CLAIMS
+* THIRD-PARTY CLAIMS
+* PERSONAL INJURY CLAIMS
+* PROPERTY DAMAGE CLAIMS
+
+EVEN IF THE POSSIBILITY OF SUCH DAMAGES HAS BEEN ADVISED,
+ANTICIPATED, OR FORESEEABLE.
+
+======================================================================
+USER RESPONSIBILITY
+===================
+
+Users are solely responsible for reviewing, validating, testing,
+auditing, approving, and verifying all outputs, recommendations,
+generated code, plans, actions, analyses, workflows, and decisions
+generated directly or indirectly by the Software.
+
+The Software may generate:
+
+* Incorrect outputs
+* Incomplete outputs
+* Inaccurate outputs
+* Unsafe outputs
+* Unexpected outputs
+* Misleading outputs
+* Harmful outputs
+
+Users assume full responsibility for independent review and validation
+before deploying, distributing, executing, relying upon, or acting on
+any output generated by the Software.
+
+======================================================================
+AI-SPECIFIC DISCLAIMER
+======================
+
+This Software may utilize machine learning models, large language
+models, artificial intelligence systems, autonomous agents, external
+tools, third-party services, or probabilistic decision-making systems.
+
+Such systems are inherently non-deterministic and may produce
+incorrect, biased, fabricated, misleading, incomplete, harmful,
+or unsafe outputs.
+
+The author makes no representation that any output produced by the
+Software is accurate, complete, safe, lawful, secure, or fit for
+any purpose.
+
+Human review is strongly recommended for all outputs.
+
+======================================================================
+NO PROFESSIONAL ADVICE
+======================
+
+The Software is not intended to provide:
+
+* Legal advice
+* Medical advice
+* Financial advice
+* Investment advice
+* Engineering advice
+* Security advice
+* Compliance advice
+* Regulatory advice
+* Professional services of any kind
+
+Any outputs generated by the Software must be independently reviewed
+by qualified professionals before reliance or implementation.
+
+======================================================================
+INTELLECTUAL PROPERTY NOTICE
+============================
+
+The Software is released under Apache License 2.0.
+
+Certain architectural concepts, methodologies, workflow designs,
+orchestration techniques, execution patterns, system architectures,
+and operational approaches described or implemented within this
+project may be subject to current or future intellectual property
+protections.
+
+Except as expressly granted under Apache License 2.0, no rights are
+granted to trademarks, service marks, branding assets, trade secrets,
+or other proprietary intellectual property.
+
+======================================================================
+ACCEPTANCE
+==========
+
+By using, copying, modifying, distributing, compiling, executing,
+deploying, hosting, or otherwise interacting with the Software,
+you acknowledge that you have read and understood this notice.
+
+======================================================================
+END OF NOTICE
+=============
