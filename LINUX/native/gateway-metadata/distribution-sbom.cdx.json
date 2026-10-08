@@ -78,7 +78,7 @@
       "hashes": [
         {
           "alg": "SHA-256",
-          "content": "d1b4d316c7517cfd4b714e9bf959ad34fcfc3f2ed5dd312f78bcba021bbc1439"
+          "content": "c38aad31ec86c4948f1148214a3fb7535313fb2c06fa5197b00e9280481ebe95"
         }
       ],
       "name": "aor-runtime",
@@ -315,11 +315,11 @@
       "version": "0.12.1"
     },
     {
-      "bom-ref": "pkg:pypi/fastapi@0.142.2",
+      "bom-ref": "pkg:pypi/fastapi@0.142.4",
       "hashes": [
         {
           "alg": "SHA-256",
-          "content": "bd5f4d81f1e93a88bcd77caf4dfe3c2dbffc3805407a0007e9a114c18b3a670b"
+          "content": "8a651aa071a9f92c8217cca1d0b044bf9c326f336578be0a728a1a1f22ec52d2"
         }
       ],
       "licenses": [
@@ -334,9 +334,9 @@
           "value": "review-required"
         }
       ],
-      "purl": "pkg:pypi/fastapi@0.142.2",
+      "purl": "pkg:pypi/fastapi@0.142.4",
       "type": "library",
-      "version": "0.142.2"
+      "version": "0.142.4"
     },
     {
       "bom-ref": "pkg:pypi/fonttools@4.66.1",
@@ -365,11 +365,11 @@
       "version": "4.66.1"
     },
     {
-      "bom-ref": "pkg:pypi/google-auth@2.60.0",
+      "bom-ref": "pkg:pypi/google-auth@2.61.0",
       "hashes": [
         {
           "alg": "SHA-256",
-          "content": "e78414cd2e22cc02884768707def024ca32da17695f2c0e6194cdbe1316c4cd4"
+          "content": "ca60266a37475ae68b63bac007272f46094b3d571abe92aded329b6cfb568025"
         }
       ],
       "licenses": [
@@ -386,9 +386,9 @@
           "value": "review-required"
         }
       ],
-      "purl": "pkg:pypi/google-auth@2.60.0",
+      "purl": "pkg:pypi/google-auth@2.61.0",
       "type": "library",
-      "version": "2.60.0"
+      "version": "2.61.0"
     },
     {
       "bom-ref": "pkg:pypi/greenlet@3.5.6",
@@ -537,11 +537,11 @@
       "version": "2025.9.1"
     },
     {
-      "bom-ref": "pkg:pypi/kaleido@1.4.0",
+      "bom-ref": "pkg:pypi/kaleido@1.5.0",
       "hashes": [
         {
           "alg": "SHA-256",
-          "content": "cd75a0b11ea64d313c2c73c58db9dc519eef9eb494830b414a8492b33108d192"
+          "content": "de301b73cc9fd6311e54b47087d3a7a5da3b7681ee9175e23b45dcffb4432ff2"
         }
       ],
       "licenses": [
@@ -558,9 +558,9 @@
           "value": "review-required"
         }
       ],
-      "purl": "pkg:pypi/kaleido@1.4.0",
+      "purl": "pkg:pypi/kaleido@1.5.0",
       "type": "library",
-      "version": "1.4.0"
+      "version": "1.5.0"
     },
     {
       "bom-ref": "pkg:pypi/kiwisolver@1.5.1",
@@ -727,11 +727,11 @@
       "version": "2.5.3"
     },
     {
-      "bom-ref": "pkg:pypi/opentelemetry-api@1.45.0",
+      "bom-ref": "pkg:pypi/opentelemetry-api@1.45.1",
       "hashes": [
         {
           "alg": "SHA-256",
-          "content": "80e068aba7cd56c8b58512d6a36f8d25cb1dfaa0c0a4cc1c938ccf9f362d9cb3"
+          "content": "b31553efa588ae44bc306f863c785c5333a9ecc091248c6ee68b4b6c87fdedfb"
         }
       ],
       "licenses": [
@@ -746,33 +746,9 @@
           "value": "review-required"
         }
       ],
-      "purl": "pkg:pypi/opentelemetry-api@1.45.0",
+      "purl": "pkg:pypi/opentelemetry-api@1.45.1",
       "type": "library",
-      "version": "1.45.0"
-    },
-    {
-      "bom-ref": "pkg:pypi/orjson@3.12.0",
-      "hashes": [
-        {
-          "alg": "SHA-256",
-          "content": "1192a7021b6d071aaf909864f6e924d6a2675ca360485b972b8401749311750b"
-        }
-      ],
-      "licenses": [
-        {
-          "expression": "MPL-2.0 AND (Apache-2.0 OR MIT)"
-        }
-      ],
-      "name": "orjson",
-      "properties": [
-        {
-          "name": "openfabric:review-state",
-          "value": "review-required"
-        }
-      ],
-      "purl": "pkg:pypi/orjson@3.12.0",
-      "type": "library",
-      "version": "3.12.0"
+      "version": "1.45.1"
     },
     {
       "bom-ref": "pkg:pypi/packaging@26.3",
@@ -849,11 +825,11 @@
       "version": "12.3.0"
     },
     {
-      "bom-ref": "pkg:pypi/platformdirs@4.12.3",
+      "bom-ref": "pkg:pypi/platformdirs@4.12.4",
       "hashes": [
         {
           "alg": "SHA-256",
-          "content": "080f3b39423b5abfca9a23d84c4e9795f54d395cd8459867a8ded44084fcd5f8"
+          "content": "78bfb9db2a8471ed7eebe3c3c932da413911042994e699b384fbb4493fa872d7"
         }
       ],
       "licenses": [
@@ -868,9 +844,9 @@
           "value": "review-required"
         }
       ],
-      "purl": "pkg:pypi/platformdirs@4.12.3",
+      "purl": "pkg:pypi/platformdirs@4.12.4",
       "type": "library",
-      "version": "4.12.3"
+      "version": "4.12.4"
     },
     {
       "bom-ref": "pkg:pypi/playwright@1.63.0",
@@ -1551,11 +1527,11 @@
       "version": "1.7.0"
     },
     {
-      "bom-ref": "pkg:pypi/typer@0.27.2",
+      "bom-ref": "pkg:pypi/typer@0.27.3",
       "hashes": [
         {
           "alg": "SHA-256",
-          "content": "b3a5fc4342d5fc8fda8fc3010b1cf117e9249aab7fae800c2eff62fd3842d97d"
+          "content": "e50022f28b82a86313e54501317a1db64bf8f8d036ff8cfe5ca7e47675454aff"
         }
       ],
       "licenses": [
@@ -1570,9 +1546,9 @@
           "value": "review-required"
         }
       ],
-      "purl": "pkg:pypi/typer@0.27.2",
+      "purl": "pkg:pypi/typer@0.27.3",
       "type": "library",
-      "version": "0.27.2"
+      "version": "0.27.3"
     },
     {
       "bom-ref": "pkg:pypi/typing-extensions@4.16.0",
@@ -2028,7 +2004,7 @@
       "hashes": [
         {
           "alg": "SHA-256",
-          "content": "db3001719150d23720982453560ecd333da2f6edfda3ae284203097b4694c413"
+          "content": "e43b75ab77b61cacbb79e6c4a2f1c957d9f8c6b562ce34f1056dafb97e45c222"
         }
       ],
       "name": "python/lib/openfabric-libs/libstdc++.so.6",
@@ -2050,7 +2026,7 @@
       "hashes": [
         {
           "alg": "SHA-256",
-          "content": "46006f2150032f3eadbbc47d9d64505109158ec7392ff6d9a4c3c96ac756ef35"
+          "content": "36a7ad72c9021302aaa4311de8cc89a536163a58265f84f1442752c2d70c6e8f"
         }
       ],
       "name": "python/lib/python3.12/lib-dynload/_crypt.cpython-312-x86_64-linux-gnu.so",
@@ -2072,7 +2048,7 @@
       "hashes": [
         {
           "alg": "SHA-256",
-          "content": "485fee1ff767407c6c2f55c7505eb8acc7a7161fac533e4745f874f29d957a9f"
+          "content": "fd43d5ad8fce50ed312002f323804f1417bd97462aa11225f361c7fa6060ad4f"
         }
       ],
       "name": "python/lib/python3.12/lib-dynload/_tkinter.cpython-312-x86_64-linux-gnu.so",
@@ -2094,7 +2070,7 @@
       "hashes": [
         {
           "alg": "SHA-256",
-          "content": "26d8addbdfeaf2413fef4fb169c7ed24672493bb23534aac413675e3c6ae9f05"
+          "content": "f730a89d8e1ccaddaee00f79db0541bb000a43166678a40f1da1b43607481be5"
         }
       ],
       "name": "python/lib/python3.12/site-packages/PIL/_imaging.cpython-312-x86_64-linux-gnu.so",
@@ -2204,7 +2180,7 @@
       "hashes": [
         {
           "alg": "SHA-256",
-          "content": "90b9b48a57716c6ac5bd91e251ed9c4b07f62518dc73c8362b2f4870b76c0551"
+          "content": "7f1b9fb4dbbb5f409987c18bb8d9b481b1e291646e07313d4bc8bbfec4a62b28"
         }
       ],
       "name": "python/lib/python3.12/site-packages/contourpy/_contourpy.cpython-312-x86_64-linux-gnu.so",
@@ -2215,7 +2191,7 @@
       "hashes": [
         {
           "alg": "SHA-256",
-          "content": "084cccdd83bd09a5f10f8c2220288b298152eead92d097bb6844fe70d72c9377"
+          "content": "5676caa06c4b0aa91fb93ea2d302514cfcbf7dcd82df381ae20cabbf8661fb70"
         }
       ],
       "name": "python/lib/python3.12/site-packages/cryptography/hazmat/bindings/_rust.abi3.so",
@@ -2292,7 +2268,7 @@
       "hashes": [
         {
           "alg": "SHA-256",
-          "content": "1fc05a23f5f84c57eadbe7e3f5ed2fe59de0700fd9b8004ec5aa960c1ee9a120"
+          "content": "887956045a08fd9ee3eea114d3019633a37a6b5a0af66f60cc416c744e227611"
         }
       ],
       "name": "python/lib/python3.12/site-packages/greenlet/_greenlet.cpython-312-x86_64-linux-gnu.so",
@@ -2314,7 +2290,7 @@
       "hashes": [
         {
           "alg": "SHA-256",
-          "content": "c1141e7e1bbb9d0b6e7a6ba6c617adbaa8b53e2f7196e6300baee3072d822d4b"
+          "content": "7faed52776dfff3734ff6b1ad7b93342cc4d34894abc90279d4560a25af1e818"
         }
       ],
       "name": "python/lib/python3.12/site-packages/greenlet/tests/_test_extension_cpp.cpython-312-x86_64-linux-gnu.so",
@@ -2347,7 +2323,7 @@
       "hashes": [
         {
           "alg": "SHA-256",
-          "content": "ee1bfb46191c5aba52298ea9e8859bd071ac00faf9e29a49750b81630ade02b4"
+          "content": "84b0b64a82c716e948dbcf4c30d6396a41e7a5fcde1a400b3d2d6615bebf2de9"
         }
       ],
       "name": "python/lib/python3.12/site-packages/kiwisolver/_cext.cpython-312-x86_64-linux-gnu.so",
@@ -2358,7 +2334,7 @@
       "hashes": [
         {
           "alg": "SHA-256",
-          "content": "906b97d66a860262b07ad1bedf339c88d7a8b42871e4ab3adf5af3ac38985eb9"
+          "content": "6642d267da73b42b02c6a4f281376edc4bfb1e602ce818739ddd02f95e2d524a"
         }
       ],
       "name": "python/lib/python3.12/site-packages/matplotlib/_c_internal_utils.cpython-312-x86_64-linux-gnu.so",
@@ -2369,7 +2345,7 @@
       "hashes": [
         {
           "alg": "SHA-256",
-          "content": "7f50f3feaaf6376e20b1987aef8a81c3278e750ad39ff217dd78e605f443c327"
+          "content": "73a9990495e62da2431716d707f978ff01f025ca3ca3e5c361a20ba8ed5cbe03"
         }
       ],
       "name": "python/lib/python3.12/site-packages/matplotlib/_image.cpython-312-x86_64-linux-gnu.so",
@@ -2380,7 +2356,7 @@
       "hashes": [
         {
           "alg": "SHA-256",
-          "content": "a64effd7050761263ec2c783aa278eeb3569cd7403705c150b49611b597d2fa4"
+          "content": "d19afac614813b9b88e796297011df81ccc57ea76e2b7cc2d4dd8fa81ab5a1b7"
         }
       ],
       "name": "python/lib/python3.12/site-packages/matplotlib/_path.cpython-312-x86_64-linux-gnu.so",
@@ -2391,7 +2367,7 @@
       "hashes": [
         {
           "alg": "SHA-256",
-          "content": "04cfc99704877d07d921d202b3c9390abba396975efa0c63b91dcde7fb243093"
+          "content": "fc6f83b83366d19d260bef3ce05a5b64ea6abc7ce3fa16b63551e0788fbfc6ec"
         }
       ],
       "name": "python/lib/python3.12/site-packages/matplotlib/_qhull.cpython-312-x86_64-linux-gnu.so",
@@ -2402,7 +2378,7 @@
       "hashes": [
         {
           "alg": "SHA-256",
-          "content": "ca86d4cab352c6fb843a3208b468522f7ae9ca5b7381371654b296a79b51f33d"
+          "content": "1da6ebf0d8ded4dba3b77b184ab3700585d809da17a7cb6df56d7f369ed5cc34"
         }
       ],
       "name": "python/lib/python3.12/site-packages/matplotlib/_tri.cpython-312-x86_64-linux-gnu.so",
@@ -2413,7 +2389,7 @@
       "hashes": [
         {
           "alg": "SHA-256",
-          "content": "766a7c9da73492326b9693fbaf8f530e0967c406b5680dfed6eb30f0417956ad"
+          "content": "8250832c0d935e974badba375fc246952b60f58a34f4ef2e98744ae2f7fb2b58"
         }
       ],
       "name": "python/lib/python3.12/site-packages/matplotlib/backends/_backend_agg.cpython-312-x86_64-linux-gnu.so",
@@ -2424,7 +2400,7 @@
       "hashes": [
         {
           "alg": "SHA-256",
-          "content": "82947fe1fe85a6fe53c970122d0603b6394cf3f173242f8e8f1b677e1d3a18cd"
+          "content": "82e4fcd5123bc23c4403df652ea6a1749c1f0038d9aef12180da791aa53226ae"
         }
       ],
       "name": "python/lib/python3.12/site-packages/matplotlib/backends/_tkagg.cpython-312-x86_64-linux-gnu.so",
@@ -2435,7 +2411,7 @@
       "hashes": [
         {
           "alg": "SHA-256",
-          "content": "11916155c0a30549206388fcaff34a3f1e7609cf716309e82820c8e934cf87af"
+          "content": "ee916b580201bf34fed41e7faaf887539640c48c1954054b8692985862bacb32"
         }
       ],
       "name": "python/lib/python3.12/site-packages/matplotlib/ft2font.cpython-312-x86_64-linux-gnu.so",
@@ -2457,7 +2433,7 @@
       "hashes": [
         {
           "alg": "SHA-256",
-          "content": "a02f401ec84d5c3ac2fba086cd0829aa22840c100bf194134c85895a9f2ecde4"
+          "content": "48521ce67b8195a92f7cc21af174dc5f306d2fbd63ab99120376b9b2de4c7865"
         }
       ],
       "name": "python/lib/python3.12/site-packages/numpy/_core/_multiarray_umath.cpython-312-x86_64-linux-gnu.so",
@@ -2523,7 +2499,7 @@
       "hashes": [
         {
           "alg": "SHA-256",
-          "content": "8d734ab62a81b115caa88b95b026a4915e1b32a61c0a926f288de9b813509763"
+          "content": "cd8ef1b419216a34a935d199955ba8f77fcf6b10364751bcc81d38778f550d44"
         }
       ],
       "name": "python/lib/python3.12/site-packages/numpy/fft/_pocketfft_umath.cpython-312-x86_64-linux-gnu.so",
@@ -2655,7 +2631,7 @@
       "hashes": [
         {
           "alg": "SHA-256",
-          "content": "7cb83960fd819ac815fcba93d5555c082ce142b7106a5521302d4ca90071eb13"
+          "content": "333df4d94db32a879e25ba5824d4b4ef6a293cfa5eca2396419a12760231b7d1"
         }
       ],
       "name": "python/lib/python3.12/site-packages/numpy.libs/libgfortran-83c28eba-468e71e5.so.5.0.0",
@@ -2681,17 +2657,6 @@
         }
       ],
       "name": "python/lib/python3.12/site-packages/numpy.libs/libscipy_openblas64_-f48b354e.so",
-      "type": "file"
-    },
-    {
-      "bom-ref": "native:python/lib/python3.12/site-packages/orjson/orjson.cpython-312-x86_64-linux-gnu.so",
-      "hashes": [
-        {
-          "alg": "SHA-256",
-          "content": "fb77e88341614b52d7bb2105aadcedfbca6ae92a1a2f37b3db4b5781cd32a6fb"
-        }
-      ],
-      "name": "python/lib/python3.12/site-packages/orjson/orjson.cpython-312-x86_64-linux-gnu.so",
       "type": "file"
     },
     {
@@ -3150,7 +3115,7 @@
       "hashes": [
         {
           "alg": "SHA-256",
-          "content": "352721a8933c845c7701fa55145275dff76fe2990ea809decb3c8af95d5e5710"
+          "content": "008f3d7cbc681466cf3719c28b8a3d27892acc2d937cbc09c1e10f1a674c8bb5"
         }
       ],
       "name": "python/lib/python3.12/site-packages/pandas/_libs/window/aggregations.cpython-312-x86_64-linux-gnu.so",
@@ -3194,7 +3159,7 @@
       "hashes": [
         {
           "alg": "SHA-256",
-          "content": "24a7cfe0a1bf83d17700b71f67769c966e9b4589bb4c158c28b24106809bdf99"
+          "content": "d8b2d7c6d6fc9641783d1a1e621dc3e3347eaeb84c608a0765583590f21871e2"
         }
       ],
       "name": "python/lib/python3.12/site-packages/pillow.libs/libavif-8a7f9d56.so.16.4.2",
@@ -3227,7 +3192,7 @@
       "hashes": [
         {
           "alg": "SHA-256",
-          "content": "b5b4ff506678888e1f0055549e57a22ae3d85e10643741bdf6a816be1b85b83a"
+          "content": "e2c4ba5670885db4b97fe8a1343d04adb0a5fca0b11958397c3473e8e71f8d7c"
         }
       ],
       "name": "python/lib/python3.12/site-packages/pillow.libs/libfreetype-9fc94c80.so.6.20.6",
@@ -3293,7 +3258,7 @@
       "hashes": [
         {
           "alg": "SHA-256",
-          "content": "c4d506db4a9f0c9dc4b58d83bb6f638c94ad7acd1bf1833ebb24e35131bd6272"
+          "content": "3c5e9b4f1dc5d3f9479087a53f43d779489f3a36dd164cebce2f12ecc4e8a15f"
         }
       ],
       "name": "python/lib/python3.12/site-packages/pillow.libs/libpng16-abb096d5.so.16.58.0",
@@ -3315,7 +3280,7 @@
       "hashes": [
         {
           "alg": "SHA-256",
-          "content": "49bc088eee2075fc82a02ff6253804c9f4eeef4524f2e2149acfceccff27b3f7"
+          "content": "6ac3a6ad0139c0232ddf3f1d9800b3b4604ffcf0f036163d3dafedc6302df630"
         }
       ],
       "name": "python/lib/python3.12/site-packages/pillow.libs/libtiff-fc87e79d.so.6.2.0",
@@ -3403,7 +3368,7 @@
       "hashes": [
         {
           "alg": "SHA-256",
-          "content": "a123f18fd43031ca473fc2ed631fde8513c643062fd5219abf31c8dd289eb4cc"
+          "content": "e4f3c6b3db7871c01c0542333a9d4d868e33fc7016d9b59725ec50615208adfe"
         }
       ],
       "name": "python/lib/python3.12/site-packages/pydantic_core/_pydantic_core.cpython-312-x86_64-linux-gnu.so",
@@ -3425,7 +3390,7 @@
       "hashes": [
         {
           "alg": "SHA-256",
-          "content": "6825afde17e7b845d95df4e36b9c03eab5fb0daf492ed8c30bd9f4c6ae29d967"
+          "content": "c93fee7b8d0ff399076b20321f9902644e42443a58a3a61bf4857e5489630bc5"
         }
       ],
       "name": "python/lib/python3.12/site-packages/rpds/rpds.cpython-312-x86_64-linux-gnu.so",
@@ -3458,7 +3423,7 @@
       "hashes": [
         {
           "alg": "SHA-256",
-          "content": "40d8a10a9337ea9673b418da53a6e72a3bb8a4fabf629f37b682ec743857eaf8"
+          "content": "a0f32f4914c7313e535cfd98daf86c87473cc61d502f39c196dd7366220adc9d"
         }
       ],
       "name": "python/lib/python3.12/site-packages/watchfiles/_rust_notify.abi3.so",
@@ -3524,7 +3489,7 @@
       "hashes": [
         {
           "alg": "SHA-256",
-          "content": "90cf77ad7f904127c4dee14c69dd207941023ddd78feef8281543cf377ca0608"
+          "content": "8b3fab2d59bdc9bedf98ced6f0af7e8333b47e5c574e5b9050866cfb0b79c42e"
         }
       ],
       "name": "openfabric-gateway-linux-x86_64",
@@ -3539,7 +3504,7 @@
         },
         {
           "name": "openfabric:source-sha256",
-          "value": "83d0e394484298382fd24b1e88d197eca4c45ddcbacba20715be5973c0f412ce"
+          "value": "9bf7650d7c405fe22ea7b0bd1843d81c17714dd8979f0e0af4df19c1eb55913c"
         },
         {
           "name": "openfabric:runtime-review",
@@ -3565,16 +3530,16 @@
         "pkg:pypi/contourpy@1.4.0",
         "pkg:pypi/cryptography@48.0.1",
         "pkg:pypi/cycler@0.12.1",
-        "pkg:pypi/fastapi@0.142.2",
+        "pkg:pypi/fastapi@0.142.4",
         "pkg:pypi/fonttools@4.66.1",
-        "pkg:pypi/google-auth@2.60.0",
+        "pkg:pypi/google-auth@2.61.0",
         "pkg:pypi/greenlet@3.5.6",
         "pkg:pypi/h11@0.16.0",
         "pkg:pypi/httptools@0.8.0",
         "pkg:pypi/idna@3.20",
         "pkg:pypi/jsonschema@4.26.0",
         "pkg:pypi/jsonschema-specifications@2025.9.1",
-        "pkg:pypi/kaleido@1.4.0",
+        "pkg:pypi/kaleido@1.5.0",
         "pkg:pypi/kiwisolver@1.5.1",
         "pkg:pypi/logistro@2.0.1",
         "pkg:pypi/markdown-it-py@3.0.0",
@@ -3582,12 +3547,11 @@
         "pkg:pypi/mdurl@0.1.2",
         "pkg:pypi/narwhals@2.26.0",
         "pkg:pypi/numpy@2.5.3",
-        "pkg:pypi/opentelemetry-api@1.45.0",
-        "pkg:pypi/orjson@3.12.0",
+        "pkg:pypi/opentelemetry-api@1.45.1",
         "pkg:pypi/packaging@26.3",
         "pkg:pypi/pandas@2.3.3",
         "pkg:pypi/pillow@12.3.0",
-        "pkg:pypi/platformdirs@4.12.3",
+        "pkg:pypi/platformdirs@4.12.4",
         "pkg:pypi/playwright@1.63.0",
         "pkg:pypi/plotly@6.9.0",
         "pkg:pypi/psutil@7.2.2",
@@ -3615,7 +3579,7 @@
         "pkg:pypi/six@1.17.0",
         "pkg:pypi/sqlglot@26.33.0",
         "pkg:pypi/starlette@1.7.0",
-        "pkg:pypi/typer@0.27.2",
+        "pkg:pypi/typer@0.27.3",
         "pkg:pypi/typing-extensions@4.16.0",
         "pkg:pypi/typing-inspection@0.4.4",
         "pkg:pypi/tzdata@2026.5",
@@ -3700,7 +3664,6 @@
         "native:python/lib/python3.12/site-packages/numpy.libs/libgfortran-83c28eba-468e71e5.so.5.0.0",
         "native:python/lib/python3.12/site-packages/numpy.libs/libquadmath-2284e583-a9307bba.so.0.0.0",
         "native:python/lib/python3.12/site-packages/numpy.libs/libscipy_openblas64_-f48b354e.so",
-        "native:python/lib/python3.12/site-packages/orjson/orjson.cpython-312-x86_64-linux-gnu.so",
         "native:python/lib/python3.12/site-packages/pandas/_libs/algos.cpython-312-x86_64-linux-gnu.so",
         "native:python/lib/python3.12/site-packages/pandas/_libs/arrays.cpython-312-x86_64-linux-gnu.so",
         "native:python/lib/python3.12/site-packages/pandas/_libs/byteswap.cpython-312-x86_64-linux-gnu.so",
@@ -3800,10 +3763,10 @@
         "pkg:pypi/aor-runtime@0.10.0",
         "pkg:pypi/choreographer@1.4.0",
         "pkg:pypi/cryptography@48.0.1",
-        "pkg:pypi/fastapi@0.142.2",
-        "pkg:pypi/google-auth@2.60.0",
+        "pkg:pypi/fastapi@0.142.4",
+        "pkg:pypi/google-auth@2.61.0",
         "pkg:pypi/jsonschema@4.26.0",
-        "pkg:pypi/kaleido@1.4.0",
+        "pkg:pypi/kaleido@1.5.0",
         "pkg:pypi/markdown-it-py@3.0.0",
         "pkg:pypi/matplotlib@3.11.2",
         "pkg:pypi/numpy@2.5.3",
@@ -3821,7 +3784,7 @@
         "pkg:pypi/requests@2.34.2",
         "pkg:pypi/rich@14.3.4",
         "pkg:pypi/sqlglot@26.33.0",
-        "pkg:pypi/typer@0.27.2",
+        "pkg:pypi/typer@0.27.3",
         "pkg:pypi/urllib3@2.8.0",
         "pkg:pypi/uvicorn@0.54.0",
         "pkg:pypi/websockets@16.1.1"
@@ -3849,7 +3812,7 @@
     {
       "dependsOn": [
         "pkg:pypi/logistro@2.0.1",
-        "pkg:pypi/platformdirs@4.12.3",
+        "pkg:pypi/platformdirs@4.12.4",
         "pkg:pypi/simplejson@4.2.0"
       ],
       "ref": "pkg:pypi/choreographer@1.4.0"
@@ -3883,7 +3846,7 @@
     {
       "dependsOn": [
         "pkg:pypi/annotated-doc@0.0.5",
-        "pkg:pypi/opentelemetry-api@1.45.0",
+        "pkg:pypi/opentelemetry-api@1.45.1",
         "pkg:pypi/pydantic@2.13.5",
         "pkg:pypi/pyyaml@6.0.3",
         "pkg:pypi/starlette@1.7.0",
@@ -3891,7 +3854,7 @@
         "pkg:pypi/typing-inspection@0.4.4",
         "pkg:pypi/uvicorn@0.54.0"
       ],
-      "ref": "pkg:pypi/fastapi@0.142.2"
+      "ref": "pkg:pypi/fastapi@0.142.4"
     },
     {
       "dependsOn": [
@@ -3908,7 +3871,7 @@
         "pkg:pypi/requests@2.34.2",
         "pkg:pypi/urllib3@2.8.0"
       ],
-      "ref": "pkg:pypi/google-auth@2.60.0"
+      "ref": "pkg:pypi/google-auth@2.61.0"
     },
     {
       "dependsOn": [
@@ -3948,10 +3911,9 @@
       "dependsOn": [
         "pkg:pypi/choreographer@1.4.0",
         "pkg:pypi/logistro@2.0.1",
-        "pkg:pypi/orjson@3.12.0",
         "pkg:pypi/packaging@26.3"
       ],
-      "ref": "pkg:pypi/kaleido@1.4.0"
+      "ref": "pkg:pypi/kaleido@1.5.0"
     },
     {
       "dependsOn": [],
@@ -4003,11 +3965,7 @@
       "dependsOn": [
         "pkg:pypi/typing-extensions@4.16.0"
       ],
-      "ref": "pkg:pypi/opentelemetry-api@1.45.0"
-    },
-    {
-      "dependsOn": [],
-      "ref": "pkg:pypi/orjson@3.12.0"
+      "ref": "pkg:pypi/opentelemetry-api@1.45.1"
     },
     {
       "dependsOn": [],
@@ -4031,7 +3989,7 @@
     },
     {
       "dependsOn": [],
-      "ref": "pkg:pypi/platformdirs@4.12.3"
+      "ref": "pkg:pypi/platformdirs@4.12.4"
     },
     {
       "dependsOn": [
@@ -4042,10 +4000,9 @@
     },
     {
       "dependsOn": [
-        "pkg:pypi/kaleido@1.4.0",
+        "pkg:pypi/kaleido@1.5.0",
         "pkg:pypi/narwhals@2.26.0",
         "pkg:pypi/numpy@2.5.3",
-        "pkg:pypi/orjson@3.12.0",
         "pkg:pypi/packaging@26.3",
         "pkg:pypi/pandas@2.3.3",
         "pkg:pypi/pillow@12.3.0",
@@ -4194,7 +4151,7 @@
     {
       "dependsOn": [
         "pkg:pypi/anyio@4.15.1",
-        "pkg:pypi/opentelemetry-api@1.45.0",
+        "pkg:pypi/opentelemetry-api@1.45.1",
         "pkg:pypi/pyyaml@6.0.3",
         "pkg:pypi/typing-extensions@4.16.0"
       ],
@@ -4206,7 +4163,7 @@
         "pkg:pypi/rich@14.3.4",
         "pkg:pypi/shellingham@1.5.4"
       ],
-      "ref": "pkg:pypi/typer@0.27.2"
+      "ref": "pkg:pypi/typer@0.27.3"
     },
     {
       "dependsOn": [],
@@ -4705,12 +4662,6 @@
     },
     {
       "dependsOn": [
-        "pkg:pypi/orjson@3.12.0"
-      ],
-      "ref": "native:python/lib/python3.12/site-packages/orjson/orjson.cpython-312-x86_64-linux-gnu.so"
-    },
-    {
-      "dependsOn": [
         "pkg:pypi/pandas@2.3.3"
       ],
       "ref": "native:python/lib/python3.12/site-packages/pandas/_libs/algos.cpython-312-x86_64-linux-gnu.so"
@@ -5154,7 +5105,7 @@
       "hashes": [
         {
           "alg": "SHA-256",
-          "content": "90cf77ad7f904127c4dee14c69dd207941023ddd78feef8281543cf377ca0608"
+          "content": "8b3fab2d59bdc9bedf98ced6f0af7e8333b47e5c574e5b9050866cfb0b79c42e"
         }
       ],
       "name": "OpenFabric gateway",

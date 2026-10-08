@@ -10,7 +10,7 @@
       ],
       "path": "openfabric-gateway-linux-x86_64",
       "search_paths": [],
-      "sha256": "90cf77ad7f904127c4dee14c69dd207941023ddd78feef8281543cf377ca0608"
+      "sha256": "8b3fab2d59bdc9bedf98ced6f0af7e8333b47e5c574e5b9050866cfb0b79c42e"
     }
   ],
   "highest_glibc_symbol": "2.38",

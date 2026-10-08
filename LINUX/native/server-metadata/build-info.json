@@ -1,5 +1,5 @@
 {
-  "build_id": "9350cc7ebcd690a398a891cf891151b82786761af8750adeb0a1e1209bd253de",
+  "build_id": "c81c92219f5bf30ccde480813f174a17358db927dd0ba4193cbfaad6725a1dc0",
   "cmake": "cmake version 3.31.6",
   "compiler": {
     "identity": "c++ (Ubuntu 15.2.0-4ubuntu4) 15.2.0",
@@ -7,9 +7,9 @@
   },
   "component": "server",
   "configuration": "release",
-  "dependency_lock_sha256": "cee7dccfc747f77118224151a38496d36d3cde127674ef2c99cb100019425854",
+  "dependency_lock_sha256": "63b0fc4070d8f4c429fe1b6a61d12d123b4607426b616448732860a9e768e5af",
   "packaging_backend": "cpp-cpython-v1",
-  "packaging_source_sha256": "83d0e394484298382fd24b1e88d197eca4c45ddcbacba20715be5973c0f412ce",
+  "packaging_source_sha256": "9bf7650d7c405fe22ea7b0bd1843d81c17714dd8979f0e0af4df19c1eb55913c",
   "product": "SMTO",
   "product_version": "0.10.0",
   "python": "python/bin/python3",
@@ -21,9 +21,9 @@
   "release": false,
   "schema_version": 1,
   "source_date_epoch": 0,
-  "source_dirty": false,
-  "source_revision": "95742414b496fc017b88cf287646c8b259106242",
-  "source_snapshot_sha256": "d4a0ec4c1e312970350190e9e296d8598a09a1a9a6514dea77e51692acdccf7a",
+  "source_dirty": true,
+  "source_revision": "d5a654af3134690b9ed8247a6d6f5b1e9a6a6cea",
+  "source_snapshot_sha256": "c98bd3a0cb9c4bda2acb6746d015b88e72c654ef2cf1aca611a3fadbd5c5c263",
   "target": "linux-x86_64",
   "target_arch": "x86_64",
   "target_os": "linux"

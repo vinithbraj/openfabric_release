@@ -1,5 +1,5 @@
 {
-  "build_id": "9350cc7ebcd690a398a891cf891151b82786761af8750adeb0a1e1209bd253de",
+  "build_id": "c81c92219f5bf30ccde480813f174a17358db927dd0ba4193cbfaad6725a1dc0",
   "cmake": "cmake version 3.31.6",
   "compiler": {
     "identity": "c++ (Ubuntu 15.2.0-4ubuntu4) 15.2.0",
@@ -7,7 +7,7 @@
   },
   "component": "server",
   "configuration": "release",
-  "dependency_lock_sha256": "cee7dccfc747f77118224151a38496d36d3cde127674ef2c99cb100019425854",
+  "dependency_lock_sha256": "63b0fc4070d8f4c429fe1b6a61d12d123b4607426b616448732860a9e768e5af",
   "entrypoint": "openfabric_runtime.entrypoint",
   "files": {
     "LICENSES/CPython-python3.12-LICENSE.txt": {
@@ -118,7 +118,7 @@
       "size": 1497,
       "type": "file"
     },
-    "LICENSES/fastapi-0.142.2/licenses/LICENSE": {
+    "LICENSES/fastapi-0.142.4/licenses/LICENSE": {
       "mode": 384,
       "sha256": "4ec89ffc81485b97fec584b2d4a961032eeffe834453894fd9c1274906cc744e",
       "size": 1086,
@@ -136,7 +136,7 @@
       "size": 20022,
       "type": "file"
     },
-    "LICENSES/google-auth-2.60.0/licenses/LICENSE": {
+    "LICENSES/google-auth-2.61.0/licenses/LICENSE": {
       "mode": 384,
       "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
       "size": 11357,
@@ -196,7 +196,7 @@
       "size": 1057,
       "type": "file"
     },
-    "LICENSES/kaleido-1.4.0/LICENSE.md": {
+    "LICENSES/kaleido-1.5.0/licenses/LICENSE.md": {
       "mode": 384,
       "sha256": "23d9b15f8d7806b212955a819411062051e4069fe4892cae66931c832fc8bde3",
       "size": 1073,
@@ -400,28 +400,10 @@
       "size": 332,
       "type": "file"
     },
-    "LICENSES/opentelemetry-api-1.45.0/licenses/LICENSE": {
+    "LICENSES/opentelemetry-api-1.45.1/licenses/LICENSE": {
       "mode": 384,
       "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
       "size": 11357,
-      "type": "file"
-    },
-    "LICENSES/orjson-3.12.0/licenses/LICENSE-APACHE": {
-      "mode": 384,
-      "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
-      "size": 10847,
-      "type": "file"
-    },
-    "LICENSES/orjson-3.12.0/licenses/LICENSE-MIT": {
-      "mode": 384,
-      "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3",
-      "size": 1023,
-      "type": "file"
-    },
-    "LICENSES/orjson-3.12.0/licenses/LICENSE-MPL-2.0": {
-      "mode": 384,
-      "sha256": "66a3107d5ad6a058aab753eaac2047ccb2ed0e39465dd0fe5844da3e300d5172",
-      "size": 16727,
       "type": "file"
     },
     "LICENSES/packaging-26.3/licenses/LICENSE": {
@@ -454,7 +436,7 @@
       "size": 70307,
       "type": "file"
     },
-    "LICENSES/platformdirs-4.12.3/licenses/LICENSE": {
+    "LICENSES/platformdirs-4.12.4/licenses/LICENSE": {
       "mode": 384,
       "sha256": "29e0fd62e929850e86eb28c3fdccf0cefdf4fa94879011cffb3d0d4bed6d4db6",
       "size": 1089,
@@ -640,7 +622,7 @@
       "size": 1518,
       "type": "file"
     },
-    "LICENSES/typer-0.27.2/licenses/LICENSE": {
+    "LICENSES/typer-0.27.3/licenses/LICENSE": {
       "mode": 384,
       "sha256": "58992cebcf8dfb6e40c4e2112ed12126c243666dca3912a3d78b7ecac4859d49",
       "size": 1086,
@@ -708,26 +690,26 @@
     },
     "THIRD_PARTY_NOTICES.txt": {
       "mode": 384,
-      "sha256": "62ea5edcb68d4706c765f55bd43c18623cb33a3e359b283df2eb67c9173828be",
-      "size": 1140442,
+      "sha256": "325affa64da2795d8cd49fe38bceb09e605c5ee032c8c60deb6f3ededfb82c88",
+      "size": 1111638,
       "type": "file"
     },
     "build-info.json": {
       "mode": 384,
-      "sha256": "1d018f05987b06f0603f0d4590ded9cf51407380aa5922e5fff37952f94850b8",
-      "size": 1298,
+      "sha256": "8d0196110625823c7f15f0ccfee98ce298fb138dbab3bafc834665d7f9fe54ce",
+      "size": 1297,
       "type": "file"
     },
     "native-acquisition.json": {
       "mode": 384,
-      "sha256": "e3207be37d39f7d14d3ed4a966d4a8ba1f07a62780eac5cfcebf8801aa88eb83",
+      "sha256": "89239db6213cd533f6f94f1f77fc67e425b076e56efdbfcb08e346981213a5bd",
       "size": 2115,
       "type": "file"
     },
     "native-dependencies.json": {
       "mode": 384,
-      "sha256": "5450fbc2988941c74d258dac26833addf1625dfb78671ced9b209bbd7c4e6ba2",
-      "size": 48183,
+      "sha256": "2f44ea90fa451f366021d76c8e4e4b41958fcfd84d2fd130c229301c96d8afd1",
+      "size": 47909,
       "type": "file"
     },
     "python/bin/python": {
@@ -846,8 +828,8 @@
     },
     "python/lib/openfabric-libs/libstdc++.so.6": {
       "mode": 384,
-      "sha256": "db3001719150d23720982453560ecd333da2f6edfda3ae284203097b4694c413",
-      "size": 3000385,
+      "sha256": "e43b75ab77b61cacbb79e6c4a2f1c957d9f8c6b562ce34f1056dafb97e45c222",
+      "size": 3002625,
       "type": "file"
     },
     "python/lib/openfabric-libs/libz.so.1": {
@@ -3456,8 +3438,8 @@
     },
     "python/lib/python3.12/lib-dynload/_crypt.cpython-312-x86_64-linux-gnu.so": {
       "mode": 448,
-      "sha256": "46006f2150032f3eadbbc47d9d64505109158ec7392ff6d9a4c3c96ac756ef35",
-      "size": 22009,
+      "sha256": "36a7ad72c9021302aaa4311de8cc89a536163a58265f84f1442752c2d70c6e8f",
+      "size": 24185,
       "type": "file"
     },
     "python/lib/python3.12/lib-dynload/_dbm.cpython-312-x86_64-linux-gnu.so": {
@@ -3468,8 +3450,8 @@
     },
     "python/lib/python3.12/lib-dynload/_tkinter.cpython-312-x86_64-linux-gnu.so": {
       "mode": 448,
-      "sha256": "485fee1ff767407c6c2f55c7505eb8acc7a7161fac533e4745f874f29d957a9f",
-      "size": 139321,
+      "sha256": "fd43d5ad8fce50ed312002f323804f1417bd97462aa11225f361c7fa6060ad4f",
+      "size": 141561,
       "type": "file"
     },
     "python/lib/python3.12/lib2to3/Grammar.txt": {
@@ -4974,8 +4956,8 @@
     },
     "python/lib/python3.12/site-packages/PIL/_imaging.cpython-312-x86_64-linux-gnu.so": {
       "mode": 448,
-      "sha256": "26d8addbdfeaf2413fef4fb169c7ed24672493bb23534aac413675e3c6ae9f05",
-      "size": 3414129,
+      "sha256": "f730a89d8e1ccaddaee00f79db0541bb000a43166678a40f1da1b43607481be5",
+      "size": 3416433,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/PIL/_imaging.pyi": {
@@ -5686,6 +5668,12 @@
       "size": 32136,
       "type": "file"
     },
+    "python/lib/python3.12/site-packages/agent_runtime/api/agent_ui_support/conversation_snapshot.py": {
+      "mode": 384,
+      "sha256": "af9dc87a8bca35e01333ae1a7561d60b93049c0818a86f4f184fb8fd70fba9e5",
+      "size": 6027,
+      "type": "file"
+    },
     "python/lib/python3.12/site-packages/agent_runtime/api/agent_ui_support/directory.py": {
       "mode": 384,
       "sha256": "13dc2ece2f94152be1900f9ba514d0f535d878a9c6c966f6aa20c8270dec4670",
@@ -5696,6 +5684,12 @@
       "mode": 384,
       "sha256": "6b1bb38e34cf0d19e4d7376dfdee8941786eeef728c6d00751791f1fa8db536a",
       "size": 15665,
+      "type": "file"
+    },
+    "python/lib/python3.12/site-packages/agent_runtime/api/agent_ui_support/execution_observation.py": {
+      "mode": 384,
+      "sha256": "d6a3cddf8f289af123f788d5309a44edda5b45855650fdbdec14b42cce871fbf",
+      "size": 1433,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/agent_runtime/api/agent_ui_support/execution_visualization.py": {
@@ -5730,14 +5724,14 @@
     },
     "python/lib/python3.12/site-packages/agent_runtime/api/agent_ui_support/models.py": {
       "mode": 384,
-      "sha256": "9aac9ae5a638b316d572ddcfaef2c125fc378bd5daabf2ef0d8aa66cbf1acedb",
-      "size": 35086,
+      "sha256": "5c3378a4d4fbc8b4b1c1780ee2e3ecb28f31c873bb25464b883665b2b69d9a71",
+      "size": 35753,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/agent_runtime/api/agent_ui_support/native_flow.py": {
       "mode": 384,
-      "sha256": "067c995abf012240bec749418ac73884adc387cdb86e7cbed3eda953de7bfa06",
-      "size": 26459,
+      "sha256": "9d76f4ee9a97305054010a1a3732551807f038903349c3f36c10fcabadc4192d",
+      "size": 26822,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/agent_runtime/api/agent_ui_support/notification_public.py": {
@@ -5754,8 +5748,8 @@
     },
     "python/lib/python3.12/site-packages/agent_runtime/api/agent_ui_support/queue_submission.py": {
       "mode": 384,
-      "sha256": "03cadb0ee38faa3639369bfa4e71ff2d8ff183a73126991652aa1f31975936d9",
-      "size": 36041,
+      "sha256": "6571278ad53ddd2415f8219ea192ad0e6eb4e65592c0467b423e79bc5befa8b3",
+      "size": 37145,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/agent_runtime/api/agent_ui_support/route_groups/__init__.py": {
@@ -5764,10 +5758,16 @@
       "size": 53,
       "type": "file"
     },
+    "python/lib/python3.12/site-packages/agent_runtime/api/agent_ui_support/route_groups/activity_supervision.py": {
+      "mode": 384,
+      "sha256": "878643f037421e894f03731e138abf3b76cb39417ed31e6d5ae912bb2c2cdb49",
+      "size": 1907,
+      "type": "file"
+    },
     "python/lib/python3.12/site-packages/agent_runtime/api/agent_ui_support/route_groups/background_activities.py": {
       "mode": 384,
-      "sha256": "7bcb8f01a8f46d54e034278a838b04c508144d3ce0dbff97e2cd0aef22f00048",
-      "size": 12250,
+      "sha256": "3eee9f34bad47d73bf99afe42fec5ba9a782c64db59fc5aadb4e5f5a93d42689",
+      "size": 12278,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/agent_runtime/api/agent_ui_support/route_groups/commands.py": {
@@ -5778,14 +5778,14 @@
     },
     "python/lib/python3.12/site-packages/agent_runtime/api/agent_ui_support/route_groups/context_read_policy.py": {
       "mode": 384,
-      "sha256": "8b9fb96fc6ce95013390663d5c010ac36fab8fa7ca0a1651e08ebd67bcd6715d",
-      "size": 4609,
+      "sha256": "a4ddc9d8718693a9bbb3485e97a3ec4295e0b56bb2330e0700a86946a3176727",
+      "size": 4633,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/agent_runtime/api/agent_ui_support/route_groups/conversation_tasks.py": {
       "mode": 384,
-      "sha256": "0d28c9b3dc3fd0bf420e768e1aca0f24dd6c29387c280491676c6962d445d4d5",
-      "size": 64381,
+      "sha256": "68b71dae9aaa3a94f250c6e96234f78e2d0ebe5d07cd8e62c34b1d981175f46d",
+      "size": 67879,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/agent_runtime/api/agent_ui_support/route_groups/conversations.py": {
@@ -5796,20 +5796,20 @@
     },
     "python/lib/python3.12/site-packages/agent_runtime/api/agent_ui_support/route_groups/core.py": {
       "mode": 384,
-      "sha256": "8130ae8c10c027c9f47d6445b91cb339f39507ff38d4a25ae2bb204b72158271",
-      "size": 18992,
+      "sha256": "490b69bcc32fa1b68d4d080677f79cfbaa01420c93f696f5537c832b7d3d30d4",
+      "size": 19010,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/agent_runtime/api/agent_ui_support/route_groups/dependency_scheduling.py": {
       "mode": 384,
-      "sha256": "53add711435ac1d417ba03d00471c25a80aaa180b9b87b225af00a5cd4b469b5",
-      "size": 5650,
+      "sha256": "70baa19f84d6085e843d46499094df05dde2be1ac93f9afe1d2a85f377df0b98",
+      "size": 5678,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/agent_runtime/api/agent_ui_support/route_groups/event_shared.py": {
       "mode": 384,
-      "sha256": "80d141dfa755869e873b6d4d366957d361cb9fc0153b9ab5b032f760545a2c49",
-      "size": 64541,
+      "sha256": "520984920370b0baedee8de5cb2d9787d1363106c63a54f8a5f4084a0f889820",
+      "size": 65177,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/agent_runtime/api/agent_ui_support/route_groups/events_notifications.py": {
@@ -5874,14 +5874,14 @@
     },
     "python/lib/python3.12/site-packages/agent_runtime/api/agent_ui_support/route_groups/native.py": {
       "mode": 384,
-      "sha256": "73637f3d2b1db7f1427b704d76c52db4c0f79c8e1868e5ce2c010c000efb826e",
-      "size": 65072,
+      "sha256": "1f7be158c061ab3a427c49504f555abfa4a2ff416ee4cd6f3d04944c617a7ecd",
+      "size": 67671,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/agent_runtime/api/agent_ui_support/route_groups/parallel_execution.py": {
       "mode": 384,
-      "sha256": "9e4018a9a6be8afed3fe287cecd3e9b800ab4d7598766e964ea37c52831e0bf7",
-      "size": 7182,
+      "sha256": "3a78ed67ff224210b68d5f70f46c1b75da1bf954da0c60a7bff31c8f98cae02d",
+      "size": 7210,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/agent_runtime/api/agent_ui_support/route_groups/parameters.py": {
@@ -5898,20 +5898,20 @@
     },
     "python/lib/python3.12/site-packages/agent_runtime/api/agent_ui_support/route_groups/request_lifecycle.py": {
       "mode": 384,
-      "sha256": "8610159ef842ec899ed4562e02c5d83a7f5e9b5d5f145d5ae58c86aa3388efe0",
-      "size": 66766,
+      "sha256": "1ce7861fd785ed66f6ee28b0b1826f2551958974480aada111868ff250d7cade",
+      "size": 68119,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/agent_runtime/api/agent_ui_support/route_groups/resource_reconciliation.py": {
       "mode": 384,
-      "sha256": "1dfd180e32adef10974ac94f5704ca5a6e05a452d1c7a96d458b77af1279b694",
-      "size": 13188,
+      "sha256": "3f459cf57169caa3c5845ec75984e0a92e5436a3023702f7c39e00d5baba2fea",
+      "size": 13216,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/agent_runtime/api/agent_ui_support/route_groups/resource_scheduling.py": {
       "mode": 384,
-      "sha256": "2dfaa03e441c2232903e445af28d0ef01f9ae65a6ef8d1df8b132c7400e04189",
-      "size": 6274,
+      "sha256": "bf0d80a75c3390ba923d3c448fd58fac5bc060f8846dd4dd29e154510dfd6be3",
+      "size": 10074,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/agent_runtime/api/agent_ui_support/route_groups/runs.py": {
@@ -5922,8 +5922,8 @@
     },
     "python/lib/python3.12/site-packages/agent_runtime/api/agent_ui_support/route_groups/runtime_guards.py": {
       "mode": 384,
-      "sha256": "7d20eed924473c63026d424a3988066d0fbce11b98f1384e88d263907afbd1a4",
-      "size": 18363,
+      "sha256": "3921ae6759259715c6ca44b75a39a753b122d95373ca925378a538c149e96440",
+      "size": 18419,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/agent_runtime/api/agent_ui_support/route_groups/runtime_shared.py": {
@@ -5958,8 +5958,8 @@
     },
     "python/lib/python3.12/site-packages/agent_runtime/api/agent_ui_support/route_groups/settings.py": {
       "mode": 384,
-      "sha256": "2df1d541bce0355eed7c558291c6025de310fadd156b6359f491bd3eda7e7713",
-      "size": 27988,
+      "sha256": "a80e5ed14b2ae23ddd8a7225948c65264b25580b50154e2c1056a3b7a394e15d",
+      "size": 29300,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/agent_runtime/api/agent_ui_support/route_groups/skill_configuration.py": {
@@ -5976,14 +5976,14 @@
     },
     "python/lib/python3.12/site-packages/agent_runtime/api/agent_ui_support/route_groups/stop_policy.py": {
       "mode": 384,
-      "sha256": "cd6023e005177d90692e43069c6e740f66740cb4018a4fd1febe4a288601e755",
-      "size": 3353,
+      "sha256": "e3f1b79be882accd556d92cb606c433940c081d1850677f4c356e540e2f813c3",
+      "size": 3377,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/agent_runtime/api/agent_ui_support/route_groups/task_service.py": {
       "mode": 384,
-      "sha256": "d6ad7b1a0d385c597b1fa3a7ca0330378c340feb45a47f7d5afedd62d7378e5a",
-      "size": 76037,
+      "sha256": "f1833776ef6f540229cec703e5d0805482e5ab8652421d2b5b971b47a65bf312",
+      "size": 77243,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/agent_runtime/api/agent_ui_support/route_groups/task_summary.py": {
@@ -5994,8 +5994,8 @@
     },
     "python/lib/python3.12/site-packages/agent_runtime/api/agent_ui_support/route_groups/tasks.py": {
       "mode": 384,
-      "sha256": "7bf97002716303891cedee215626997664163839eaef45c9d2a1d1a1647e32d4",
-      "size": 25452,
+      "sha256": "c9ed06ba19b8bb20ec7555a47977d1d316ed67a6658fb68a46d8fb92f54fc9c0",
+      "size": 25400,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/agent_runtime/api/agent_ui_support/route_groups/terminal_shared.py": {
@@ -6006,14 +6006,14 @@
     },
     "python/lib/python3.12/site-packages/agent_runtime/api/agent_ui_support/routes.py": {
       "mode": 384,
-      "sha256": "720f6faca9111e71d5673c120b12276d4e45a11f60b0aa6c4937542f12355359",
-      "size": 12518,
+      "sha256": "88f651a570d00bdfaba14cccbde9ef2a6e740335c1ca6f366caa5c3364a4311f",
+      "size": 12826,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/agent_runtime/api/agent_ui_support/runtime_flow.py": {
       "mode": 384,
-      "sha256": "9437dbe2163378d575145503cd8a229346ded940dec804bcf7badb174b732a25",
-      "size": 13453,
+      "sha256": "1d2d103dfa3c07374612966219b086599c80bdcda715e072736b21961b983fcb",
+      "size": 13603,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/agent_runtime/api/agent_ui_support/server_activity.py": {
@@ -6030,8 +6030,8 @@
     },
     "python/lib/python3.12/site-packages/agent_runtime/api/agent_ui_support/shell_stream.py": {
       "mode": 384,
-      "sha256": "72a53d1288338325f495dad5d4dbb8967ba597bcb098ec6bcc371db58c403fe9",
-      "size": 5345,
+      "sha256": "2afb3b47edbacf489a23f20053a48faa97e28e6bd2b69c92a1602796d8974937",
+      "size": 5838,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/agent_runtime/api/agent_ui_support/task_fork.py": {
@@ -6054,14 +6054,14 @@
     },
     "python/lib/python3.12/site-packages/agent_runtime/api/agent_ui_support/update_stream.py": {
       "mode": 384,
-      "sha256": "524cc590c58b1e0140356bcc4f14361b2fdcfad77aa4d7985cfe43e30e3622ad",
-      "size": 14225,
+      "sha256": "fa0d5676906e608d87838fb21cc7a14dab995b691a3790cbfe5f3e089341af46",
+      "size": 16605,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/agent_runtime/api/app.py": {
       "mode": 384,
-      "sha256": "74d75258fe9b8075781212ed97bd3600964fb8f55e4605ec326430663690ef0a",
-      "size": 14177,
+      "sha256": "01a91022b20f46f93f7bda08ede7c2e50456ab24de2a0115dbd634c79cf2dfed",
+      "size": 14271,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/agent_runtime/api/app_config.py": {
@@ -6072,8 +6072,8 @@
     },
     "python/lib/python3.12/site-packages/agent_runtime/api/chat_store.py": {
       "mode": 384,
-      "sha256": "d2c2daef86e4a97bab97eb0db02c3da883df355854763b557c2dcfcfa4191efc",
-      "size": 51957,
+      "sha256": "dcb795f059a89e13cdc3458e264e827f5589fa9395e8089c4a3b23bc185336b5",
+      "size": 52171,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/agent_runtime/api/cli.py": {
@@ -6102,8 +6102,14 @@
     },
     "python/lib/python3.12/site-packages/agent_runtime/api/conversation_windows.py": {
       "mode": 384,
-      "sha256": "181baaed26a927de969b1c659f76801ab701b966098d8d196a5b0eb228c22bd8",
-      "size": 9295,
+      "sha256": "adb949629c54b93d875b68d51ef709b54d56a29dc37f46441f266415e7aa1802",
+      "size": 11077,
+      "type": "file"
+    },
+    "python/lib/python3.12/site-packages/agent_runtime/api/docs_links.py": {
+      "mode": 384,
+      "sha256": "8bb33a032a87ab372f776ff7b7e9b2ebb215d1295a02829ff64cf62d133eb7d4",
+      "size": 3836,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/agent_runtime/api/llm_health.py": {
@@ -6172,6 +6178,18 @@
       "size": 4703,
       "type": "file"
     },
+    "python/lib/python3.12/site-packages/agent_runtime/api/static/agent_ui/activity_pages.css": {
+      "mode": 384,
+      "sha256": "0df76ed178e85d4f92fed5f654d3282957d8050d05c03457d45df19fa3c40834",
+      "size": 3015,
+      "type": "file"
+    },
+    "python/lib/python3.12/site-packages/agent_runtime/api/static/agent_ui/activity_pages.js": {
+      "mode": 384,
+      "sha256": "e07f238de2449be2d2e3b7b97c9272728cfc65ce2ea73801a63133ca288358d3",
+      "size": 9587,
+      "type": "file"
+    },
     "python/lib/python3.12/site-packages/agent_runtime/api/static/agent_ui/agent_checks.css": {
       "mode": 384,
       "sha256": "85befd75debadb2db8441ef8b4c5ada332b8288926e32eebb8cfdb6f938d4a19",
@@ -6180,26 +6198,26 @@
     },
     "python/lib/python3.12/site-packages/agent_runtime/api/static/agent_ui/agent_checks.js": {
       "mode": 384,
-      "sha256": "53def037ca0d67396db7073fd1f8e1102421559757b7a7f5281696baffc5e781",
-      "size": 77701,
+      "sha256": "0afb571295d68d1518f1439446b7922dfcb7efaea92b6513e7e65f2ca62fb5e8",
+      "size": 82569,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/agent_runtime/api/static/agent_ui/agent_ui_shared.js": {
       "mode": 384,
-      "sha256": "feaf6731c1c72c14ed02822694b018a22ce0c16d4e593c437975b3d1d6fe1ec0",
-      "size": 13507,
+      "sha256": "d2a811ea1e8d9f2c2d99431a6e80100d7699a09d651a3afc0447e466b16c651b",
+      "size": 13681,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/agent_runtime/api/static/agent_ui/app.css": {
       "mode": 384,
-      "sha256": "3f3f91181d730a5012073b4ea65a7bf593f4f2d45cfeee05bd0aa51349ec18d2",
-      "size": 87608,
+      "sha256": "f15e73f471ed68afbbce413acff83b30820ab26d43dcfae345721f1ac658a6c1",
+      "size": 88488,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/agent_runtime/api/static/agent_ui/app.js": {
       "mode": 384,
-      "sha256": "8e0438123fd857a95e5d19bacab69050318c4e3e8a9f94d0aa644b0841dead24",
-      "size": 218222,
+      "sha256": "e468f2f92dbfd401dada7f5757fa2781cf0035f0b103cb550310f95a88ef5053",
+      "size": 227007,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/agent_runtime/api/static/agent_ui/artifacts.css": {
@@ -6210,8 +6228,8 @@
     },
     "python/lib/python3.12/site-packages/agent_runtime/api/static/agent_ui/artifacts.js": {
       "mode": 384,
-      "sha256": "92214a848baa626815f78e3707c36ca3d950283fdacc07860f991498793189c3",
-      "size": 25770,
+      "sha256": "98d33c017a6f4de2ba482a978bb90fbc6d7ee82df0f62125f1c6e6aa40449afe",
+      "size": 25818,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/agent_runtime/api/static/agent_ui/behavior_effort.js": {
@@ -6256,6 +6274,12 @@
       "size": 15448,
       "type": "file"
     },
+    "python/lib/python3.12/site-packages/agent_runtime/api/static/agent_ui/command_preview.js": {
+      "mode": 384,
+      "sha256": "26faff797a62aebc5327ecdef35e20b8340977fedff78862aa28bed43460eec5",
+      "size": 2976,
+      "type": "file"
+    },
     "python/lib/python3.12/site-packages/agent_runtime/api/static/agent_ui/command_protocol.js": {
       "mode": 384,
       "sha256": "c3da95fb95efd6833b0775cd9cd9613961d4785b00ae68c8cf1947a9c3d0d7dd",
@@ -6276,14 +6300,14 @@
     },
     "python/lib/python3.12/site-packages/agent_runtime/api/static/agent_ui/completion_handling_settings.js": {
       "mode": 384,
-      "sha256": "e2e732da6aed01e6be7ef3340e997a4e7c25912939ed5d2e15b19cb7dc3aa23e",
-      "size": 15867,
+      "sha256": "a1bf0b86b992c1465459369c68002248989d39ce192cf7b8cc8d1a0569035767",
+      "size": 16473,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/agent_runtime/api/static/agent_ui/composer_browsing.js": {
       "mode": 384,
-      "sha256": "5ef56114634844b82c9d958e4e0864f8888624cc999160f979a5d0af1f03da90",
-      "size": 10850,
+      "sha256": "9bb2ceed2d0274b6ffd1db1cf48b0f1e600691f792c8a04f16cce0c0a2c67fd4",
+      "size": 11295,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/agent_runtime/api/static/agent_ui/composer_thinking.css": {
@@ -6330,8 +6354,8 @@
     },
     "python/lib/python3.12/site-packages/agent_runtime/api/static/agent_ui/conversation_management.js": {
       "mode": 384,
-      "sha256": "1e118a7ee6755281b0ae3025357e406ed0bc266fa78c42fd8496c66ca7fe0057",
-      "size": 35066,
+      "sha256": "9a09ba57a83913ff558d0fe0867cbe7ec11d1b060a2b369e3a75233e46d70093",
+      "size": 35637,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/agent_runtime/api/static/agent_ui/conversation_navigator.css": {
@@ -6358,10 +6382,22 @@
       "size": 5991,
       "type": "file"
     },
+    "python/lib/python3.12/site-packages/agent_runtime/api/static/agent_ui/conversation_snapshot.js": {
+      "mode": 384,
+      "sha256": "81c01444a2fa0948c0bab2306fbbd96f066aeb56122979abf92cdd21a1d77768",
+      "size": 25197,
+      "type": "file"
+    },
     "python/lib/python3.12/site-packages/agent_runtime/api/static/agent_ui/conversation_timing.js": {
       "mode": 384,
-      "sha256": "e24bb695e2a7fe5a8ad370257e1d14674bb21dec5091693f66a80e7d5856a8b6",
-      "size": 4552,
+      "sha256": "8115ea81a35d0c5d640d4a8af493201e791c8857b04bd545335d6cb986964d98",
+      "size": 4828,
+      "type": "file"
+    },
+    "python/lib/python3.12/site-packages/agent_runtime/api/static/agent_ui/copy_feedback.js": {
+      "mode": 384,
+      "sha256": "fbda7865634231dbf38ad367767443497d3ed3785442c40b57fec8b0d72b96fc",
+      "size": 1222,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/agent_runtime/api/static/agent_ui/directory.css": {
@@ -6382,6 +6418,12 @@
       "size": 9709,
       "type": "file"
     },
+    "python/lib/python3.12/site-packages/agent_runtime/api/static/agent_ui/docs_link.js": {
+      "mode": 384,
+      "sha256": "67537a1006e3025576c70b88aaaec089758c471848754c76b8b24cf0f3c2a64a",
+      "size": 1156,
+      "type": "file"
+    },
     "python/lib/python3.12/site-packages/agent_runtime/api/static/agent_ui/draft_cache.js": {
       "mode": 384,
       "sha256": "7fc907cf8c169eeb2732fe995efdbc381af4c382dc4c21b68f62131b5d11985b",
@@ -6400,6 +6442,12 @@
       "size": 10824,
       "type": "file"
     },
+    "python/lib/python3.12/site-packages/agent_runtime/api/static/agent_ui/execution_inspection.css": {
+      "mode": 384,
+      "sha256": "02b3707e51416fa2738cd68ef7a9de42b7b4278ff40fc3b935a5a40ca515f170",
+      "size": 6113,
+      "type": "file"
+    },
     "python/lib/python3.12/site-packages/agent_runtime/api/static/agent_ui/fast_cache.css": {
       "mode": 384,
       "sha256": "80a28633ee1cd1180ab9241edf8013edb807113137702e0b39285f202b5d9b54",
@@ -6408,8 +6456,8 @@
     },
     "python/lib/python3.12/site-packages/agent_runtime/api/static/agent_ui/fast_cache.js": {
       "mode": 384,
-      "sha256": "cec1f4bcfdd7237221f34aff113eca5761af86447941db3a88247550b08096e4",
-      "size": 8972,
+      "sha256": "b45e7ae7005119eccf49c2dd1d421f8ee0ae8bc005a5b5b41f285b277a1edda5",
+      "size": 9022,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/agent_runtime/api/static/agent_ui/final_response.js": {
@@ -6450,14 +6498,14 @@
     },
     "python/lib/python3.12/site-packages/agent_runtime/api/static/agent_ui/index.html": {
       "mode": 384,
-      "sha256": "f4ba8dc6fe60251b004bdceb809535adc1c79a5724da601f3a7f807def71f2bf",
-      "size": 45506,
+      "sha256": "b2368d9f05a725081b9882bfec2f49991933b8d91ae35c64e50a8932c773bcaf",
+      "size": 46098,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/agent_runtime/api/static/agent_ui/inline_steer.js": {
       "mode": 384,
-      "sha256": "51c84d4e357cd34dc0d173c315c9b44fdaefdf7c4113990eedfefa0f51e53f94",
-      "size": 11012,
+      "sha256": "4e818429b04accc13a774a5d5820099f45c666fc23086cf5d92e910d09c63fac",
+      "size": 11166,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/agent_runtime/api/static/agent_ui/legal.css": {
@@ -6468,8 +6516,8 @@
     },
     "python/lib/python3.12/site-packages/agent_runtime/api/static/agent_ui/legal.js": {
       "mode": 384,
-      "sha256": "3cfef8a80236976f12c03458bbd8ee40021f90c7eec63bf10e92293aba0b942d",
-      "size": 8936,
+      "sha256": "a8ed2325ac41d7d5cfcc5c20817efd1cdb89cf6c1d1ebf5f26e5d660ec7d22b2",
+      "size": 8984,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/agent_runtime/api/static/agent_ui/management_surface.css": {
@@ -6480,8 +6528,8 @@
     },
     "python/lib/python3.12/site-packages/agent_runtime/api/static/agent_ui/manual_links.js": {
       "mode": 384,
-      "sha256": "17abf1fa43ffcec4d0ecddd39a4e9b120403f4100ddc2afe5f146fe5bd125fc4",
-      "size": 2202,
+      "sha256": "640f5d20e7f1886a31603a76a5fb389b8bb16df017fd0e80271a5299415263c0",
+      "size": 2294,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/agent_runtime/api/static/agent_ui/mention_palette.css": {
@@ -6492,8 +6540,8 @@
     },
     "python/lib/python3.12/site-packages/agent_runtime/api/static/agent_ui/mention_palette.js": {
       "mode": 384,
-      "sha256": "3e8d0bdb4e2a001c81ee9fb681639f2817781a0bd799d6cfa6d0b6482ffe4704",
-      "size": 17380,
+      "sha256": "fbddc4b74e4e25c8caf0de103efe0debb6ed57fa4c819615c1e0a35a5714ff25",
+      "size": 17453,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/agent_runtime/api/static/agent_ui/mission_switch.css": {
@@ -6504,20 +6552,20 @@
     },
     "python/lib/python3.12/site-packages/agent_runtime/api/static/agent_ui/mobile/api.js": {
       "mode": 384,
-      "sha256": "65b2a464069036cb5e3a377232a6a8794057d03a1310e8a16d51adaa7ba29d49",
-      "size": 7429,
+      "sha256": "1546373fca2c80c2c0a6e597a997e35d2018d0efdd49473e300521ebdbae72d8",
+      "size": 7739,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/agent_runtime/api/static/agent_ui/mobile/app.js": {
       "mode": 384,
-      "sha256": "5480b9cfa2f62213ba62b0aafc8fc1fefd5ee3ae82be19fb0a4f072748cdb7de",
-      "size": 26754,
+      "sha256": "1c37516c178d36ff8e493c03c3cce23d6b4dbeac444c547c9bcb3bf26aaad04f",
+      "size": 25723,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/agent_runtime/api/static/agent_ui/mobile/composer.js": {
       "mode": 384,
-      "sha256": "5fb713276953eff8eccc334851aed6c70504354c480c43752d5e849d0bfb40f9",
-      "size": 12597,
+      "sha256": "0bb5f3720a70068f7ac194f097689cf4d8cabaa4a37efec7dc2271a0ad0e52b4",
+      "size": 12598,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/agent_runtime/api/static/agent_ui/mobile/composer_profile.js": {
@@ -6528,8 +6576,8 @@
     },
     "python/lib/python3.12/site-packages/agent_runtime/api/static/agent_ui/mobile/conversation.js": {
       "mode": 384,
-      "sha256": "0f7c49288e3b5b13cd8471da873f0a5c1942be55bae73e79abaa4153b594ac7f",
-      "size": 51713,
+      "sha256": "43fc362a50542f25b56fa6ecc8f70c7df2c15f1fddb10b90ebdbaf0b66528106",
+      "size": 54849,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/agent_runtime/api/static/agent_ui/mobile/errors.js": {
@@ -6540,8 +6588,8 @@
     },
     "python/lib/python3.12/site-packages/agent_runtime/api/static/agent_ui/mobile/index.html": {
       "mode": 384,
-      "sha256": "4c497f5bbcd595dc683f6a7028099650282e118f913eb80c1b1e73dab9cc7740",
-      "size": 6898,
+      "sha256": "03b07efff0bdca26f4eda1fc545607adc5dc3d628a399a7b1692e82467bdca8f",
+      "size": 7469,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/agent_runtime/api/static/agent_ui/mobile/lazy/activities.js": {
@@ -6594,8 +6642,8 @@
     },
     "python/lib/python3.12/site-packages/agent_runtime/api/static/agent_ui/mobile/lazy/conversation_navigator.js": {
       "mode": 384,
-      "sha256": "82e92f4337cc330a371b2d8df868c388db930a9a325c2ecb41a325c37d6a1ac6",
-      "size": 2004,
+      "sha256": "1ce513ead0b134bdf37de1e1461381e4d5f30e5382a2d531fcab05184f304056",
+      "size": 2006,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/agent_runtime/api/static/agent_ui/mobile/lazy/history.js": {
@@ -6624,8 +6672,8 @@
     },
     "python/lib/python3.12/site-packages/agent_runtime/api/static/agent_ui/mobile/lazy/queue.js": {
       "mode": 384,
-      "sha256": "ee2b6d8111a28b53d1d0fd0e027a69e191cc671be96a00f2ef4cb3809bccc2b7",
-      "size": 4850,
+      "sha256": "a7f462e4e530ff4249384efc98b6b4779aa5543d793983194b31ec68ce8ad41d",
+      "size": 5084,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/agent_runtime/api/static/agent_ui/mobile/lazy/shell_live_stream.js": {
@@ -6636,20 +6684,20 @@
     },
     "python/lib/python3.12/site-packages/agent_runtime/api/static/agent_ui/mobile/lazy/trace_details.js": {
       "mode": 384,
-      "sha256": "a7aa5795c99a9ff6c1ae5ddf342b54ca0a31f2ecf59e6623b81b069a4d66de0e",
-      "size": 4926,
+      "sha256": "91f9fc1a892fad2773b43ac045fcf1ac217e589663a9479e0f4c6c04a0dbf90d",
+      "size": 6603,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/agent_runtime/api/static/agent_ui/mobile/markdown.js": {
       "mode": 384,
-      "sha256": "525677b44627e4a2e65d90e62956793cf194d9ffb7002facb7fcc611be87bdd6",
-      "size": 6363,
+      "sha256": "497f57bd14eb9a32ccb24aa7e9e7cacaefd7e9e6011b29eb1c19c39679253887",
+      "size": 6426,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/agent_runtime/api/static/agent_ui/mobile/mobile.css": {
       "mode": 384,
-      "sha256": "a27efa862c7abc38f10f4e69b6969ab55acf1a1c361b1aa5f9ec25944e89fd5b",
-      "size": 27243,
+      "sha256": "a7d359cd627c0ccc6a0c0ff4ca73396ca76e212c31aa0a6ab1ded48d06a28efb",
+      "size": 31028,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/agent_runtime/api/static/agent_ui/mobile/overlays.js": {
@@ -6660,14 +6708,14 @@
     },
     "python/lib/python3.12/site-packages/agent_runtime/api/static/agent_ui/mobile/streaming.js": {
       "mode": 384,
-      "sha256": "75cb6e7b5f41b6f3c9a0480353c4c2e9fbdc710926a2c238050d9f7569f79128",
-      "size": 5447,
+      "sha256": "6b0771e0bfc68f5b50d43a2f24f06a501c1fc74136d3eecd7aeb96d8fe7f89ce",
+      "size": 5457,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/agent_runtime/api/static/agent_ui/mobile/submission_options.js": {
       "mode": 384,
-      "sha256": "b95b973e33cf5ce462baf94aff48960b4837b2eb523db0c6f3741cedf3e57b3b",
-      "size": 2394,
+      "sha256": "b603699529fb5085bc12f9f420276d1542e3b695b7e3d773008bce09502f772b",
+      "size": 2507,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/agent_runtime/api/static/agent_ui/mobile/target_state.js": {
@@ -6702,14 +6750,14 @@
     },
     "python/lib/python3.12/site-packages/agent_runtime/api/static/agent_ui/model_output_viewer.js": {
       "mode": 384,
-      "sha256": "002c7796f3c2b06f85fdf9171eb45aa737e58b947132a9b7ca8e4d58a6fbcbf1",
-      "size": 9404,
+      "sha256": "2171912adf215c63986f8030ec3ff02eaff3c91b752168efc9de845843a820eb",
+      "size": 9444,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/agent_runtime/api/static/agent_ui/native_controls.js": {
       "mode": 384,
-      "sha256": "4bbf78134d367fca5dd59a866cd47a67bf0db0abcd1ce5f0c83aa4e989d73274",
-      "size": 44648,
+      "sha256": "14e2549eb9c317c4855c79b030cc09c98ff235cfa5c9cf78628f3a3cfa36da8e",
+      "size": 46686,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/agent_runtime/api/static/agent_ui/notification_delivery.css": {
@@ -6720,8 +6768,8 @@
     },
     "python/lib/python3.12/site-packages/agent_runtime/api/static/agent_ui/notification_delivery.js": {
       "mode": 384,
-      "sha256": "ca69a68babefa4a97f866c04ebbf4bf849ada46a8d5ce55605ca55c4661ec789",
-      "size": 12822,
+      "sha256": "f65b6ba962e911bee1f56cd664de415766cc58a8032756f9ad8c3d14bb5eb0ae",
+      "size": 12870,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/agent_runtime/api/static/agent_ui/notifications.css": {
@@ -6744,8 +6792,8 @@
     },
     "python/lib/python3.12/site-packages/agent_runtime/api/static/agent_ui/oauth_prompt.js": {
       "mode": 384,
-      "sha256": "84e11c7d0a4de99f909cabbd1f64af161305762f9395b80b4359220590b27849",
-      "size": 2183,
+      "sha256": "6777ef225c75a43150000141676ede22fc5c3d68f943142a02ea23897a4a74e7",
+      "size": 2229,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/agent_runtime/api/static/agent_ui/openfabric_markdown.js": {
@@ -6768,14 +6816,14 @@
     },
     "python/lib/python3.12/site-packages/agent_runtime/api/static/agent_ui/parameter_editor.html": {
       "mode": 384,
-      "sha256": "5ec7c50b56158ba56fa1063ab45d672f7e2a05af56ccf62e2b9de939f7bcc244",
-      "size": 15512,
+      "sha256": "08e454df9a29b9713b1d46f55ad190bc0820fce37224a344cb7ed9df16605b2c",
+      "size": 15584,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/agent_runtime/api/static/agent_ui/parameter_editor.js": {
       "mode": 384,
-      "sha256": "55971f5fb6b127fee4a15c61b89d4fe2fab6474c76dc48656eabf4dc23c0a835",
-      "size": 36120,
+      "sha256": "0b73aab71e0207cebfa03b311f9ed45dc0f0f97adef5bd5f7f077f833e19c5d8",
+      "size": 36178,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/agent_runtime/api/static/agent_ui/performance_timing.js": {
@@ -6804,8 +6852,8 @@
     },
     "python/lib/python3.12/site-packages/agent_runtime/api/static/agent_ui/progress_narration.js": {
       "mode": 384,
-      "sha256": "57d3555eb2fe076056df551281dd2604a8cc777cbb0aafcb6528551eaacfd077",
-      "size": 4524,
+      "sha256": "45167efc77564207299d71ca6b6d4421da27607d57951d74c7f5710fcc502d6c",
+      "size": 4546,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/agent_runtime/api/static/agent_ui/prompt_editing.js": {
@@ -6816,14 +6864,14 @@
     },
     "python/lib/python3.12/site-packages/agent_runtime/api/static/agent_ui/prompt_queue.css": {
       "mode": 384,
-      "sha256": "155795c711378b96c0667e0252cc17bd4372d2e9dd8f9d4afd76422fea3aa0ee",
-      "size": 3329,
+      "sha256": "c4b65c38e09da1c2a859f206f8fcbbb0283d74120be33d8dc6f9f34e1a669f0f",
+      "size": 3495,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/agent_runtime/api/static/agent_ui/prompt_queue.js": {
       "mode": 384,
-      "sha256": "cfde93a2f634f1483895b92a39978dfffaa175f4e094721fc9d1f1a5520222ab",
-      "size": 22414,
+      "sha256": "ce1ea99ff51a9ad5ecee2d22acd2671e614452205b98e518478316a22f312eaf",
+      "size": 23812,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/agent_runtime/api/static/agent_ui/prompt_recall.css": {
@@ -6846,14 +6894,14 @@
     },
     "python/lib/python3.12/site-packages/agent_runtime/api/static/agent_ui/prose_activity.css": {
       "mode": 384,
-      "sha256": "78776d98aec7ba5404836922e5085bed248ba657d5c03398b8129d66e851fcf0",
-      "size": 9360,
+      "sha256": "2b7a55e31d8ac9b0970ee84b9794118992a5415221437741de2670a4399eba9d",
+      "size": 12218,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/agent_runtime/api/static/agent_ui/prose_activity.js": {
       "mode": 384,
-      "sha256": "b795303915b5a4f8aac79ec57c8cb84ee8408ce1b5993e143889c5581b05b2d3",
-      "size": 11942,
+      "sha256": "10c847a5cf32efce635de4762965dc77cf38edf91c45bd671719c010fd855945",
+      "size": 14342,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/agent_runtime/api/static/agent_ui/rejection_reasons.js": {
@@ -6876,8 +6924,8 @@
     },
     "python/lib/python3.12/site-packages/agent_runtime/api/static/agent_ui/run_activity.js": {
       "mode": 384,
-      "sha256": "b69f13733352566d138fca9e40330fb2e67766c4c689fe15d392945ca5f30a51",
-      "size": 34530,
+      "sha256": "d0c7c7f90bd9fa057c9058deb513e72178d16973a15b2a35bdc8777fc8d73d35",
+      "size": 36917,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/agent_runtime/api/static/agent_ui/run_execution_visualization.css": {
@@ -6888,8 +6936,8 @@
     },
     "python/lib/python3.12/site-packages/agent_runtime/api/static/agent_ui/run_execution_visualization.js": {
       "mode": 384,
-      "sha256": "05bdcdd7ea61f7d3441a727bb6c40b6ccfd8b934db0a5da6c4ff9a353876de3b",
-      "size": 18801,
+      "sha256": "8fba3ba3bbd822bbe650b6ddad109c040b15f1be863e279b2ef74b41ebec2796",
+      "size": 18874,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/agent_runtime/api/static/agent_ui/schedule_editor.css": {
@@ -6942,20 +6990,20 @@
     },
     "python/lib/python3.12/site-packages/agent_runtime/api/static/agent_ui/settings.css": {
       "mode": 384,
-      "sha256": "bf969ee193fd15dcf1ee0fe8fd0b7b5d23f30b74f385905e9e4bbcf1cdfc932d",
-      "size": 16541,
+      "sha256": "a281aaaf58222c84b3fcf6d1ff97cb03fda157b92dfb5624b583f104418a95ff",
+      "size": 16614,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/agent_runtime/api/static/agent_ui/settings.html": {
       "mode": 384,
-      "sha256": "9e15fca592d8df696ac8c7ba7422e7ac47017cedb11d0a79e3631384bdb5343e",
-      "size": 6559,
+      "sha256": "fa9f8550d032d8a72d79f33f70f3b7f0a8d02473dc6383f5c9f9cc9e2923f07a",
+      "size": 6655,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/agent_runtime/api/static/agent_ui/settings.js": {
       "mode": 384,
-      "sha256": "b230142cda65d092ecac7c4a251a8a3ec71d27ccec7261a5995331d1a33ebe2c",
-      "size": 30961,
+      "sha256": "60dfa9159db75e3a5d774da115691b2c1867926dc609a3ab3636c9d121b20d99",
+      "size": 34319,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/agent_runtime/api/static/agent_ui/shared.css": {
@@ -6966,8 +7014,8 @@
     },
     "python/lib/python3.12/site-packages/agent_runtime/api/static/agent_ui/shell_live_stream.js": {
       "mode": 384,
-      "sha256": "b8ff90a26fe5b136e375ab2c0e84617f00e59e58050f6eaac90fa0d63c88c304",
-      "size": 12927,
+      "sha256": "226beb8f03ed8dae0493b66044da3055427b08ee7c75b7bea9fc2e54652703ea",
+      "size": 12967,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/agent_runtime/api/static/agent_ui/skill_configuration.css": {
@@ -7008,8 +7056,8 @@
     },
     "python/lib/python3.12/site-packages/agent_runtime/api/static/agent_ui/stream_activity.js": {
       "mode": 384,
-      "sha256": "b6f184023b099aeebe59497e3969cc2ac276274c1df28568a78e30c8c6e103ec",
-      "size": 21134,
+      "sha256": "911e376a5c9cfa414797f97cd463b544459806b95c3e3ed73a1dc95667887ab0",
+      "size": 21252,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/agent_runtime/api/static/agent_ui/target_selector.css": {
@@ -7038,14 +7086,20 @@
     },
     "python/lib/python3.12/site-packages/agent_runtime/api/static/agent_ui/task_lifecycle.js": {
       "mode": 384,
-      "sha256": "8a090ace8278cd099f8a538bd864f30bba288381ac29446b4ff40c3f495c488b",
-      "size": 8352,
+      "sha256": "0b28f1fd46ac7ef5edb6c39a75eb6008950a1844fc0fe76c4ed8ad4ff08b66d8",
+      "size": 10180,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/agent_runtime/api/static/agent_ui/task_summary.js": {
       "mode": 384,
       "sha256": "de65844ed7633f094834447782d2108d086e730e44f6013a96d73480db686f6e",
       "size": 3140,
+      "type": "file"
+    },
+    "python/lib/python3.12/site-packages/agent_runtime/api/static/agent_ui/thinking_animations.js": {
+      "mode": 384,
+      "sha256": "ee93136c9cb6db4ed6ee80d0c5d11953d4d88ed6794b7bf54ad312fb24c933f1",
+      "size": 21302,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/agent_runtime/api/static/agent_ui/timing_view.js": {
@@ -7068,8 +7122,8 @@
     },
     "python/lib/python3.12/site-packages/agent_runtime/api/static/agent_ui/ui_updates.js": {
       "mode": 384,
-      "sha256": "89ac077e8caf53e54a8a5bc4aad03b8c7b01474d73810dedfa05703d24443202",
-      "size": 7174,
+      "sha256": "436a6558b01fb7cbe4573be7d742ad0bb865f80884ba67a8d998acb50096ae04",
+      "size": 7553,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/agent_runtime/api/static/agent_ui/unsafe_actions.js": {
@@ -7374,8 +7428,8 @@
     },
     "python/lib/python3.12/site-packages/agent_runtime/capability_policy.py": {
       "mode": 384,
-      "sha256": "4a2fd7613b00130ed2b71161757c87e3f69e026794008156cd23f6508290dfb9",
-      "size": 14780,
+      "sha256": "e1f7bdce1dc06525fed89697841c084556fc429497d2ed8ff5d9c412b93f4868",
+      "size": 14799,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/agent_runtime/capability_scopes.py": {
@@ -7558,16 +7612,40 @@
       "size": 678,
       "type": "file"
     },
+    "python/lib/python3.12/site-packages/agent_runtime/current_run/activity_watchdogs.py": {
+      "mode": 384,
+      "sha256": "451e8d93f01d544aa74579f416c7e3293bfcde7db65d54e391d64cf745aff27f",
+      "size": 35402,
+      "type": "file"
+    },
+    "python/lib/python3.12/site-packages/agent_runtime/current_run/completion_mailbox.py": {
+      "mode": 384,
+      "sha256": "6e76338ee567d4eced76ea67f5959d42435fb4c97b650fba066a3aae62b19b22",
+      "size": 7726,
+      "type": "file"
+    },
+    "python/lib/python3.12/site-packages/agent_runtime/current_run/execution_observation.py": {
+      "mode": 384,
+      "sha256": "f8a402074721d15bfa6c40abc2de6798a31d8638a0304a727a068f31a5d1173d",
+      "size": 27170,
+      "type": "file"
+    },
     "python/lib/python3.12/site-packages/agent_runtime/current_run/job_observation.py": {
       "mode": 384,
-      "sha256": "a8e0806a4a06b64a5722968522fb0cd272bfd20892b31d15c8c450ac3b0c10af",
-      "size": 1938,
+      "sha256": "b2c04518ded5fe553223c4ceaef6b12f703e4a192bac817beb4b8da52cf2e392",
+      "size": 4525,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/agent_runtime/current_run/journal_scope.py": {
       "mode": 384,
       "sha256": "b884f47c8047e9b48c97907a065ef59f036041d799624a9b6691c3d1bf47fee0",
       "size": 3619,
+      "type": "file"
+    },
+    "python/lib/python3.12/site-packages/agent_runtime/current_run/lifecycle_projection.py": {
+      "mode": 384,
+      "sha256": "9a1358756254a8936426f23c6372e9f8effb40f83284fb46deeadeb09ee74534",
+      "size": 10212,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/agent_runtime/current_run/models.py": {
@@ -7578,13 +7656,31 @@
     },
     "python/lib/python3.12/site-packages/agent_runtime/current_run/native_store.py": {
       "mode": 384,
-      "sha256": "ac146f2910437efa30a4d57162a88e4b4b563df019a97f024b0de4e416f8f908",
-      "size": 57648,
+      "sha256": "cf74d284bf65fc4875003078cde6ba932465b17b71dc2bb564600c206cd54d98",
+      "size": 73340,
+      "type": "file"
+    },
+    "python/lib/python3.12/site-packages/agent_runtime/current_run/presentation.py": {
+      "mode": 384,
+      "sha256": "d73f2e6c09d08a83b652cb525b691f8eac03b210b56cd829adf3733bf16aa264",
+      "size": 5992,
+      "type": "file"
+    },
+    "python/lib/python3.12/site-packages/agent_runtime/current_run/run_ownership.py": {
+      "mode": 384,
+      "sha256": "5cc9ec6dea46275ec8d1d500e5cd7c364e996ffa68ad76ee52ff74302295a7d5",
+      "size": 4117,
+      "type": "file"
+    },
+    "python/lib/python3.12/site-packages/agent_runtime/current_run/status_projection.py": {
+      "mode": 384,
+      "sha256": "b1fcd6837f0423eecf43083199eee9fc585a57423f8680ba6497988154e67af0",
+      "size": 2157,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/agent_runtime/current_run/store.py": {
       "mode": 384,
-      "sha256": "44972908cfacd3f65d49bd72dc6b9b4c13d7898362e936e83dce3f943493d57d",
+      "sha256": "056098809b4ae47ac4b7c7b5f6d36af8b3b2c00d25d2e66f1ef2108153c0bfb8",
       "size": 28829,
       "type": "file"
     },
@@ -7698,8 +7794,8 @@
     },
     "python/lib/python3.12/site-packages/agent_runtime/execution/effects.py": {
       "mode": 384,
-      "sha256": "d5940d0212e39839f87af65909596e1e3e326a636570269b85735adb4d0f986a",
-      "size": 28279,
+      "sha256": "56bb48696e946326d2fef31fa2e24aefcfaca0e40d6052e1728c0b2d8bec32fb",
+      "size": 28337,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/agent_runtime/execution/engine.py": {
@@ -7812,8 +7908,8 @@
     },
     "python/lib/python3.12/site-packages/agent_runtime/execution/resources.py": {
       "mode": 384,
-      "sha256": "91a7fee087d0ebe1ad3fd2f414f03adee0ff32c5a6886166780931e2ff580fbb",
-      "size": 1999,
+      "sha256": "ba91487e0bb886dd446666877e64388754836a5687fbb5bbfcdd6d68d5aff3dc",
+      "size": 2306,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/agent_runtime/execution/result_store.py": {
@@ -7842,14 +7938,14 @@
     },
     "python/lib/python3.12/site-packages/agent_runtime/execution/shell_operations.py": {
       "mode": 384,
-      "sha256": "01391e3a47fc2dcfc71983e06988d85e85abaa65ef6f18e2d78ab9b68af670ec",
-      "size": 20062,
+      "sha256": "902cc30fc41da4740ca654abc96a88214fd4c567bb0e18cc2be13c828ac8616a",
+      "size": 20086,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/agent_runtime/execution/shell_reads.py": {
       "mode": 384,
-      "sha256": "c99d526c5ab91c2d344dc6f713c2f7e29f14c9ec45f3c41501ae47d8ccf7c16e",
-      "size": 5812,
+      "sha256": "17922f89abeada3d31bef112d0fa013d21a26ea0b646ae6ada8485b12d2bd9f6",
+      "size": 8940,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/agent_runtime/execution/shell_redirects.py": {
@@ -7864,10 +7960,16 @@
       "size": 9913,
       "type": "file"
     },
+    "python/lib/python3.12/site-packages/agent_runtime/execution/shell_resources.py": {
+      "mode": 384,
+      "sha256": "2009bb5b1f8c88d45ee45c4ba61964fb2643daadb2160564c8500a99744783f8",
+      "size": 10966,
+      "type": "file"
+    },
     "python/lib/python3.12/site-packages/agent_runtime/execution/shell_syntax.py": {
       "mode": 384,
-      "sha256": "2e6716d216431cb6baf561f984040d5544f5355fc29d35d95f193eae89c7c82d",
-      "size": 30965,
+      "sha256": "cb5f7c26f958d81b1391f305edccd75dc3d01e38c37a42f444fcd6049c62968c",
+      "size": 31508,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/agent_runtime/execution/ssh_sudo.py": {
@@ -8232,8 +8334,8 @@
     },
     "python/lib/python3.12/site-packages/agent_runtime/llm/tracing.py": {
       "mode": 384,
-      "sha256": "e54d56253c09abef8e091c5fad5cb9d563c2f5a8536dcb8d3686c2139144ccb3",
-      "size": 29802,
+      "sha256": "94f2908813b705f60d850a3e92c8bafab1223df7e6902237a03ea3a565745061",
+      "size": 30331,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/agent_runtime/mentions.py": {
@@ -8280,14 +8382,38 @@
     },
     "python/lib/python3.12/site-packages/agent_runtime/native/activities.py": {
       "mode": 384,
-      "sha256": "cb3c813deeee8d897cc48438117c96291cfcfbb3729929affcf17fe53ba37203",
-      "size": 77950,
+      "sha256": "b922b7c2b042b7268b268d4609701b59cf610189a86439131c2e1620502fcd5f",
+      "size": 81187,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/agent_runtime/native/activity_effects.py": {
       "mode": 384,
       "sha256": "d6bc33b2f6fe266f78368299bc172ba16ece667239e243ebf48d2c0689074af3",
       "size": 2722,
+      "type": "file"
+    },
+    "python/lib/python3.12/site-packages/agent_runtime/native/activity_health.py": {
+      "mode": 384,
+      "sha256": "f666b9edba2a47cb47a99e6a82936917c9ee38fecc32ed797c14cbfea01f676c",
+      "size": 5384,
+      "type": "file"
+    },
+    "python/lib/python3.12/site-packages/agent_runtime/native/activity_supervision_policy.py": {
+      "mode": 384,
+      "sha256": "fe9e7c6d355c6f0a1743e77e9e928e3928403afca5850d01ba10c07b7c5f4634",
+      "size": 3412,
+      "type": "file"
+    },
+    "python/lib/python3.12/site-packages/agent_runtime/native/activity_watchdog.py": {
+      "mode": 384,
+      "sha256": "bb6fff95239ddee2479d6dfd8866ebad5085f088fd5477801ee0fc4583bdcf19",
+      "size": 20124,
+      "type": "file"
+    },
+    "python/lib/python3.12/site-packages/agent_runtime/native/agent_turns.py": {
+      "mode": 384,
+      "sha256": "40342902b975ba571e0719392a5ba722aa11814eaa0fad9f9d836bf44dd53ae8",
+      "size": 10141,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/agent_runtime/native/attachments.py": {
@@ -8298,14 +8424,14 @@
     },
     "python/lib/python3.12/site-packages/agent_runtime/native/authority_control.py": {
       "mode": 384,
-      "sha256": "bdaadd26080c053b551dac5ccdd936bcb78e28c6230ed1746299fc25bdd28681",
-      "size": 38171,
+      "sha256": "174176b8dd430ea62d499f547cc00c8e7bdc14c387a1ede9599f097aee889887",
+      "size": 38243,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/agent_runtime/native/background.py": {
       "mode": 384,
-      "sha256": "052bd264d91d86062b20b2a2844b28de773e7b73e8199185f98e5b31e63281e0",
-      "size": 47296,
+      "sha256": "d714644696e6a58d8aeb9ef15387efff9aeb161e877a01376dda5efa011a90dc",
+      "size": 54813,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/agent_runtime/native/background_policy.py": {
@@ -8316,8 +8442,8 @@
     },
     "python/lib/python3.12/site-packages/agent_runtime/native/cancellation.py": {
       "mode": 384,
-      "sha256": "edbb4390d716212382db28028aa0491316caa23fd94fbc12e37932bcf7ba9350",
-      "size": 21450,
+      "sha256": "fe2328a9bf28b8449f137fa2c00133acf4766f72da634e8a9866767ad27ae65a",
+      "size": 22157,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/agent_runtime/native/capability_activation.py": {
@@ -8328,8 +8454,8 @@
     },
     "python/lib/python3.12/site-packages/agent_runtime/native/capability_grants.py": {
       "mode": 384,
-      "sha256": "ecbe69fd5ba477cca76870463a4f22fe1b1583f3b88b38dacaa508dabbf9328a",
-      "size": 12697,
+      "sha256": "2c5e443a60094d4761bc7eeb55a6567bf2802ec30dc923cde9f6247a4c3f4364",
+      "size": 12745,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/agent_runtime/native/capability_selection.py": {
@@ -8340,8 +8466,8 @@
     },
     "python/lib/python3.12/site-packages/agent_runtime/native/capability_surface.py": {
       "mode": 384,
-      "sha256": "2803a0ecf63425411c024345daabf559275a91981067f3b8f78c3f5c8c95ead4",
-      "size": 5543,
+      "sha256": "8df45d0223536f9be1e3087a71586a233c15af89241a6e4801b048c3dc0c4359",
+      "size": 5608,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/agent_runtime/native/capability_trace.py": {
@@ -8358,8 +8484,8 @@
     },
     "python/lib/python3.12/site-packages/agent_runtime/native/catalog.py": {
       "mode": 384,
-      "sha256": "c12f68461cc60c9da4d92b08f6e0ddb938f66d5c1b3bcebcea64306ce985fd02",
-      "size": 39480,
+      "sha256": "abc59bab561dd543b5df3981a800fd0b0c084e2639d95f1e97a5ed8e2acd58e3",
+      "size": 40760,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/agent_runtime/native/compaction.py": {
@@ -8376,8 +8502,8 @@
     },
     "python/lib/python3.12/site-packages/agent_runtime/native/consumer_projection.py": {
       "mode": 384,
-      "sha256": "20b7db890edad0abc35a1a2a1eb442e38db9ed412e08e44a3f5994adb0e1998a",
-      "size": 5046,
+      "sha256": "3bfe7a3475cf57aba79e9ff43e504c6e02a4e7427b2d522601e2bd6a19e12e5c",
+      "size": 5144,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/agent_runtime/native/context.py": {
@@ -8406,14 +8532,14 @@
     },
     "python/lib/python3.12/site-packages/agent_runtime/native/continuation.py": {
       "mode": 384,
-      "sha256": "f0864acced54fdc85a8d4fe3b6f2975e5bc2ca31d60fa193325ae5ef78590f8a",
-      "size": 13054,
+      "sha256": "9dfd4a37d3b5b01964d73d1fc3edd17e02d4375e0f4ba07d974309ae11ca494a",
+      "size": 17759,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/agent_runtime/native/controls.py": {
       "mode": 384,
-      "sha256": "50092f83fc9e3968f938c6e7a2d883f824894d7370f9f3ebc1de21af63076e83",
-      "size": 19615,
+      "sha256": "9635293e9b98a4ede56e3672470562d368dadeab4b8a6ae2d0da6a95ae572a0d",
+      "size": 20420,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/agent_runtime/native/convergence.py": {
@@ -8442,26 +8568,26 @@
     },
     "python/lib/python3.12/site-packages/agent_runtime/native/dependency_graph.py": {
       "mode": 384,
-      "sha256": "c351605989d8cd4387af60ea3ab3265ab129173977d1e4c7a1517193629f384d",
-      "size": 41580,
+      "sha256": "ebe2ea0d06806810c5a1f039b3650f1e4755ad89fe81d1acec1c0e1441747129",
+      "size": 43934,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/agent_runtime/native/dependency_policy.py": {
       "mode": 384,
-      "sha256": "671ef7e679b60dc4cd6b4d15aa5fea6c56ca5a652d4bb0d503c4504fcfd482e2",
-      "size": 4123,
+      "sha256": "d22a878f9fae777efc59e15d37583141917a8878194f9d77e64697b20d1a131f",
+      "size": 4861,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/agent_runtime/native/dependency_resources.py": {
       "mode": 384,
-      "sha256": "1e6aafa4891b0afe66aa227e59ad28efe8e6af6fa0cd63cacf5aeec2d2b3148b",
-      "size": 18063,
+      "sha256": "feebca2a39d284163929fb3e80dd7c9ab7e983f772b578a5b1b28edd756b04fe",
+      "size": 19883,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/agent_runtime/native/direct_completion.py": {
       "mode": 384,
-      "sha256": "93e59dfbc619c9dc6ff8a581d76a90353b7971ea7c7041f3d8fbf9f7152b5222",
-      "size": 23987,
+      "sha256": "73d6849de22659a2052596d5dc8c332bf8090fb1c8745aba576583ade1414991",
+      "size": 24219,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/agent_runtime/native/evidence.py": {
@@ -8544,8 +8670,8 @@
     },
     "python/lib/python3.12/site-packages/agent_runtime/native/guard_strikes.py": {
       "mode": 384,
-      "sha256": "8b04c3aea6c9fea44b91e915c248c95fe433e2ed24afe303d4ce4567e5c7f404",
-      "size": 17112,
+      "sha256": "459adc5877f70edbc383d577254507b8055994c039be8e49f3e359b21c5cfdd0",
+      "size": 17221,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/agent_runtime/native/handoff_safety.py": {
@@ -8556,8 +8682,8 @@
     },
     "python/lib/python3.12/site-packages/agent_runtime/native/history.py": {
       "mode": 384,
-      "sha256": "1d5ad8dd8b22af963a926705c1726d3a95faa1ec858fa892e9db52ab8a1de634",
-      "size": 9835,
+      "sha256": "de9bec663d047470ecc0fb4710a72ba40dbc598cca5c79829ff74c12dec19258",
+      "size": 9357,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/agent_runtime/native/host.py": {
@@ -8586,14 +8712,14 @@
     },
     "python/lib/python3.12/site-packages/agent_runtime/native/http_session_state.py": {
       "mode": 384,
-      "sha256": "3645bac1e3744409c1f89112d716df7321fe031b79e27d9b9f129b5a2906a153",
-      "size": 15515,
+      "sha256": "d0c0e51b08898be91c1a49fbc224c8c7a12daf2ff13399e7c0ed0de2bdf21648",
+      "size": 15624,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/agent_runtime/native/human_input.py": {
       "mode": 384,
-      "sha256": "f88c28ba8ca56c5965d641fcf854846d8d72b8e7f26a9432b12b1b127ed4aa18",
-      "size": 7791,
+      "sha256": "0f587ecd9ea77ec234b676b3665f580a2d3922be5d3378c546841d1d86ec9a06",
+      "size": 7815,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/agent_runtime/native/inference_options.py": {
@@ -8610,14 +8736,14 @@
     },
     "python/lib/python3.12/site-packages/agent_runtime/native/jobs.py": {
       "mode": 384,
-      "sha256": "d9c76d5271e6e5c02cfa915b7693c1aae352b6c0c3f63ad4181cc762705a1a4d",
-      "size": 29771,
+      "sha256": "55758c6c9f7d9968f604857bb428e2a4b4a496278abffd9330c3a897a80ff50e",
+      "size": 33783,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/agent_runtime/native/loop.py": {
       "mode": 384,
-      "sha256": "0142bedf18620f89847f17fa4ef7c2a9c439eea51db8456a27bfa291c4f734fe",
-      "size": 13041,
+      "sha256": "e37f033fcca9ca2e15c367f948fb0d6179a0d70f3e43361db7fd28c2dff46fcc",
+      "size": 13633,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/agent_runtime/native/metrics.py": {
@@ -8628,14 +8754,26 @@
     },
     "python/lib/python3.12/site-packages/agent_runtime/native/model_decision.py": {
       "mode": 384,
-      "sha256": "b5b62fcf6c48a1336f31912238d518d1610626a1a491afaeefd6ac820117271b",
-      "size": 19632,
+      "sha256": "433cd7520b058e55a03d6b48800f356206aebacb2ee3a5d611ed6f4e8853cf9a",
+      "size": 20561,
+      "type": "file"
+    },
+    "python/lib/python3.12/site-packages/agent_runtime/native/observation_capacity.py": {
+      "mode": 384,
+      "sha256": "de106e32483cbdfa18a218cb11b8edada5140af4f1ee2c4ba44fb66e9af13b6e",
+      "size": 3235,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/agent_runtime/native/observation_diagnostics.py": {
       "mode": 384,
       "sha256": "91ef40c41a4805908a21f505ac99d33a9b3d292ad6b3df93f309ef3b2bc7448c",
       "size": 4312,
+      "type": "file"
+    },
+    "python/lib/python3.12/site-packages/agent_runtime/native/observation_schedule.py": {
+      "mode": 384,
+      "sha256": "ff3e6e8c196a5c0993666a700096c46aa8d5b551f233ce3f69050f991a599b30",
+      "size": 3219,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/agent_runtime/native/observations.py": {
@@ -8646,14 +8784,14 @@
     },
     "python/lib/python3.12/site-packages/agent_runtime/native/operations.py": {
       "mode": 384,
-      "sha256": "257a625f41cefe3a34f873c8ecced9fed7510a492f51506e949e5e2522e9a878",
-      "size": 59240,
+      "sha256": "550b30c1b5b4e7cc13db34c0edc115769ee5155498361ec0738e01491658dc54",
+      "size": 60633,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/agent_runtime/native/outcomes.py": {
       "mode": 384,
-      "sha256": "b6291136fe4067ece529261c9928b2d7b1b6b7127b24f5f2d808921600f2917e",
-      "size": 5035,
+      "sha256": "86717c502327f5b369775132063f0647297e1b1cd3f7877d06e579ed874e2c91",
+      "size": 6736,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/agent_runtime/native/output_contract.py": {
@@ -8670,14 +8808,14 @@
     },
     "python/lib/python3.12/site-packages/agent_runtime/native/parallel_tools.py": {
       "mode": 384,
-      "sha256": "e537fa6a55f30f75774e7b213efc15dc3b9ac6d1a02ee354666e5d4223cbdfa0",
-      "size": 3775,
+      "sha256": "f17ca08c05d64738a6427f90bbb9e973674b352c89928a2385c95426902d2cf4",
+      "size": 3750,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/agent_runtime/native/pause.py": {
       "mode": 384,
-      "sha256": "226463d39f26e96481a29766d221d038eaa3f24224847f34f08d2eb3ec1d7c2f",
-      "size": 9688,
+      "sha256": "8d3d911ed4e62346c3e1ac18db4c01ae6714512480b4a885457a2a9b0566bf86",
+      "size": 11043,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/agent_runtime/native/prerequisites.py": {
@@ -8694,8 +8832,8 @@
     },
     "python/lib/python3.12/site-packages/agent_runtime/native/progress.py": {
       "mode": 384,
-      "sha256": "dabbc091cbbc5ab2a0f1da96121a292bd21ef0e386ede280011a420b74c5148e",
-      "size": 11446,
+      "sha256": "edc1ed92dd358d3c2563df1f9acb374d2e5d7dc184e9f8d1a62d596ee145f114",
+      "size": 11910,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/agent_runtime/native/progress_narration.py": {
@@ -8712,14 +8850,14 @@
     },
     "python/lib/python3.12/site-packages/agent_runtime/native/protocol.py": {
       "mode": 384,
-      "sha256": "497ae23a158760e4323b2d39a1b7666f16f310620dbd0a67c82d064c4cf35158",
-      "size": 20816,
+      "sha256": "7691136fe0232979ffba6ef5f0f4048e3c3ffce0659780084cccf43298eed99d",
+      "size": 21742,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/agent_runtime/native/publication.py": {
       "mode": 384,
-      "sha256": "fb660efd19de08cd7607f018d3ff640b657a3beb1956dd31f4da9e0f279f47b8",
-      "size": 8868,
+      "sha256": "7262f753022032d3fb222b31c5e8836b8a39695faabf73da8015080193ce3aa8",
+      "size": 9107,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/agent_runtime/native/python_entrypoint_correction.py": {
@@ -8806,6 +8944,12 @@
       "size": 4003,
       "type": "file"
     },
+    "python/lib/python3.12/site-packages/agent_runtime/native/resource_locks.py": {
+      "mode": 384,
+      "sha256": "9cc6807a82e8a746ec1499adf86ecebddaef9c120432701f6dfd7a80ace88d56",
+      "size": 7080,
+      "type": "file"
+    },
     "python/lib/python3.12/site-packages/agent_runtime/native/resource_metadata.py": {
       "mode": 384,
       "sha256": "b2c01e6640371af62f80f1d66d849c2b08f4a57440332d35f1da4d23c6020246",
@@ -8814,20 +8958,20 @@
     },
     "python/lib/python3.12/site-packages/agent_runtime/native/resource_policy.py": {
       "mode": 384,
-      "sha256": "050dd5165bfdf9843bbb7f53aa87d1523f15703e77f121cb7b351fc774aab7fa",
-      "size": 8296,
+      "sha256": "6795162fe3a03e9557a4ecfb40237a505d4e0f86c7d6fdf4dffe277e2ede38ab",
+      "size": 9000,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/agent_runtime/native/resource_recovery.py": {
       "mode": 384,
-      "sha256": "0c4b12f63488cb50f99144c1cb58057f00e2348874219502161e5a76633dd26e",
-      "size": 27759,
+      "sha256": "6eb472fb5f2e039e48b5ecb044f42a91d91b0e631abf709450c248ea29bab5c9",
+      "size": 29151,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/agent_runtime/native/resource_scheduler.py": {
       "mode": 384,
-      "sha256": "c367b1642087aa220fb9ad904d930cd92a443a4247068ae2c1922c9bd6c5bcc8",
-      "size": 42092,
+      "sha256": "b99837c9dc5eba0e9083f9095531aee0d1a294bdf8289d0f6d2af3c4ef6a8674",
+      "size": 61089,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/agent_runtime/native/retention.py": {
@@ -8838,26 +8982,38 @@
     },
     "python/lib/python3.12/site-packages/agent_runtime/native/run_continuation.py": {
       "mode": 384,
-      "sha256": "0af09341fd6c1431d2b01c418f58caf776824e20a9d6e224eef7cc2bc46f18e3",
-      "size": 25324,
+      "sha256": "32ea34efba54aba79b5014d9d8f33b2e3586d657d701218711bfe3ca75ea6070",
+      "size": 25618,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/agent_runtime/native/run_lifecycle.py": {
       "mode": 384,
-      "sha256": "4fed2b1804416ee69c6dc33f6bb015709ffe1ef23578a459e98cdbec7123d9e0",
-      "size": 16291,
+      "sha256": "9d3afe8d9b32adf4deb293a172e9065d535427380bb058407e440f04c26e196b",
+      "size": 16396,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/agent_runtime/native/run_restart.py": {
       "mode": 384,
-      "sha256": "c2df02b914d1d7b79e331421cb8467dad03a6069c34bffe8afbd13c9bea55e90",
-      "size": 3765,
+      "sha256": "498294f36c3619b07561ad880ef7fe0acded350f773899567fb0729d8148624d",
+      "size": 3894,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/agent_runtime/native/runtime_facts.py": {
       "mode": 384,
       "sha256": "e9de9a82853a6a6ea22ceec363abd079ebebf85e10ba86aa81668883533222d7",
       "size": 269,
+      "type": "file"
+    },
+    "python/lib/python3.12/site-packages/agent_runtime/native/scheduler_wake.py": {
+      "mode": 384,
+      "sha256": "b0745630475dc50a2551a98cc0f020a060c2de13f93402f8e39a11d2f3efaa2b",
+      "size": 1179,
+      "type": "file"
+    },
+    "python/lib/python3.12/site-packages/agent_runtime/native/scheduling_profile.py": {
+      "mode": 384,
+      "sha256": "eed39a331320a684cd4c43a485d8f84e33f713555169fb64b1f710b94424e26c",
+      "size": 20002,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/agent_runtime/native/schema_correction.py": {
@@ -8868,8 +9024,8 @@
     },
     "python/lib/python3.12/site-packages/agent_runtime/native/shell_sequence.py": {
       "mode": 384,
-      "sha256": "48a5d3f933a2c4aef4834479d9828468bd6ebb08871a7a7b95e41ebef51ca5d9",
-      "size": 20173,
+      "sha256": "5d17b6dc87cbedab13e903bb96096b62590b4ac8654c9386f1279dfdc46eabd3",
+      "size": 20268,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/agent_runtime/native/snapshot.py": {
@@ -8880,14 +9036,14 @@
     },
     "python/lib/python3.12/site-packages/agent_runtime/native/state.py": {
       "mode": 384,
-      "sha256": "dfa76e19237cf7eb963f8dce99c5e811b42d675a7b1698260a53bfadd0631321",
-      "size": 50335,
+      "sha256": "d4ddc5d3ac2310ca76801a79ab608e1bdf5801b34cb79ea0e733b8e2b9e81f0c",
+      "size": 51674,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/agent_runtime/native/status.py": {
       "mode": 384,
-      "sha256": "906cab2542cea9d8170beb2aaa0645f500c00d60538bc1c8955879ae3c7e9f64",
-      "size": 2881,
+      "sha256": "9f5d7176908ef7769a674c3b64d19f0576e717579ee57ce163d25fcebd497777",
+      "size": 2910,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/agent_runtime/native/stop_policy.py": {
@@ -8898,8 +9054,14 @@
     },
     "python/lib/python3.12/site-packages/agent_runtime/native/summaries.py": {
       "mode": 384,
-      "sha256": "3d7705a068eb82e16168ff390c7b064e32736353fb130fba0f62eeeb04924510",
-      "size": 16955,
+      "sha256": "4b2bbb98b781d5418a41bf5a69a0f11470d39634cd4a06278b6a96bfd64a5e3f",
+      "size": 17082,
+      "type": "file"
+    },
+    "python/lib/python3.12/site-packages/agent_runtime/native/supervision_presentation.py": {
+      "mode": 384,
+      "sha256": "4255016c75de27f508da4bc1d10a47aa92dab456fcca05f6748cd844e788a654",
+      "size": 1118,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/agent_runtime/native/task_advance.py": {
@@ -8922,8 +9084,8 @@
     },
     "python/lib/python3.12/site-packages/agent_runtime/native/task_contract_attempts.py": {
       "mode": 384,
-      "sha256": "e9ff11c492cd3599be0ad0833faa37f5a1cf87cc0fe3973528258fa50c341699",
-      "size": 7831,
+      "sha256": "5c21d9cf6d7283289b966770d9aa642b3afaa1a4ee66b5693db2a06dae6cc677",
+      "size": 7855,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/agent_runtime/native/task_contract_fields.py": {
@@ -8982,8 +9144,8 @@
     },
     "python/lib/python3.12/site-packages/agent_runtime/native/task_state.py": {
       "mode": 384,
-      "sha256": "bf38438632b2e82265a59e9688e3df982ef1f96f0bbb6b97f179b4449e39134a",
-      "size": 33471,
+      "sha256": "a911a086e09a1fde00b43eb508663a06c920a14408b4cb2a4a75081da2a5a8c0",
+      "size": 33676,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/agent_runtime/native/temporal_routing.py": {
@@ -9012,8 +9174,8 @@
     },
     "python/lib/python3.12/site-packages/agent_runtime/native/turn_dispatch.py": {
       "mode": 384,
-      "sha256": "579fceff6914226e16c9575cfdc749edb7f2fd0e59808335bad765f98479c09b",
-      "size": 27515,
+      "sha256": "8c830b094f8a38ad88732d91ed4e67858c68db4645356ec3ee2088d682a8c2c3",
+      "size": 27769,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/agent_runtime/native/turn_results.py": {
@@ -9046,16 +9208,28 @@
       "size": 2508,
       "type": "file"
     },
+    "python/lib/python3.12/site-packages/agent_runtime/observability/activity_page.py": {
+      "mode": 384,
+      "sha256": "505b7ed0e4a825daad5db0521625935809299aaf036c36c4dd46ac813604c5d0",
+      "size": 6016,
+      "type": "file"
+    },
     "python/lib/python3.12/site-packages/agent_runtime/observability/agent_trace.py": {
       "mode": 384,
-      "sha256": "b844f4044b6780f2abef8295f8601cd3e7812730950b320a071a36ac9b2f3e29",
-      "size": 92252,
+      "sha256": "7cc6515bfa75ee7624310d1e2e0455536d006960c2dc5f218c7fb77acfad17cf",
+      "size": 101265,
+      "type": "file"
+    },
+    "python/lib/python3.12/site-packages/agent_runtime/observability/async_notifications.py": {
+      "mode": 384,
+      "sha256": "4ba197ccfd0d0e47edbe889505e66c4036e67cd85fb68704e1ec2b14411d3aa6",
+      "size": 1383,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/agent_runtime/observability/capability_presentation.py": {
       "mode": 384,
-      "sha256": "32420722bbfcdada492eee4e4a3a7e2b45de0713a5dd22fe14c15ee79acf4917",
-      "size": 33158,
+      "sha256": "e545fc91fe49ed732c6e8dcac7e741569feaeb3df9d9fd465c1c6f1e34eeda7c",
+      "size": 33297,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/agent_runtime/observability/content_policy.py": {
@@ -9072,14 +9246,26 @@
     },
     "python/lib/python3.12/site-packages/agent_runtime/observability/conversation_history.py": {
       "mode": 384,
-      "sha256": "46ea4d7ea051605ce5ba865ed226c33256f24d4b36bf99419827d1484b927438",
-      "size": 7380,
+      "sha256": "ad4b9867bd30b4a1b3c3f2211252e17865ddf26a0160459253ddc10fa67a7efd",
+      "size": 7426,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/agent_runtime/observability/events.py": {
       "mode": 384,
       "sha256": "3a691bdd2bc1124ac62d2779f1f7fbdb65677ac4548db3e924b74c1add3879ec",
       "size": 2122,
+      "type": "file"
+    },
+    "python/lib/python3.12/site-packages/agent_runtime/observability/execution_activity.py": {
+      "mode": 384,
+      "sha256": "c6e3d476d1f3d9439f39999ea1ecd5c958a4b1b4e8c483a5b806c004ec534442",
+      "size": 9707,
+      "type": "file"
+    },
+    "python/lib/python3.12/site-packages/agent_runtime/observability/execution_context.py": {
+      "mode": 384,
+      "sha256": "bc86d6e51c7fca35e65d14fbe8aa971fb818242d300d35d605bc1994c6283d5f",
+      "size": 5503,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/agent_runtime/observability/model_output.py": {
@@ -9102,8 +9288,8 @@
     },
     "python/lib/python3.12/site-packages/agent_runtime/observability/projection.py": {
       "mode": 384,
-      "sha256": "a9c67a49bb64e78542663938c33b6ed20898532fe29dc7302b0db93a27ab6c7d",
-      "size": 9340,
+      "sha256": "235430e68e27750854414c33fcdea5d68ba004c7c807de41a8c5e605a1826743",
+      "size": 9418,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/agent_runtime/observability/redaction.py": {
@@ -9120,14 +9306,14 @@
     },
     "python/lib/python3.12/site-packages/agent_runtime/observability/shell_inspection.py": {
       "mode": 384,
-      "sha256": "f673bcf0f81cf8d33a2c672679eb122159388cff062b0a200c45c6d89a84ef8d",
-      "size": 6393,
+      "sha256": "048db27a54dace95d3df98a109cb8f8d964453dd61dfb0f1fe2d0c8e8745b2ec",
+      "size": 6440,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/agent_runtime/observability/shell_job_inspection.py": {
       "mode": 384,
-      "sha256": "4464db134124c51895c81c9f3958dd32354d733ab851a699111216c5f54835e2",
-      "size": 2358,
+      "sha256": "e695539a4a17578c9f4164fddf39f5250b52b1d6f3f577e65bfafe214178b2a5",
+      "size": 2428,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/agent_runtime/observability/sinks.py": {
@@ -9150,14 +9336,14 @@
     },
     "python/lib/python3.12/site-packages/agent_runtime/observability/tool_activity.py": {
       "mode": 384,
-      "sha256": "9ebf2e7caf4cb6f3d2d6e4bbd543ca6fb2318de9b2aa027e0a27444d97cb2eb8",
-      "size": 20288,
+      "sha256": "53472f52121161dbc80440410190482f37d6c49769dd02ad363c12ae0102f923",
+      "size": 20600,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/agent_runtime/observability/trace_journal.py": {
       "mode": 384,
-      "sha256": "00901413fe0c9f75054f976c178c80f0b4a0fc945082b779800db7939dad44c0",
-      "size": 7489,
+      "sha256": "475b1fd75c924b64a80564396f06b6489ace35f146e3039abe953e8ae123132c",
+      "size": 9279,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/agent_runtime/output_pipeline/__init__.py": {
@@ -9282,8 +9468,8 @@
     },
     "python/lib/python3.12/site-packages/agent_runtime/permission_scopes.py": {
       "mode": 384,
-      "sha256": "65dd09f1c86f5214ddae2a8627e8c2483e2c7454deac4d4ce414311932dfeeb9",
-      "size": 12714,
+      "sha256": "a740f559609cf28ac3a9cc8cb355df85635dbea5261ef7846fa8913211412c51",
+      "size": 12738,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/agent_runtime/profiling.py": {
@@ -9378,8 +9564,8 @@
     },
     "python/lib/python3.12/site-packages/agent_runtime/recipes/store.py": {
       "mode": 384,
-      "sha256": "b2a823acdac3792ed484104a63cc4f49509b088a63fb35f13542c654374a3219",
-      "size": 24386,
+      "sha256": "b49ddfb8a465fedb3daf888f8872f593222cf2fdf145ecc0171aed40f0223d17",
+      "size": 24671,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/agent_runtime/recipes/validation.py": {
@@ -9390,8 +9576,8 @@
     },
     "python/lib/python3.12/site-packages/agent_runtime/redaction.py": {
       "mode": 384,
-      "sha256": "a3d77f4caaf5cb48469fde3f296397d11daa544b513ab8ff1df8d24f3c70890b",
-      "size": 18980,
+      "sha256": "6c7a5a5f544e6976fc1fa4f560d3564618040250b1a502cd1fe68daca9a99bca",
+      "size": 20304,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/agent_runtime/runtime_guard_policy.py": {
@@ -9528,8 +9714,8 @@
     },
     "python/lib/python3.12/site-packages/agent_runtime/skills/catalog.py": {
       "mode": 384,
-      "sha256": "7f16b3e986f5daeba6d9b8ed599a370747e5f0f3c4386c1bf2cab4c0ddee402e",
-      "size": 2831,
+      "sha256": "bd7f96df0ad844ef881d08cbd6e2d3aeedd94aa6491790fc39343a75b1a2977e",
+      "size": 2863,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/agent_runtime/skills/clipboard/__init__.py": {
@@ -9706,6 +9892,24 @@
       "size": 4710,
       "type": "file"
     },
+    "python/lib/python3.12/site-packages/agent_runtime/skills/docs/__init__.py": {
+      "mode": 384,
+      "sha256": "3323994aa8dba28fb87d708fc819d3fe14d6ae55388f0df50352dd2edd8ce647",
+      "size": 811,
+      "type": "file"
+    },
+    "python/lib/python3.12/site-packages/agent_runtime/skills/docs/skill.py": {
+      "mode": 384,
+      "sha256": "0a8fac21bbab3acde6ca80e5c4383d5bb557138902df6c68c728b6e82d9aed45",
+      "size": 4077,
+      "type": "file"
+    },
+    "python/lib/python3.12/site-packages/agent_runtime/skills/docs/tools.py": {
+      "mode": 384,
+      "sha256": "5a9985ac3b657c218fd2bd2b903ee0fc92db17778ebaaeb5b73a69bed8ec8a44",
+      "size": 9911,
+      "type": "file"
+    },
     "python/lib/python3.12/site-packages/agent_runtime/skills/email/__init__.py": {
       "mode": 384,
       "sha256": "aa0c8d0e82f961cce0c5841ff27aa6d378edb12e2bf4ef63beba762dbb856063",
@@ -9810,8 +10014,8 @@
     },
     "python/lib/python3.12/site-packages/agent_runtime/skills/gateway/transfer_checkpoint.py": {
       "mode": 384,
-      "sha256": "2840484b2b418a1eb78980f1499dda622e43c712121b6f339ed180e8a73c48ad",
-      "size": 4997,
+      "sha256": "13d81814f77db26c715d0fd6b095b071eff893451a3151a6cee3ec7b86ad9766",
+      "size": 5246,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/agent_runtime/skills/gateway/transfer_slots.py": {
@@ -10590,8 +10794,8 @@
     },
     "python/lib/python3.12/site-packages/agent_runtime/skills/selection.py": {
       "mode": 384,
-      "sha256": "9b94403501c9d479ee9f9af2953925d602f3eaa99a9b49ee3ee7260921f28426",
-      "size": 5518,
+      "sha256": "75651e9ba46c46e9cd5a4b4e1303dc5188f8464ec65e83b3d6b3cfb6eaabf9a5",
+      "size": 5775,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/agent_runtime/skills/shell/__init__.py": {
@@ -10782,8 +10986,8 @@
     },
     "python/lib/python3.12/site-packages/agent_runtime/skills/web_research/budgets.py": {
       "mode": 384,
-      "sha256": "2cd8356f1568f8ca8bf7de0c9f4afaebf08e43c7550281fec66d0f00b2df11fc",
-      "size": 8394,
+      "sha256": "b1a99e55097063e17886f53190798b7acb284902701011d47002cb6a3adadd4b",
+      "size": 8418,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/agent_runtime/skills/web_research/constraints.py": {
@@ -10884,14 +11088,14 @@
     },
     "python/lib/python3.12/site-packages/agent_runtime/tasks/dependencies.py": {
       "mode": 384,
-      "sha256": "d8b6af70c7b2ca73189fbadb46dea89c37f12817262f075284f7c57a89653056",
-      "size": 11021,
+      "sha256": "1c1c15ecfc3ca900b42002cbff60d2da3b56c2df254931a35e7225aa95fe1a44",
+      "size": 11046,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/agent_runtime/tasks/lanes.py": {
       "mode": 384,
-      "sha256": "cbe79e0641fa7d48e23b051e305643502d7c3cb3383d0959115e9e363e5ce1e1",
-      "size": 49952,
+      "sha256": "e9772eb689e68db7c3d22e31c2d5ca643c4e974a1de9b4311d9fb780b7c4c026",
+      "size": 51190,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/agent_runtime/tasks/models.py": {
@@ -10920,8 +11124,8 @@
     },
     "python/lib/python3.12/site-packages/agent_runtime/tasks/store.py": {
       "mode": 384,
-      "sha256": "01bcf3f34d456d66bc76a070fdbf1e3a9197ec04582da786634416c3cbd948c0",
-      "size": 34575,
+      "sha256": "c2f32347f15348e0f35671622264d927ec4ff876d6b0554195c7338fba40864e",
+      "size": 34718,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/agent_runtime/tools.py": {
@@ -11376,8 +11580,8 @@
     },
     "python/lib/python3.12/site-packages/aor_runtime-0.10.0.dist-info/RECORD": {
       "mode": 384,
-      "sha256": "b86214d1267f6d8262d5444205f32ebadef15aa433855b40c18307e4a5889298",
-      "size": 123456,
+      "sha256": "6379d677f2682a6260027d42df35c30b64685dfe981416e79e19794857fdcbb7",
+      "size": 129323,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/aor_runtime-0.10.0.dist-info/REQUESTED": {
@@ -11718,7 +11922,7 @@
     },
     "python/lib/python3.12/site-packages/cffi-2.1.1.dist-info/RECORD": {
       "mode": 384,
-      "sha256": "84873fd3c82a125285fa6302a09547e56d3b4c6c657abc4ac2c887bb34483569",
+      "sha256": "c084f4a96e7ec5624f014ede03f1ebfbc12fa54eba721931a5678763792e85a1",
       "size": 2580,
       "type": "file"
     },
@@ -11904,7 +12108,7 @@
     },
     "python/lib/python3.12/site-packages/charset_normalizer-3.5.2.dist-info/RECORD": {
       "mode": 384,
-      "sha256": "17ed0c1a25fdf94553ff3bd52adbb2facb926579eb155d7600617bb5d969354e",
+      "sha256": "d5c192aab87d5167bcefc73d21f2cf942334710dce7416a70fe2881eed66e437",
       "size": 2094,
       "type": "file"
     },
@@ -12036,7 +12240,7 @@
     },
     "python/lib/python3.12/site-packages/choreographer-1.4.0.dist-info/RECORD": {
       "mode": 384,
-      "sha256": "5bc5fcf00bb1feba0a564c179a2cff4e199873f99467d68a281f99aebb6da12f",
+      "sha256": "d74a4a01f59160fcb617f6568f26847528bcef9b3c9d13bbd235574859a530d7",
       "size": 4026,
       "type": "file"
     },
@@ -12450,8 +12654,8 @@
     },
     "python/lib/python3.12/site-packages/contourpy/_contourpy.cpython-312-x86_64-linux-gnu.so": {
       "mode": 448,
-      "sha256": "90b9b48a57716c6ac5bd91e251ed9c4b07f62518dc73c8362b2f4870b76c0551",
-      "size": 1007513,
+      "sha256": "7f1b9fb4dbbb5f409987c18bb8d9b481b1e291646e07313d4bc8bbfec4a62b28",
+      "size": 1009497,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/contourpy/_contourpy.pyi": {
@@ -12690,8 +12894,8 @@
     },
     "python/lib/python3.12/site-packages/cryptography/hazmat/bindings/_rust.abi3.so": {
       "mode": 448,
-      "sha256": "084cccdd83bd09a5f10f8c2220288b298152eead92d097bb6844fe70d72c9377",
-      "size": 13866801,
+      "sha256": "5676caa06c4b0aa91fb93ea2d302514cfcbf7dcd82df381ae20cabbf8661fb70",
+      "size": 13868977,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/cryptography/hazmat/bindings/_rust/__init__.pyi": {
@@ -13512,14 +13716,14 @@
     },
     "python/lib/python3.12/site-packages/error_catalog/error_msg.json": {
       "mode": 384,
-      "sha256": "2a43b44b642d6ff0b471a13bde29aa4c16aea31a73002f2bdff39d0e5374fc8d",
-      "size": 4744365,
+      "sha256": "0da6e85e47b1af7bfcb32241b669d14f61e0b12e3981e93e117bd4c21bbd4fcd",
+      "size": 4763474,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/error_catalog/http_boundary.py": {
       "mode": 384,
-      "sha256": "580ce378404099c67f4b021d36fc377b4d4ae8f0e5da8dfc309de650852b7435",
-      "size": 10737,
+      "sha256": "d06d019781ec9e31d8bc210ea0315229826da20afb2780c6c851ae55c40894c3",
+      "size": 11602,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/error_catalog/manual_projection.py": {
@@ -13570,37 +13774,37 @@
       "size": 10193,
       "type": "file"
     },
-    "python/lib/python3.12/site-packages/fastapi-0.142.2.dist-info/INSTALLER": {
+    "python/lib/python3.12/site-packages/fastapi-0.142.4.dist-info/INSTALLER": {
       "mode": 384,
       "sha256": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508",
       "size": 4,
       "type": "file"
     },
-    "python/lib/python3.12/site-packages/fastapi-0.142.2.dist-info/METADATA": {
+    "python/lib/python3.12/site-packages/fastapi-0.142.4.dist-info/METADATA": {
       "mode": 384,
-      "sha256": "53eadf5c5f121b353144e43767758d2b1ffd0bd48c942c65b82a92f487db380c",
-      "size": 27096,
+      "sha256": "0dc32e6d0528e3ca797f23cbb0f3b91f928dbb435201cef09d25cfc7aa08699f",
+      "size": 26788,
       "type": "file"
     },
-    "python/lib/python3.12/site-packages/fastapi-0.142.2.dist-info/RECORD": {
+    "python/lib/python3.12/site-packages/fastapi-0.142.4.dist-info/RECORD": {
       "mode": 384,
-      "sha256": "4016ddf6d10567a7faf6a974ba488cc5f666e78845b63f02bef9529444f787a8",
+      "sha256": "826405e1b2c1cbfe8f3c4de67c47c6d17942b8affd9bf4d4c1f90bf572ae6c7b",
       "size": 5693,
       "type": "file"
     },
-    "python/lib/python3.12/site-packages/fastapi-0.142.2.dist-info/WHEEL": {
+    "python/lib/python3.12/site-packages/fastapi-0.142.4.dist-info/WHEEL": {
       "mode": 384,
-      "sha256": "63cc452ce1fe16b4b880b13a38de2d8b4eac9765bff505038916932b7b5fc228",
-      "size": 91,
+      "sha256": "22e224df06da127147d5cc7be623364750a6962448ddd14b5d36d16a482f8054",
+      "size": 90,
       "type": "file"
     },
-    "python/lib/python3.12/site-packages/fastapi-0.142.2.dist-info/entry_points.txt": {
+    "python/lib/python3.12/site-packages/fastapi-0.142.4.dist-info/entry_points.txt": {
       "mode": 384,
       "sha256": "1827fe59b219c72193e0c526acf1a3d5c387619a06b0d3c702f3644fa86719e0",
       "size": 61,
       "type": "file"
     },
-    "python/lib/python3.12/site-packages/fastapi-0.142.2.dist-info/licenses/LICENSE": {
+    "python/lib/python3.12/site-packages/fastapi-0.142.4.dist-info/licenses/LICENSE": {
       "mode": 384,
       "sha256": "4ec89ffc81485b97fec584b2d4a961032eeffe834453894fd9c1274906cc744e",
       "size": 1086,
@@ -13614,14 +13818,14 @@
     },
     "python/lib/python3.12/site-packages/fastapi/.agents/skills/fastapi/references/dependencies.md": {
       "mode": 384,
-      "sha256": "8b6b71a03fa14680905a81f53f1883b90c2ab7ac65eefa77c2664c2d038de469",
-      "size": 3268,
+      "sha256": "9907b669ba930cb060608807fa0f23e03e8548adc68eab8c54d455587977f2fe",
+      "size": 3269,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/fastapi/.agents/skills/fastapi/references/other-tools.md": {
       "mode": 384,
-      "sha256": "a2c91995890274681ecd2f6621fa96e64226086b4eb203d46b8e9277cd47f8fd",
-      "size": 1527,
+      "sha256": "2daf0c09ec6f77d90d9c0dcfec448b4133b05302dc3a574dafce0216bf4d6339",
+      "size": 1566,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/fastapi/.agents/skills/fastapi/references/path-operations.md": {
@@ -13644,13 +13848,13 @@
     },
     "python/lib/python3.12/site-packages/fastapi/.agents/skills/fastapi/references/streaming.md": {
       "mode": 384,
-      "sha256": "6c76882a7c1b4e477b4d45509bfbb16a9527025106e2b76f00b57d9280f9ca92",
-      "size": 2581,
+      "sha256": "3ff148c6d153affa960f421d13d27eb8225b70e579ed833c61c6b1a9ff17fa87",
+      "size": 2582,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/fastapi/__init__.py": {
       "mode": 384,
-      "sha256": "224077a1444f232420f86eeba7436c8db52893c1b2670dc4c635a3d3c5618433",
+      "sha256": "d652be251557d4e331c6af5b3610f5719a069e37808ced073db42939d7c2db2a",
       "size": 1081,
       "type": "file"
     },
@@ -13926,8 +14130,8 @@
     },
     "python/lib/python3.12/site-packages/fastapi/telemetry/_asgi.py": {
       "mode": 384,
-      "sha256": "81f6119a96adc204d00889cbf520142f11bf1e54ed0d8cb8e765ba6573451524",
-      "size": 16724,
+      "sha256": "e9207b062712f4c0c9fd41e371755756fe5723c114355a70d45b33f033ad8c2a",
+      "size": 17315,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/fastapi/telemetry/_runtime.py": {
@@ -16110,7 +16314,7 @@
     },
     "python/lib/python3.12/site-packages/fonttools-4.66.1.dist-info/RECORD": {
       "mode": 384,
-      "sha256": "4ccd7d6c41f90192d3debc13f271966fc0648cb9ad0ead11513ca22a3e37b917",
+      "sha256": "e1e3e6519c8292811538c522983555d2cb8790585ff8caca27de9b99cd679994",
       "size": 32625,
       "type": "file"
     },
@@ -16146,8 +16350,8 @@
     },
     "python/lib/python3.12/site-packages/gateway_agent/README.md": {
       "mode": 384,
-      "sha256": "9add4c7a8bf249deb539a9507cc91b521cf0bd367cc8fa09022bcb5699ed1a2a",
-      "size": 17960,
+      "sha256": "d5708eedf3ac0d1edf33521c9f207b3eea2c4046106b1369715887d1be202c29",
+      "size": 18669,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/gateway_agent/__init__.py": {
@@ -16198,10 +16402,16 @@
       "size": 1173,
       "type": "file"
     },
+    "python/lib/python3.12/site-packages/gateway_agent/reset.sh": {
+      "mode": 384,
+      "sha256": "8e13de0d5ec658235d944963abe16726e0873f5d7893f2873eb8d2336641dd36",
+      "size": 892,
+      "type": "file"
+    },
     "python/lib/python3.12/site-packages/gateway_agent/startup.sh": {
       "mode": 384,
-      "sha256": "92bd281f609acbb2c40fb5228ce68f94af0b5510268a4e3e1b50a4466cdd5d7b",
-      "size": 3728,
+      "sha256": "f394d44cd77ff9a418ff14c2b1ce07d3886883e523820f3695a3204ecd3f8c65",
+      "size": 3914,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/gateway_agent/terminal.py": {
@@ -16224,8 +16434,8 @@
     },
     "python/lib/python3.12/site-packages/gateway_core/app.py": {
       "mode": 384,
-      "sha256": "8ffd2e6e6201c96b77721d9e1c0c316e690447f6073db219e3cbf466435116e2",
-      "size": 24445,
+      "sha256": "2eef059d2d921895e929b8a4771b73cd45660fcf058b8fa36e268f29b6eaf223",
+      "size": 24694,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/gateway_core/archive_capabilities.py": {
@@ -16696,10 +16906,16 @@
       "size": 1802,
       "type": "file"
     },
+    "python/lib/python3.12/site-packages/gateway_core/job_progress.py": {
+      "mode": 384,
+      "sha256": "854c9d322a5859eba3616e815fce56f2ef8f7ad84f2be71f2b60ece06d192b1b",
+      "size": 2679,
+      "type": "file"
+    },
     "python/lib/python3.12/site-packages/gateway_core/jobs.py": {
       "mode": 384,
-      "sha256": "ea9c5d02c8b86b41a37771891ada53de475984cafbafb65b00ee426c6e09cd0f",
-      "size": 47193,
+      "sha256": "bc6a08c78ae0479f3601d9c856fa539d039ac9a17bb84036a5ddf4b375e3bac4",
+      "size": 50452,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/gateway_core/kubernetes_context.py": {
@@ -16830,8 +17046,8 @@
     },
     "python/lib/python3.12/site-packages/gateway_core/outbound.py": {
       "mode": 384,
-      "sha256": "dd5fcc5c7f5a90dd56ebdc27ab479a5c036245aaee2b964f2cbaa50fd1155a8c",
-      "size": 24859,
+      "sha256": "4e7a60f28b627b076fff305725a729a52e33274d57cbd44dade53315d5f3f450",
+      "size": 25048,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/gateway_core/outbound_auth.py": {
@@ -17026,22 +17242,34 @@
       "size": 2489,
       "type": "file"
     },
+    "python/lib/python3.12/site-packages/gateway_core/process_telemetry.py": {
+      "mode": 384,
+      "sha256": "5e857f1ea6444828e414f180c66cbbadc93fe88ebf535ec28dfdd2545065b50f",
+      "size": 2407,
+      "type": "file"
+    },
     "python/lib/python3.12/site-packages/gateway_core/removable_destinations.py": {
       "mode": 384,
       "sha256": "f8d24e74b3c5c6aa897a6d6e9234228ad15396b76fa577e4bf4f95e6f85e7f9d",
       "size": 3552,
       "type": "file"
     },
+    "python/lib/python3.12/site-packages/gateway_core/reset.py": {
+      "mode": 384,
+      "sha256": "84c7100366c5dcc7ba413772690bc2f52959f91e773803298b9a138aa0f079c0",
+      "size": 4241,
+      "type": "file"
+    },
     "python/lib/python3.12/site-packages/gateway_core/resource_claims.py": {
       "mode": 384,
-      "sha256": "6d252460bc690d0cbdee3a431ba9f2d3a6653d24716cd065e423ab6580d24574",
-      "size": 19562,
+      "sha256": "2b55c5d99ca1dfd6832e962f5a168b5d2e463af446758083fe795cf51d6d936d",
+      "size": 19677,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/gateway_core/resource_descriptors.py": {
       "mode": 384,
-      "sha256": "8adcc9b2623f9f3fac2fce33b558aa913d986830ff301ef08c304eb0b9bd7582",
-      "size": 5023,
+      "sha256": "9d4484527abef87dfc45f5b48a458e73759b39c3a0276acae6ddd990d870b79a",
+      "size": 5518,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/gateway_core/resource_execution.py": {
@@ -17100,8 +17328,8 @@
     },
     "python/lib/python3.12/site-packages/gateway_core/service.py": {
       "mode": 384,
-      "sha256": "8a1c48911efcedb3ff687d6fbb03f5977ce5a14732a9753aeaec5a64fcaa5a17",
-      "size": 59824,
+      "sha256": "095e87d3b989b496b291779aa3cfa4bef3ddf465cf6adc1f89b666f2f12f40bf",
+      "size": 59918,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/gateway_core/slurm_context.py": {
@@ -17120,6 +17348,12 @@
       "mode": 384,
       "sha256": "8f40560fc46d2c6dd83ce241c09ef68a1330ea646ee4104999fab7f521337d73",
       "size": 17236,
+      "type": "file"
+    },
+    "python/lib/python3.12/site-packages/gateway_core/state_lifecycle.py": {
+      "mode": 384,
+      "sha256": "c6ff5047e4f293f04e07c2171b89b6aea6fde429620be06acbe465c35e2c39a8",
+      "size": 1808,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/gateway_core/terminal.py": {
@@ -17256,8 +17490,8 @@
     },
     "python/lib/python3.12/site-packages/google/auth/_agent_identity_utils.py": {
       "mode": 384,
-      "sha256": "e98aeee495aab1890bec1e666bcf7b281f9a20941e0026be41326f29f6a6e900",
-      "size": 14031,
+      "sha256": "99eb300608a51d873994cfdb8dea878ef6c1e07e98d656c6336e65ecdf12dbf2",
+      "size": 16604,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/google/auth/_cache.py": {
@@ -17376,8 +17610,8 @@
     },
     "python/lib/python3.12/site-packages/google/auth/aio/transport/sessions.py": {
       "mode": 384,
-      "sha256": "b5797449257d13089fb1f4083c84d99d3502eda9754c61e1d1f48e0202fc035e",
-      "size": 44202,
+      "sha256": "cc5b8b30d58d78757b63a7663a012389a1e2a82016c362648e8983d7b29c3f3d",
+      "size": 43838,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/google/auth/api_key.py": {
@@ -17406,8 +17640,8 @@
     },
     "python/lib/python3.12/site-packages/google/auth/compute_engine/_metadata.py": {
       "mode": 384,
-      "sha256": "ee351019e566d740f1c37c9a4d251c8c8a042e1ba25cbc727510d7a086b7570c",
-      "size": 18370,
+      "sha256": "1e485a5fcccfffb854fd163043c384b62635fb8858dc985a8271d7f38aa3ebad",
+      "size": 20235,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/google/auth/compute_engine/_mtls.py": {
@@ -17418,8 +17652,8 @@
     },
     "python/lib/python3.12/site-packages/google/auth/compute_engine/credentials.py": {
       "mode": 384,
-      "sha256": "944adef626ff71382ea1a8175d802b97e80382b9f5278b60d4fd24c6a5cfe6c3",
-      "size": 23047,
+      "sha256": "f3607161fca1a0b091115ce0e554371bb8baf63e9066a6b0d1808fbb403315cd",
+      "size": 24056,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/google/auth/credentials.py": {
@@ -17484,8 +17718,8 @@
     },
     "python/lib/python3.12/site-packages/google/auth/environment_vars.py": {
       "mode": 384,
-      "sha256": "a1b425f62ed62d04b2e9b3655743287cde8770292a654b748e7ce32d60021af3",
-      "size": 5317,
+      "sha256": "1304025f88099e4c2beabe6b42f359acfb0e03f87f2969bd63a5f7e2b125b4b2",
+      "size": 5770,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/google/auth/exceptions.py": {
@@ -17514,8 +17748,8 @@
     },
     "python/lib/python3.12/site-packages/google/auth/identity_pool.py": {
       "mode": 384,
-      "sha256": "1fb8f0db19d3c86afef7db05247872fb0e4bda94bb26f862695a529c23b6d7fb",
-      "size": 25218,
+      "sha256": "a992098792ad5f4d0036a827d0e6c7789e4bca1da4a907596e51c58ea7c96292",
+      "size": 25294,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/google/auth/impersonated_credentials.py": {
@@ -17574,8 +17808,8 @@
     },
     "python/lib/python3.12/site-packages/google/auth/transport/_mtls_helper.py": {
       "mode": 384,
-      "sha256": "2b803d7298aec8ffc654fce2f936f5e0234c0515c144f7ee83d196acfcbcf5ec",
-      "size": 32574,
+      "sha256": "b52e7fb6c8b7072f4030326e3bf20051e1af54ccb5da7951139780bcb30e6b19",
+      "size": 35845,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/google/auth/transport/_requests_base.py": {
@@ -17592,8 +17826,8 @@
     },
     "python/lib/python3.12/site-packages/google/auth/transport/mtls.py": {
       "mode": 384,
-      "sha256": "b85aff52eee38db4929b566b043fb96baf727b024230526b201faf38d9e50929",
-      "size": 10662,
+      "sha256": "d329949c06f6f1f84db0e8007c127c53a24c7a7b44ce1a5f772450a0c45ce63d",
+      "size": 11049,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/google/auth/transport/requests.py": {
@@ -17610,7 +17844,7 @@
     },
     "python/lib/python3.12/site-packages/google/auth/version.py": {
       "mode": 384,
-      "sha256": "04f2f26c4451bc968610de03f76f1d4c0d17ae0be0d8144f5b24dfb4103ce620",
+      "sha256": "7285a797e8d44a0269b8d7d0e05cdd6038515bd1d85a0f4b400fbff8ddebd526",
       "size": 598,
       "type": "file"
     },
@@ -17640,8 +17874,8 @@
     },
     "python/lib/python3.12/site-packages/google/oauth2/_id_token_async.py": {
       "mode": 384,
-      "sha256": "1328ffc3cb702ead43856bab8b5ab2cd0aa12543cd78ac916bd6a751cfc15a2d",
-      "size": 10125,
+      "sha256": "8cae2c594176d938d46317f28528add6af1e41e52fae9328b03be957dd8dbe6e",
+      "size": 11320,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/google/oauth2/_reauth_async.py": {
@@ -17676,8 +17910,8 @@
     },
     "python/lib/python3.12/site-packages/google/oauth2/id_token.py": {
       "mode": 384,
-      "sha256": "ed5c48120a2ab2eaa2fada8e7018a447d476d29fbe856958f440a7b3b7b87c34",
-      "size": 14159,
+      "sha256": "6bebf75ce4c21199aae8d46085cfef20bdac008ba107bf1bcdadc25294e04e3e",
+      "size": 16333,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/google/oauth2/py.typed": {
@@ -17728,37 +17962,37 @@
       "size": 5386,
       "type": "file"
     },
-    "python/lib/python3.12/site-packages/google_auth-2.60.0.dist-info/INSTALLER": {
+    "python/lib/python3.12/site-packages/google_auth-2.61.0.dist-info/INSTALLER": {
       "mode": 384,
       "sha256": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508",
       "size": 4,
       "type": "file"
     },
-    "python/lib/python3.12/site-packages/google_auth-2.60.0.dist-info/METADATA": {
+    "python/lib/python3.12/site-packages/google_auth-2.61.0.dist-info/METADATA": {
       "mode": 384,
-      "sha256": "094664a32831fd54d2a20ee4caf683081151d70200ad41f5119b3a322842d7f6",
+      "sha256": "ead2293a5185d5f0a586cefbdfe3353d4f68c9e23dd90ee6cffeee4d89a0c01d",
       "size": 6005,
       "type": "file"
     },
-    "python/lib/python3.12/site-packages/google_auth-2.60.0.dist-info/RECORD": {
+    "python/lib/python3.12/site-packages/google_auth-2.61.0.dist-info/RECORD": {
       "mode": 384,
-      "sha256": "5c042c9ca4e0c541595a5a13bbae6dbc57e9760e21318039a01a57ae6cb4642a",
+      "sha256": "5d121c03e585211912d9c66bed37e19b1ef0090b8783512bc68e3371ccae619c",
       "size": 7579,
       "type": "file"
     },
-    "python/lib/python3.12/site-packages/google_auth-2.60.0.dist-info/WHEEL": {
+    "python/lib/python3.12/site-packages/google_auth-2.61.0.dist-info/WHEEL": {
       "mode": 384,
       "sha256": "61532836a2b3111b7ec23519c09df7c41180c27165fb872a6d8913b566b88ad1",
       "size": 91,
       "type": "file"
     },
-    "python/lib/python3.12/site-packages/google_auth-2.60.0.dist-info/licenses/LICENSE": {
+    "python/lib/python3.12/site-packages/google_auth-2.61.0.dist-info/licenses/LICENSE": {
       "mode": 384,
       "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
       "size": 11357,
       "type": "file"
     },
-    "python/lib/python3.12/site-packages/google_auth-2.60.0.dist-info/top_level.txt": {
+    "python/lib/python3.12/site-packages/google_auth-2.61.0.dist-info/top_level.txt": {
       "mode": 384,
       "sha256": "ff542f48922114019fc5befd0fa0e107b494c365fa4f8af09f3fcb2eb6dc0f77",
       "size": 7,
@@ -17916,8 +18150,8 @@
     },
     "python/lib/python3.12/site-packages/greenlet/_greenlet.cpython-312-x86_64-linux-gnu.so": {
       "mode": 448,
-      "sha256": "1fc05a23f5f84c57eadbe7e3f5ed2fe59de0700fd9b8004ec5aa960c1ee9a120",
-      "size": 1398617,
+      "sha256": "887956045a08fd9ee3eea114d3019633a37a6b5a0af66f60cc416c744e227611",
+      "size": 1401049,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/greenlet/greenlet.cpp": {
@@ -18198,8 +18432,8 @@
     },
     "python/lib/python3.12/site-packages/greenlet/tests/_test_extension_cpp.cpython-312-x86_64-linux-gnu.so": {
       "mode": 448,
-      "sha256": "c1141e7e1bbb9d0b6e7a6ba6c617adbaa8b53e2f7196e6300baee3072d822d4b",
-      "size": 63545,
+      "sha256": "7faed52776dfff3734ff6b1ad7b93342cc4d34894abc90279d4560a25af1e818",
+      "size": 65913,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/greenlet/tests/fail_c_stack_refs_suspended_gc.py": {
@@ -18618,7 +18852,7 @@
     },
     "python/lib/python3.12/site-packages/idna-3.20.dist-info/RECORD": {
       "mode": 384,
-      "sha256": "56cc59933b18750d27a78abce99446f3df0c0961e7823322fbf80693e117ec01",
+      "sha256": "42934663d26d6297624069d3ffdf3766ac4419ded998533833132d725f03638e",
       "size": 1343,
       "type": "file"
     },
@@ -18720,7 +18954,7 @@
     },
     "python/lib/python3.12/site-packages/jsonschema-4.26.0.dist-info/RECORD": {
       "mode": 384,
-      "sha256": "00cae69ca90b573175a7b06670d3f843bd50951403c5f3996544b35952a95c7e",
+      "sha256": "ef0ca328334091b56c204389a219baef8c7bbc9df810f81286d04f3c5b75bf66",
       "size": 4042,
       "type": "file"
     },
@@ -19222,43 +19456,43 @@
       "size": 330,
       "type": "file"
     },
-    "python/lib/python3.12/site-packages/kaleido-1.4.0.dist-info/INSTALLER": {
+    "python/lib/python3.12/site-packages/kaleido-1.5.0.dist-info/INSTALLER": {
       "mode": 384,
       "sha256": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508",
       "size": 4,
       "type": "file"
     },
-    "python/lib/python3.12/site-packages/kaleido-1.4.0.dist-info/LICENSE.md": {
+    "python/lib/python3.12/site-packages/kaleido-1.5.0.dist-info/METADATA": {
       "mode": 384,
-      "sha256": "23d9b15f8d7806b212955a819411062051e4069fe4892cae66931c832fc8bde3",
-      "size": 1073,
+      "sha256": "b228e210d9bb27de6dd2e7008dcfadf323154d76672dcef996a1f6ef186825d2",
+      "size": 7460,
       "type": "file"
     },
-    "python/lib/python3.12/site-packages/kaleido-1.4.0.dist-info/METADATA": {
+    "python/lib/python3.12/site-packages/kaleido-1.5.0.dist-info/RECORD": {
       "mode": 384,
-      "sha256": "82c4e46094bd221e798e4b6214f52d998f08fbec7438d842300ef39175f136e9",
-      "size": 7469,
+      "sha256": "0ede0924a1d48f4a3d2f7b4457b6269d61c3b87e94c06c2d5624ee3945ab3309",
+      "size": 2360,
       "type": "file"
     },
-    "python/lib/python3.12/site-packages/kaleido-1.4.0.dist-info/RECORD": {
+    "python/lib/python3.12/site-packages/kaleido-1.5.0.dist-info/WHEEL": {
       "mode": 384,
-      "sha256": "711764a79ba6977e3cc7c1f766b62eeff7fbaef9275560d2cc81e6ef129e9cb0",
-      "size": 2351,
-      "type": "file"
-    },
-    "python/lib/python3.12/site-packages/kaleido-1.4.0.dist-info/WHEEL": {
-      "mode": 384,
-      "sha256": "04d44c0f2ccb92472696fd09f29a434249365440f7dd27ac243ca7afd103d607",
+      "sha256": "69e6228a0d35958183cc1812f07c565ce837b95eb51bd8a33acba9fa4f68d6c9",
       "size": 91,
       "type": "file"
     },
-    "python/lib/python3.12/site-packages/kaleido-1.4.0.dist-info/entry_points.txt": {
+    "python/lib/python3.12/site-packages/kaleido-1.5.0.dist-info/entry_points.txt": {
       "mode": 384,
       "sha256": "cd4b25241fea570800a08bd798f0016877b68083ca7df2fc35a581810cd4c365",
       "size": 120,
       "type": "file"
     },
-    "python/lib/python3.12/site-packages/kaleido-1.4.0.dist-info/top_level.txt": {
+    "python/lib/python3.12/site-packages/kaleido-1.5.0.dist-info/licenses/LICENSE.md": {
+      "mode": 384,
+      "sha256": "23d9b15f8d7806b212955a819411062051e4069fe4892cae66931c832fc8bde3",
+      "size": 1073,
+      "type": "file"
+    },
+    "python/lib/python3.12/site-packages/kaleido-1.5.0.dist-info/top_level.txt": {
       "mode": 384,
       "sha256": "95751763ec7a4bf5ccf110cabab9db862bc2405eae8e91c4f320fbf2e199b3ef",
       "size": 8,
@@ -19296,14 +19530,14 @@
     },
     "python/lib/python3.12/site-packages/kaleido/_kaleido_tab/_tab.py": {
       "mode": 384,
-      "sha256": "2eb3694323717a379a73e09e6316265ab49eb21492f3285270c8745234adedfc",
-      "size": 8058,
+      "sha256": "6c98c0b6409b0033ab5efb60bae0c2bf3b9ae73c106e0143dd5b5f2dc504be8d",
+      "size": 5902,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/kaleido/_page_generator.py": {
       "mode": 384,
-      "sha256": "9bf2f01756ccd00adeeee7e7fcb644fdc79185f804dcf1370c9b723ce5431874",
-      "size": 4731,
+      "sha256": "9f7d44362f86efdaf060c50a43148823e957e4bf63209ca7b545653e57d37662",
+      "size": 4724,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/kaleido/_profiler.py": {
@@ -19320,8 +19554,8 @@
     },
     "python/lib/python3.12/site-packages/kaleido/_utils/__init__.py": {
       "mode": 384,
-      "sha256": "bb66fcb2b33e1f6b5b9c0f5b56ab0c7039a51c0cbe2303128748a7b37853a8c8",
-      "size": 3488,
+      "sha256": "6a18915b1ddcb6a8aa7df1241b26cc5e85efb32e91eb84dd3fa9c4652c0180ad",
+      "size": 3519,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/kaleido/_utils/fig_tools.py": {
@@ -19344,8 +19578,8 @@
     },
     "python/lib/python3.12/site-packages/kaleido/kaleido.py": {
       "mode": 384,
-      "sha256": "2d3c236d85d2257264ab168c1aca8012eb42f24a67f673382e0dc8ec968ad924",
-      "size": 21891,
+      "sha256": "c69dad98038577b5ec6ff637295c6a4ec26b2e5af7edf8d969d98686c99a9c61",
+      "size": 22305,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/kaleido/mocker/__init__.py": {
@@ -19368,8 +19602,8 @@
     },
     "python/lib/python3.12/site-packages/kaleido/mocker/_utils.py": {
       "mode": 384,
-      "sha256": "e8bc8582f6677cf82d5f89d8b2f90b58d3d78b0ba46334aea5fc1c50c6fe3ebb",
-      "size": 2139,
+      "sha256": "a6067fcb519bcdde6ae2d8cb8c05d96945e2055898c89a561b13ad668725a357",
+      "size": 2144,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/kaleido/vendor/kaleido_scopes.js": {
@@ -19422,8 +19656,8 @@
     },
     "python/lib/python3.12/site-packages/kiwisolver/_cext.cpython-312-x86_64-linux-gnu.so": {
       "mode": 448,
-      "sha256": "ee1bfb46191c5aba52298ea9e8859bd071ac00faf9e29a49750b81630ade02b4",
-      "size": 5754105,
+      "sha256": "84b0b64a82c716e948dbcf4c30d6396a41e7a5fcde1a400b3d2d6615bebf2de9",
+      "size": 5756409,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/kiwisolver/_cext.pyi": {
@@ -19512,8 +19746,8 @@
     },
     "python/lib/python3.12/site-packages/manual/app.py": {
       "mode": 384,
-      "sha256": "9e914d82072fb1141cf7489db972f43e1467c66c5e98e8ffd0910e2151671e83",
-      "size": 8967,
+      "sha256": "a77135d82aa1953c3b365e505e47fb2eb770ef2864ffc38495213e8b6f7944ec",
+      "size": 9548,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/manual/content/01-home.md": {
@@ -19524,8 +19758,8 @@
     },
     "python/lib/python3.12/site-packages/manual/content/02-install-startup.md": {
       "mode": 384,
-      "sha256": "d5927734ea648efa113a1d8776a79f0a2e948c0ccdf28ba51acfa39a259bb85b",
-      "size": 4138,
+      "sha256": "591edda4a03461697fc83ad0818e0dbc3502794b031e097d6d2d2a0e7692c179",
+      "size": 5433,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/manual/content/09-configuration-storage.md": {
@@ -19578,8 +19812,8 @@
     },
     "python/lib/python3.12/site-packages/manual/content/25-model-configuration.md": {
       "mode": 384,
-      "sha256": "a6c258cf14ae34431b8fb8226c197a94377c7593136a96ef2128a10ad9a83e2c",
-      "size": 29117,
+      "sha256": "438c95df22ddccde9fcdd0b4ffb77b8786af5ef343f5fac7cec3bb6134d07a34",
+      "size": 29105,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/manual/content/26-auth-and-email.md": {
@@ -19662,8 +19896,8 @@
     },
     "python/lib/python3.12/site-packages/manual/content/architecture/02-request-lifecycle.md": {
       "mode": 384,
-      "sha256": "e8294230869a145920a1e49139d3c9dda4295be8b33ebe9f910858b0eee51f6c",
-      "size": 18446,
+      "sha256": "e8770715a80fd68a5c79cdd9fa19f341318b127ebcecb4c7517dcc3d48b94b74",
+      "size": 19999,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/manual/content/architecture/03-tool-contract.md": {
@@ -19680,8 +19914,8 @@
     },
     "python/lib/python3.12/site-packages/manual/content/architecture/05-execution.md": {
       "mode": 384,
-      "sha256": "d671029d16410e585d1a0acd6a457237b88869d394ec24fb82eb7bd6fabb8924",
-      "size": 6410,
+      "sha256": "02dd1f0b71285384a4859e261868374658388296d1873b67922d05107014b17e",
+      "size": 7610,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/manual/content/architecture/06-result-chaining.md": {
@@ -19704,8 +19938,8 @@
     },
     "python/lib/python3.12/site-packages/manual/content/architecture/09-jobs.md": {
       "mode": 384,
-      "sha256": "2ecc2a8190c0bcd9c7c60a2c25a3300a3905bc048e6a4d26518e97727372d15f",
-      "size": 5482,
+      "sha256": "06e7932df20e71fa284b32bfcd68befdd08be248a885e08ecaa54c51667a2548",
+      "size": 11688,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/manual/content/architecture/10-events.md": {
@@ -19758,8 +19992,8 @@
     },
     "python/lib/python3.12/site-packages/manual/content/architecture/19-scheduling.md": {
       "mode": 384,
-      "sha256": "1fcea052633e1748f74644d82e86354aa122ad774392da9cd63747c6ddba3692",
-      "size": 18103,
+      "sha256": "eb086b1928963f85926b7a2a490890200aa87d6f4acf741f2be691c8a5e65251",
+      "size": 27060,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/manual/content/architecture/20-task-contract.md": {
@@ -19782,8 +20016,8 @@
     },
     "python/lib/python3.12/site-packages/manual/content/architecture/23-observability.md": {
       "mode": 384,
-      "sha256": "b4d3c4b6e66a970524d490c1331663dde00f066f1266e1300d5122bcbc43f890",
-      "size": 12651,
+      "sha256": "4bf6556023e591b422adedc97cd2c99f471bad28986afb08deab6f83b95866a5",
+      "size": 20528,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/manual/content/architecture/24-gateway-platforms.md": {
@@ -19880,6 +20114,12 @@
       "mode": 384,
       "sha256": "858fb4539fa477813b7116547490ab2d59b49b5f3e6f670343bb36b390f046ae",
       "size": 24990,
+      "type": "file"
+    },
+    "python/lib/python3.12/site-packages/manual/content/docs-skill.md": {
+      "mode": 384,
+      "sha256": "854ce1b97950c641c46181562518fd5f5b0f67f79b3f5af264c13545d28453a2",
+      "size": 3998,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/manual/content/legacy/01_overview_for_humans.md": {
@@ -20104,6 +20344,12 @@
       "size": 5287,
       "type": "file"
     },
+    "python/lib/python3.12/site-packages/manual/corpus.py": {
+      "mode": 384,
+      "sha256": "ea338d88108f5ee306148eb3690fa708229277dd40c6720139b6bfeceeb247a9",
+      "size": 20540,
+      "type": "file"
+    },
     "python/lib/python3.12/site-packages/manual/documentation_audit.py": {
       "mode": 384,
       "sha256": "2d82fe5fcefb0b942e8609dfd204789d49abe197bdaa281669dcb3abd4b4e2b5",
@@ -20118,14 +20364,32 @@
     },
     "python/lib/python3.12/site-packages/manual/documents.py": {
       "mode": 384,
-      "sha256": "c5b25fc5514dca9df4bd10ca39a368f9e9def9baee799a02137a4a3f5018753d",
-      "size": 21122,
+      "sha256": "ead6363a0be2abc0ee5717b9c04f4309fda329b3db731aec0e7dac0bb3363748",
+      "size": 22895,
+      "type": "file"
+    },
+    "python/lib/python3.12/site-packages/manual/generated_cache.py": {
+      "mode": 384,
+      "sha256": "a2d9c8c722160981961170d54d9578f285c2e2e4a3a05c1a935d1cb65159b2a3",
+      "size": 8271,
+      "type": "file"
+    },
+    "python/lib/python3.12/site-packages/manual/reference_builder.py": {
+      "mode": 384,
+      "sha256": "571343476ac37fa09a096864cbd0196ac3f7c0b9e97486c7916d29935595219a",
+      "size": 1341,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/manual/search.py": {
       "mode": 384,
-      "sha256": "a1afa8d6098bd3ed14e5ded18f86a69609710c56d258ee44c6462789925698dd",
-      "size": 8505,
+      "sha256": "4b7a6484828d3c365516a8ceb91b9bb102c784182a9c0db9691f4034592b515a",
+      "size": 13846,
+      "type": "file"
+    },
+    "python/lib/python3.12/site-packages/manual/sections.py": {
+      "mode": 384,
+      "sha256": "a557a4bd51aa9e27f934b3cc7424ded8dcbf1887343f0794cbcd25919db1c868",
+      "size": 5187,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/manual/source_catalog.py": {
@@ -20604,7 +20868,7 @@
     },
     "python/lib/python3.12/site-packages/markdown_it_py-3.0.0.dist-info/RECORD": {
       "mode": 384,
-      "sha256": "3aef73033add2f01f205b81e5b50e9dfc13acff152b9e60084ed526e42edd373",
+      "sha256": "38dae3dca6b57494004e653df0fe72cf5f12c89c1bb39fee7a2c56e5033233a4",
       "size": 6795,
       "type": "file"
     },
@@ -20706,8 +20970,8 @@
     },
     "python/lib/python3.12/site-packages/matplotlib/_c_internal_utils.cpython-312-x86_64-linux-gnu.so": {
       "mode": 448,
-      "sha256": "906b97d66a860262b07ad1bedf339c88d7a8b42871e4ab3adf5af3ac38985eb9",
-      "size": 282105,
+      "sha256": "6642d267da73b42b02c6a4f281376edc4bfb1e602ce818739ddd02f95e2d524a",
+      "size": 284025,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/matplotlib/_c_internal_utils.pyi": {
@@ -20790,8 +21054,8 @@
     },
     "python/lib/python3.12/site-packages/matplotlib/_image.cpython-312-x86_64-linux-gnu.so": {
       "mode": 448,
-      "sha256": "7f50f3feaaf6376e20b1987aef8a81c3278e750ad39ff217dd78e605f443c327",
-      "size": 619761,
+      "sha256": "73a9990495e62da2431716d707f978ff01f025ca3ca3e5c361a20ba8ed5cbe03",
+      "size": 621681,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/matplotlib/_image.pyi": {
@@ -20826,8 +21090,8 @@
     },
     "python/lib/python3.12/site-packages/matplotlib/_path.cpython-312-x86_64-linux-gnu.so": {
       "mode": 448,
-      "sha256": "a64effd7050761263ec2c783aa278eeb3569cd7403705c150b49611b597d2fa4",
-      "size": 520849,
+      "sha256": "d19afac614813b9b88e796297011df81ccc57ea76e2b7cc2d4dd8fa81ab5a1b7",
+      "size": 522769,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/matplotlib/_path.pyi": {
@@ -20850,8 +21114,8 @@
     },
     "python/lib/python3.12/site-packages/matplotlib/_qhull.cpython-312-x86_64-linux-gnu.so": {
       "mode": 448,
-      "sha256": "04cfc99704877d07d921d202b3c9390abba396975efa0c63b91dcde7fb243093",
-      "size": 770449,
+      "sha256": "fc6f83b83366d19d260bef3ce05a5b64ea6abc7ce3fa16b63551e0788fbfc6ec",
+      "size": 772369,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/matplotlib/_qhull.pyi": {
@@ -20886,8 +21150,8 @@
     },
     "python/lib/python3.12/site-packages/matplotlib/_tri.cpython-312-x86_64-linux-gnu.so": {
       "mode": 448,
-      "sha256": "ca86d4cab352c6fb843a3208b468522f7ae9ca5b7381371654b296a79b51f33d",
-      "size": 456313,
+      "sha256": "1da6ebf0d8ded4dba3b77b184ab3700585d809da17a7cb6df56d7f369ed5cc34",
+      "size": 458233,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/matplotlib/_tri.pyi": {
@@ -21036,8 +21300,8 @@
     },
     "python/lib/python3.12/site-packages/matplotlib/backends/_backend_agg.cpython-312-x86_64-linux-gnu.so": {
       "mode": 448,
-      "sha256": "766a7c9da73492326b9693fbaf8f530e0967c406b5680dfed6eb30f0417956ad",
-      "size": 804265,
+      "sha256": "8250832c0d935e974badba375fc246952b60f58a34f4ef2e98744ae2f7fb2b58",
+      "size": 806185,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/matplotlib/backends/_backend_agg.pyi": {
@@ -21072,8 +21336,8 @@
     },
     "python/lib/python3.12/site-packages/matplotlib/backends/_tkagg.cpython-312-x86_64-linux-gnu.so": {
       "mode": 448,
-      "sha256": "82947fe1fe85a6fe53c970122d0603b6394cf3f173242f8e8f1b677e1d3a18cd",
-      "size": 307201,
+      "sha256": "82e4fcd5123bc23c4403df652ea6a1749c1f0038d9aef12180da791aa53226ae",
+      "size": 309121,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/matplotlib/backends/_tkagg.pyi": {
@@ -21504,8 +21768,8 @@
     },
     "python/lib/python3.12/site-packages/matplotlib/ft2font.cpython-312-x86_64-linux-gnu.so": {
       "mode": 448,
-      "sha256": "11916155c0a30549206388fcaff34a3f1e7609cf716309e82820c8e934cf87af",
-      "size": 3020785,
+      "sha256": "ee916b580201bf34fed41e7faaf887539640c48c1954054b8692985862bacb32",
+      "size": 3022705,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/matplotlib/ft2font.pyi": {
@@ -25320,7 +25584,7 @@
     },
     "python/lib/python3.12/site-packages/numpy-2.5.3.dist-info/RECORD": {
       "mode": 384,
-      "sha256": "486ebb5f8ca1ceecf7ad086b6cff4e3635c1de14a87b95012e3a9a9af54408e2",
+      "sha256": "910b208bed16d91da3b998799ecac9b4f7a095a430419ba1d0d6aefe0e55d70a",
       "size": 86899,
       "type": "file"
     },
@@ -25440,8 +25704,8 @@
     },
     "python/lib/python3.12/site-packages/numpy.libs/libgfortran-83c28eba-468e71e5.so.5.0.0": {
       "mode": 448,
-      "sha256": "7cb83960fd819ac815fcba93d5555c082ce142b7106a5521302d4ca90071eb13",
-      "size": 2899153,
+      "sha256": "333df4d94db32a879e25ba5824d4b4ef6a293cfa5eca2396419a12760231b7d1",
+      "size": 4232273,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/numpy.libs/libquadmath-2284e583-a9307bba.so.0.0.0": {
@@ -25632,8 +25896,8 @@
     },
     "python/lib/python3.12/site-packages/numpy/_core/_multiarray_umath.cpython-312-x86_64-linux-gnu.so": {
       "mode": 448,
-      "sha256": "a02f401ec84d5c3ac2fba086cd0829aa22840c100bf194134c85895a9f2ecde4",
-      "size": 10657281,
+      "sha256": "48521ce67b8195a92f7cc21af174dc5f306d2fbd63ab99120376b9b2de4c7865",
+      "size": 10659265,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/numpy/_core/_operand_flag_tests.cpython-312-x86_64-linux-gnu.so": {
@@ -28314,8 +28578,8 @@
     },
     "python/lib/python3.12/site-packages/numpy/fft/_pocketfft_umath.cpython-312-x86_64-linux-gnu.so": {
       "mode": 448,
-      "sha256": "8d734ab62a81b115caa88b95b026a4915e1b32a61c0a926f288de9b813509763",
-      "size": 544593,
+      "sha256": "cd8ef1b419216a34a935d199955ba8f77fcf6b10364751bcc81d38778f550d44",
+      "size": 546513,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/numpy/fft/tests/__init__.py": {
@@ -30864,8 +31128,8 @@
     },
     "python/lib/python3.12/site-packages/openfabric_runtime/entrypoint.py": {
       "mode": 384,
-      "sha256": "cdf46214265e6f04cc11140a1c7baa195cbe53db7195c7bed09da0680ecb0510",
-      "size": 11517,
+      "sha256": "c5bec857d88dab3115e9ccc7bf8ce7c33ac014f6bc0d3628a0230eeaa81432c2",
+      "size": 11858,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/opentelemetry/_logs/__init__.py": {
@@ -31044,8 +31308,8 @@
     },
     "python/lib/python3.12/site-packages/opentelemetry/trace/propagation/tracecontext.py": {
       "mode": 384,
-      "sha256": "db6dd29ae54a8488998f8949b8a65804cb15429503ea2f1a86eed76604bae44f",
-      "size": 3553,
+      "sha256": "ac6fbcf1610a51ebf9d9161e42e9e98d4e22a50552c57bb37596a62963e00776",
+      "size": 4128,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/opentelemetry/trace/py.typed": {
@@ -31056,8 +31320,8 @@
     },
     "python/lib/python3.12/site-packages/opentelemetry/trace/span.py": {
       "mode": 384,
-      "sha256": "b08bb50b0796e24e684b0bad31741b5e39eef46675324eee745be72f000509e7",
-      "size": 20552,
+      "sha256": "67886d3802f7d87adcc6bc26d790ecef0b1fb89b1aed3e28f7c6d73b0b739e38",
+      "size": 20543,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/opentelemetry/trace/status.py": {
@@ -31104,13 +31368,13 @@
     },
     "python/lib/python3.12/site-packages/opentelemetry/util/types.py": {
       "mode": 384,
-      "sha256": "5f5c19575a821cec5ad4a847fc9db3ef8e0139fe629ab8340ff08230a11e5631",
-      "size": 866,
+      "sha256": "ab652ee21c742044ce0d8f62e0ebc0f23d1be0ccfbb119ef94324c688a0aa2e6",
+      "size": 926,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/opentelemetry/version/__init__.py": {
       "mode": 384,
-      "sha256": "4b1c8c7046a8bdfa8d993c440064525d53df25cbfcbee1173504eee4f8993a38",
+      "sha256": "5b0fe18ed3a8b5e373d3b94fa2738797d281f95f9d1af58ea3a768e1732c162c",
       "size": 100,
       "type": "file"
     },
@@ -31120,112 +31384,40 @@
       "size": 0,
       "type": "file"
     },
-    "python/lib/python3.12/site-packages/opentelemetry_api-1.45.0.dist-info/INSTALLER": {
+    "python/lib/python3.12/site-packages/opentelemetry_api-1.45.1.dist-info/INSTALLER": {
       "mode": 384,
       "sha256": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508",
       "size": 4,
       "type": "file"
     },
-    "python/lib/python3.12/site-packages/opentelemetry_api-1.45.0.dist-info/METADATA": {
+    "python/lib/python3.12/site-packages/opentelemetry_api-1.45.1.dist-info/METADATA": {
       "mode": 384,
-      "sha256": "a05106d3a686244448191983a1d38701270190bab7687298f981135e387ba234",
+      "sha256": "5bc71e90cb421be92a43bf5ad5b0f25dccfa2a24ddceaa2877779879962a4c9e",
       "size": 1411,
       "type": "file"
     },
-    "python/lib/python3.12/site-packages/opentelemetry_api-1.45.0.dist-info/RECORD": {
+    "python/lib/python3.12/site-packages/opentelemetry_api-1.45.1.dist-info/RECORD": {
       "mode": 384,
-      "sha256": "9f781ee0e99ee44d7383463b674bac53e1c334e20fd65784d0ede9503d56779a",
+      "sha256": "dae2d6087debb28e1aec28095f12bb29dfe1f420fd5616f20b55e360d094cf93",
       "size": 4420,
       "type": "file"
     },
-    "python/lib/python3.12/site-packages/opentelemetry_api-1.45.0.dist-info/WHEEL": {
+    "python/lib/python3.12/site-packages/opentelemetry_api-1.45.1.dist-info/WHEEL": {
       "mode": 384,
       "sha256": "5b77e4a649bbfb07fdbc123967eeecd1e5a478cfaca6eefc23c35e6fdf037848",
       "size": 87,
       "type": "file"
     },
-    "python/lib/python3.12/site-packages/opentelemetry_api-1.45.0.dist-info/entry_points.txt": {
+    "python/lib/python3.12/site-packages/opentelemetry_api-1.45.1.dist-info/entry_points.txt": {
       "mode": 384,
       "sha256": "7713ead1845b4034b097c42447e23d037f2b6db7ca406e61dae3458e9bd4e95e",
       "size": 573,
       "type": "file"
     },
-    "python/lib/python3.12/site-packages/opentelemetry_api-1.45.0.dist-info/licenses/LICENSE": {
+    "python/lib/python3.12/site-packages/opentelemetry_api-1.45.1.dist-info/licenses/LICENSE": {
       "mode": 384,
       "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
       "size": 11357,
-      "type": "file"
-    },
-    "python/lib/python3.12/site-packages/orjson-3.12.0.dist-info/INSTALLER": {
-      "mode": 384,
-      "sha256": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508",
-      "size": 4,
-      "type": "file"
-    },
-    "python/lib/python3.12/site-packages/orjson-3.12.0.dist-info/METADATA": {
-      "mode": 384,
-      "sha256": "3a04b81906c2ac8f535b0a4fb8371eea786718fbca08a75ff13f6c734f43b778",
-      "size": 41988,
-      "type": "file"
-    },
-    "python/lib/python3.12/site-packages/orjson-3.12.0.dist-info/RECORD": {
-      "mode": 384,
-      "sha256": "83cb04b7eb9aa28ba7baa0b5911f818b7887ccf7962cf88c9a3375065887da59",
-      "size": 1050,
-      "type": "file"
-    },
-    "python/lib/python3.12/site-packages/orjson-3.12.0.dist-info/WHEEL": {
-      "mode": 384,
-      "sha256": "c5e3da21766d0e72af45ff0d32b3b67a77ca97b6891d3f9fe3274b05a38b67c1",
-      "size": 147,
-      "type": "file"
-    },
-    "python/lib/python3.12/site-packages/orjson-3.12.0.dist-info/licenses/LICENSE-APACHE": {
-      "mode": 384,
-      "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2",
-      "size": 10847,
-      "type": "file"
-    },
-    "python/lib/python3.12/site-packages/orjson-3.12.0.dist-info/licenses/LICENSE-MIT": {
-      "mode": 384,
-      "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3",
-      "size": 1023,
-      "type": "file"
-    },
-    "python/lib/python3.12/site-packages/orjson-3.12.0.dist-info/licenses/LICENSE-MPL-2.0": {
-      "mode": 384,
-      "sha256": "66a3107d5ad6a058aab753eaac2047ccb2ed0e39465dd0fe5844da3e300d5172",
-      "size": 16727,
-      "type": "file"
-    },
-    "python/lib/python3.12/site-packages/orjson-3.12.0.dist-info/sboms/orjson.cyclonedx.json": {
-      "mode": 384,
-      "sha256": "66747577ac42eed6af439dee400d4c20dc60b74b3445b34df0aee9574938eea0",
-      "size": 26166,
-      "type": "file"
-    },
-    "python/lib/python3.12/site-packages/orjson/__init__.py": {
-      "mode": 384,
-      "sha256": "7a3a05b1281b65aa5054c35387fbe5bc99305bf94b9ec7774a6cd4a6f5b148f5",
-      "size": 693,
-      "type": "file"
-    },
-    "python/lib/python3.12/site-packages/orjson/__init__.pyi": {
-      "mode": 384,
-      "sha256": "0294c082983be62d5f2a3ca2e50c00901d9e3f4c3bdc824535aa8a4b1ef40121",
-      "size": 876,
-      "type": "file"
-    },
-    "python/lib/python3.12/site-packages/orjson/orjson.cpython-312-x86_64-linux-gnu.so": {
-      "mode": 448,
-      "sha256": "fb77e88341614b52d7bb2105aadcedfbca6ae92a1a2f37b3db4b5781cd32a6fb",
-      "size": 241328,
-      "type": "file"
-    },
-    "python/lib/python3.12/site-packages/orjson/py.typed": {
-      "mode": 384,
-      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "size": 0,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/packaging-26.3.dist-info/INSTALLER": {
@@ -31974,8 +32166,8 @@
     },
     "python/lib/python3.12/site-packages/pandas/_libs/window/aggregations.cpython-312-x86_64-linux-gnu.so": {
       "mode": 448,
-      "sha256": "352721a8933c845c7701fa55145275dff76fe2990ea809decb3c8af95d5e5710",
-      "size": 420041,
+      "sha256": "008f3d7cbc681466cf3719c28b8a3d27892acc2d937cbc09c1e10f1a674c8bb5",
+      "size": 421833,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/pandas/_libs/window/aggregations.pyi": {
@@ -40554,8 +40746,8 @@
     },
     "python/lib/python3.12/site-packages/pillow.libs/libavif-8a7f9d56.so.16.4.2": {
       "mode": 448,
-      "sha256": "24a7cfe0a1bf83d17700b71f67769c966e9b4589bb4c158c28b24106809bdf99",
-      "size": 5214017,
+      "sha256": "d8b2d7c6d6fc9641783d1a1e621dc3e3347eaeb84c608a0765583590f21871e2",
+      "size": 5215681,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/pillow.libs/libbrotlicommon-53534446.so.1.2.0": {
@@ -40572,8 +40764,8 @@
     },
     "python/lib/python3.12/site-packages/pillow.libs/libfreetype-9fc94c80.so.6.20.6": {
       "mode": 448,
-      "sha256": "b5b4ff506678888e1f0055549e57a22ae3d85e10643741bdf6a816be1b85b83a",
-      "size": 1475945,
+      "sha256": "e2c4ba5670885db4b97fe8a1343d04adb0a5fca0b11958397c3473e8e71f8d7c",
+      "size": 1478249,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/pillow.libs/libharfbuzz-172d1f63.so.0.61421.0": {
@@ -40608,8 +40800,8 @@
     },
     "python/lib/python3.12/site-packages/pillow.libs/libpng16-abb096d5.so.16.58.0": {
       "mode": 448,
-      "sha256": "c4d506db4a9f0c9dc4b58d83bb6f638c94ad7acd1bf1833ebb24e35131bd6272",
-      "size": 284641,
+      "sha256": "3c5e9b4f1dc5d3f9479087a53f43d779489f3a36dd164cebce2f12ecc4e8a15f",
+      "size": 286369,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/pillow.libs/libsharpyuv-0066295b.so.0.1.2": {
@@ -40620,8 +40812,8 @@
     },
     "python/lib/python3.12/site-packages/pillow.libs/libtiff-fc87e79d.so.6.2.0": {
       "mode": 448,
-      "sha256": "49bc088eee2075fc82a02ff6253804c9f4eeef4524f2e2149acfceccff27b3f7",
-      "size": 771161,
+      "sha256": "6ac3a6ad0139c0232ddf3f1d9800b3b4604ffcf0f036163d3dafedc6302df630",
+      "size": 772953,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/pillow.libs/libwebp-51b0b3f7.so.7.2.0": {
@@ -40654,37 +40846,37 @@
       "size": 1800497,
       "type": "file"
     },
-    "python/lib/python3.12/site-packages/platformdirs-4.12.3.dist-info/INSTALLER": {
+    "python/lib/python3.12/site-packages/platformdirs-4.12.4.dist-info/INSTALLER": {
       "mode": 384,
       "sha256": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508",
       "size": 4,
       "type": "file"
     },
-    "python/lib/python3.12/site-packages/platformdirs-4.12.3.dist-info/METADATA": {
+    "python/lib/python3.12/site-packages/platformdirs-4.12.4.dist-info/METADATA": {
       "mode": 384,
-      "sha256": "5b28a4e5ed5d077a5972c38ab5e5b25e10c378f6829676636c343187709d5be5",
+      "sha256": "2418b715af2d19c99d62ebf721c2e02075f20479ac9c0557a06e119fdbe14a3f",
       "size": 5519,
       "type": "file"
     },
-    "python/lib/python3.12/site-packages/platformdirs-4.12.3.dist-info/RECORD": {
+    "python/lib/python3.12/site-packages/platformdirs-4.12.4.dist-info/RECORD": {
       "mode": 384,
-      "sha256": "184f36d128048d62ffa0f1d98700acf8e986ddf83f405b6daf5efc2b326863d4",
+      "sha256": "0e041d47180f4c130ddce50c4d1bb1dab89a6706a4daffc7d4f8f3741f1a1e82",
       "size": 1570,
       "type": "file"
     },
-    "python/lib/python3.12/site-packages/platformdirs-4.12.3.dist-info/WHEEL": {
+    "python/lib/python3.12/site-packages/platformdirs-4.12.4.dist-info/WHEEL": {
       "mode": 384,
       "sha256": "5b77e4a649bbfb07fdbc123967eeecd1e5a478cfaca6eefc23c35e6fdf037848",
       "size": 87,
       "type": "file"
     },
-    "python/lib/python3.12/site-packages/platformdirs-4.12.3.dist-info/entry_points.txt": {
+    "python/lib/python3.12/site-packages/platformdirs-4.12.4.dist-info/entry_points.txt": {
       "mode": 384,
       "sha256": "f0cdfdd23e07a4ae6c2b825603300890a78beb670e83e20a058f29bbabaaea65",
       "size": 53,
       "type": "file"
     },
-    "python/lib/python3.12/site-packages/platformdirs-4.12.3.dist-info/licenses/LICENSE": {
+    "python/lib/python3.12/site-packages/platformdirs-4.12.4.dist-info/licenses/LICENSE": {
       "mode": 384,
       "sha256": "29e0fd62e929850e86eb28c3fdccf0cefdf4fa94879011cffb3d0d4bed6d4db6",
       "size": 1089,
@@ -40716,8 +40908,8 @@
     },
     "python/lib/python3.12/site-packages/platformdirs/api.py": {
       "mode": 384,
-      "sha256": "87a9fb5b63e35f70527198d3eb4a60d7a41f701dc8794332d3e360bc24e8321e",
-      "size": 27195,
+      "sha256": "5f5b7a834a43b7d848aaba96f406f2fe4f344ee62333f70a5d7adc437f841924",
+      "size": 27616,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/platformdirs/ios.py": {
@@ -40746,19 +40938,19 @@
     },
     "python/lib/python3.12/site-packages/platformdirs/testing.py": {
       "mode": 384,
-      "sha256": "865f6b0180f7b9ac0eb94e3fcedc07e0da4ea1717303f7fd36fc22b28be4f4c4",
-      "size": 2598,
+      "sha256": "c761c9b07e6be3b98c8e5effacef62477854f38c50c6e3a8c02e4fc055530dc7",
+      "size": 2612,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/platformdirs/unix.py": {
       "mode": 384,
-      "sha256": "87da2dd68cdcc22608ada1cc9a354d2d4e1c70bd676ee007d9c28586aeca2a34",
-      "size": 16692,
+      "sha256": "860c9c0f6d2e009c46c6581fa265f43261cfd52c9bbfd6efff14b5679c9a685e",
+      "size": 16684,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/platformdirs/version.py": {
       "mode": 384,
-      "sha256": "fecfa7f91478858bdbc2818f5e485c88d42c79505cd05978e1593bdcca5e8024",
+      "sha256": "f473ceb7e9f97b08ac334c08c4c3738f6ec10548f9ed1d4846ea6df813a1b534",
       "size": 522,
       "type": "file"
     },
@@ -40782,7 +40974,7 @@
     },
     "python/lib/python3.12/site-packages/playwright-1.63.0.dist-info/RECORD": {
       "mode": 384,
-      "sha256": "f1409d97d02459d3e863199026cf31d0af165dc591a1924de540e956c4e5c5cf",
+      "sha256": "28e41afd83348a55857ece65a0543648caa5c7b1b2235803a43644520219655e",
       "size": 20668,
       "type": "file"
     },
@@ -41928,7 +42120,7 @@
     },
     "python/lib/python3.12/site-packages/plotly-6.9.0.dist-info/RECORD": {
       "mode": 384,
-      "sha256": "0b38e6878466c001b445ab990ab28a2058bc4dac3b8044d1459ed44e9b4d767d",
+      "sha256": "8399e237ed3e15b7cfc777af209cd906a2b81a63d3e94f05fd371af75d1fb050",
       "size": 171545,
       "type": "file"
     },
@@ -53694,8 +53886,8 @@
     },
     "python/lib/python3.12/site-packages/pydantic_core/_pydantic_core.cpython-312-x86_64-linux-gnu.so": {
       "mode": 448,
-      "sha256": "a123f18fd43031ca473fc2ed631fde8513c643062fd5219abf31c8dd289eb4cc",
-      "size": 4703353,
+      "sha256": "e4f3c6b3db7871c01c0542333a9d4d868e33fc7016d9b59725ec50615208adfe",
+      "size": 4705337,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/pydantic_core/_pydantic_core.pyi": {
@@ -53820,7 +54012,7 @@
     },
     "python/lib/python3.12/site-packages/pygments-2.21.0.dist-info/RECORD": {
       "mode": 384,
-      "sha256": "8bb2950cd719fe06054300789034a6318fab4b6d0d3aecf60caeb9c9471742d0",
+      "sha256": "9af6c97d4d97aa00b9f969911e37f392608d851e505dc907df7a77f6c0637880",
       "size": 29430,
       "type": "file"
     },
@@ -56154,7 +56346,7 @@
     },
     "python/lib/python3.12/site-packages/python_dotenv-1.2.4.dist-info/RECORD": {
       "mode": 384,
-      "sha256": "c910d93e910749e840e0b8a036d1d7c8b06607076cd5e2821cc2c6465968e118",
+      "sha256": "61f0cc1e0e495736bd76fabe47bf362c33a326727eecf9104276dd4abf917038",
       "size": 1367,
       "type": "file"
     },
@@ -60960,8 +61152,8 @@
     },
     "python/lib/python3.12/site-packages/rpds/rpds.cpython-312-x86_64-linux-gnu.so": {
       "mode": 448,
-      "sha256": "6825afde17e7b845d95df4e36b9c03eab5fb0daf492ed8c30bd9f4c6ae29d967",
-      "size": 1046649,
+      "sha256": "c93fee7b8d0ff399076b20321f9902644e42443a58a3a61bf4857e5489630bc5",
+      "size": 1048761,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/rpds_py-2026.9.1.dist-info/INSTALLER": {
@@ -61452,8 +61644,8 @@
     },
     "python/lib/python3.12/site-packages/smto_site/app.py": {
       "mode": 384,
-      "sha256": "27af33f3d371826ba9dd38f804d2976010ecfea5d23dff921a0c21527eea417c",
-      "size": 15092,
+      "sha256": "5e60cd52944d4489c9d6d45fe3c0e8fd66fed11d64f8427f52be184cc2317f3b",
+      "size": 15243,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/smto_site/cli.py": {
@@ -61470,8 +61662,8 @@
     },
     "python/lib/python3.12/site-packages/smto_site/content.py": {
       "mode": 384,
-      "sha256": "07b3b9ebe2307b9637d63387451ab9939c9e0412c98d5ed09fcf892567b88d2a",
-      "size": 7508,
+      "sha256": "bfd3b6a279c9d35cc9802623711009b8443207fef17065404dd22cc7d6ad8015",
+      "size": 7529,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/smto_site/content/LICENSE.txt": {
@@ -61480,34 +61672,82 @@
       "size": 7818,
       "type": "file"
     },
+    "python/lib/python3.12/site-packages/smto_site/content/learn/agent-capabilities-and-permissions.md": {
+      "mode": 384,
+      "sha256": "7b506234dc85f1e7e18e9bbd2ea77af188ef7c957c66478eef0c4330c894b232",
+      "size": 4443,
+      "type": "file"
+    },
+    "python/lib/python3.12/site-packages/smto_site/content/learn/agent-execution-loop.md": {
+      "mode": 384,
+      "sha256": "0fa690cef20b6611005dee0289742efad7930102d05e75930dd7e7a99198fba3",
+      "size": 3845,
+      "type": "file"
+    },
     "python/lib/python3.12/site-packages/smto_site/content/learn/context-and-memory.md": {
       "mode": 384,
-      "sha256": "fb7c8c5738b782824c3eba4f7e19c896a8ce9063070191ed834afb5c549ae91e",
-      "size": 1376,
+      "sha256": "1dce0fe11d5fabeac5f20003859af22755dcd8aacc6b3230603b904cdb7dd615",
+      "size": 1642,
+      "type": "file"
+    },
+    "python/lib/python3.12/site-packages/smto_site/content/learn/durable-execution-for-ai-agents.md": {
+      "mode": 384,
+      "sha256": "579d9ae64c53a258bf752919114f29910bd20f37be43ab25cdb85393179994bc",
+      "size": 4849,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/smto_site/content/learn/from-chat-to-tasks.md": {
       "mode": 384,
-      "sha256": "d863c88d0a4abae72aab255c4044286841fd46590943e8f63247588628edf2e2",
-      "size": 1621,
+      "sha256": "ec2bd4d7c96bad50879111b7a9e51b5986d0b5164d44f9430790b7dccde8d5a1",
+      "size": 1848,
+      "type": "file"
+    },
+    "python/lib/python3.12/site-packages/smto_site/content/learn/local-first-ai-agents.md": {
+      "mode": 384,
+      "sha256": "5943b9c7216b632e29309eb4e61f54b26254f3dc6e0f0ba1e0d65b718b12f482",
+      "size": 4622,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/smto_site/content/learn/model-and-gateway.md": {
       "mode": 384,
-      "sha256": "27fc058c8b573ac452b86a45202995e723f4e8685684d08ed6157b50f45530ed",
-      "size": 3328,
+      "sha256": "b5dcc5e396bf0b4cc6c20ddca8431e047fd50f96fe412af245463f5f13fb4311",
+      "size": 3671,
+      "type": "file"
+    },
+    "python/lib/python3.12/site-packages/smto_site/content/learn/model-server-vs-agent-runtime.md": {
+      "mode": 384,
+      "sha256": "dc3070492f559fac0fd589d6c11d94642a59b424935265dd46bceee0fae046ea",
+      "size": 4378,
+      "type": "file"
+    },
+    "python/lib/python3.12/site-packages/smto_site/content/learn/small-model-task-orchestration.md": {
+      "mode": 384,
+      "sha256": "190880c23d7d446a177cd096f3d700f4160bbc266ccd3c8a5a9aae072437b815",
+      "size": 4716,
+      "type": "file"
+    },
+    "python/lib/python3.12/site-packages/smto_site/content/learn/verifiable-agent-completion.md": {
+      "mode": 384,
+      "sha256": "1f4d12c7081d56068f2c9d5131adb59f60626daf7421ff7c0b959d4ed623e919",
+      "size": 4161,
+      "type": "file"
+    },
+    "python/lib/python3.12/site-packages/smto_site/content/learn/what-is-an-agent-runtime.md": {
+      "mode": 384,
+      "sha256": "6c358db89ce82a43d184517b3b22bb602e06cd9f72b8d6211517bbb92ccc290a",
+      "size": 4726,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/smto_site/content/public_docs.json": {
       "mode": 384,
-      "sha256": "0ed44f4c5335e0b7f6c134c7a7c92a6744289778fd9ecf8808113110003b409a",
-      "size": 2602,
+      "sha256": "33824145694761982d2cf61de73fe38743e98117fe5954140de24a322d88f4af",
+      "size": 6139,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/smto_site/discovery.py": {
       "mode": 384,
-      "sha256": "d97160b70e12172768323988140ac928d34fec414a33317a62433063af775d0e",
-      "size": 3452,
+      "sha256": "88b0a68da4a2d32a642154fe500b369a945a73aa45b4c0dd9eb841aea7242d3a",
+      "size": 3707,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/smto_site/markdown.py": {
@@ -61524,8 +61764,8 @@
     },
     "python/lib/python3.12/site-packages/smto_site/pages.py": {
       "mode": 384,
-      "sha256": "7d9504a9bc0f070469298e9a5dbddce5119343f5ccd6a3cd30356c67d7841aec",
-      "size": 13758,
+      "sha256": "7a2d76b05c87574212fb2f4deec8a04a2ba468207ea078e99c40765f4e80d25f",
+      "size": 20283,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/smto_site/release_data/releases.json": {
@@ -61560,8 +61800,8 @@
     },
     "python/lib/python3.12/site-packages/smto_site/static/site.css": {
       "mode": 384,
-      "sha256": "97e110d6ad80abdac2a5e6e16fecfbf8c79da48b73b790680d4dda9e2c6e314b",
-      "size": 16073,
+      "sha256": "511b81e00fd4e6f2c11e2966b6e5901bcee17c8657d0458873a879a83f76d459",
+      "size": 21761,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/smto_site/static/site.js": {
@@ -61572,8 +61812,8 @@
     },
     "python/lib/python3.12/site-packages/smto_site/static/social.png": {
       "mode": 384,
-      "sha256": "261b5a8a057518bf1e78f9e7e17814a29d222b6f2c7f05230f1aa8413a8675fb",
-      "size": 28512,
+      "sha256": "7b1abaf0d0c1c33ab80de8331935652bfad792361413b26395ea0797808fc257",
+      "size": 61172,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/smto_site/templates/article.html": {
@@ -61584,14 +61824,14 @@
     },
     "python/lib/python3.12/site-packages/smto_site/templates/base.html": {
       "mode": 384,
-      "sha256": "54947cf53e6dbed7528ad77b3bd0b73a0c7c4c088e07e239f3e54d9306719af2",
-      "size": 3655,
+      "sha256": "ca3bc795391ce96a7617f46677f68bbf3f9f6144341eb5c90aea1742f6622a6f",
+      "size": 3937,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/smto_site/templates/download.html": {
       "mode": 384,
-      "sha256": "60794cddecdc07baf3ca2d92dae51283f2ebf87d4987621d50fca06677b67ebb",
-      "size": 5199,
+      "sha256": "ca86fe2ae731fa6ef3ccd3a0def1a1a7be66a66fa66b6dc8f0bdc3bc7bb6a320",
+      "size": 5353,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/smto_site/templates/error.html": {
@@ -61602,20 +61842,26 @@
     },
     "python/lib/python3.12/site-packages/smto_site/templates/home.html": {
       "mode": 384,
-      "sha256": "5b2629231a8aa34508b1413b1b162c8e87ac61c89d56147085b869e9bd0923b9",
-      "size": 8274,
+      "sha256": "66b21aee407210fe0c38bae62d4d5c819f7cabb398ef32c72d02ecb515dabb3c",
+      "size": 13313,
+      "type": "file"
+    },
+    "python/lib/python3.12/site-packages/smto_site/templates/how-it-works.html": {
+      "mode": 384,
+      "sha256": "e105f6b1d6be3a5fd4febeb42cdd6c187dd7f1f0e25e12bbca5158f9dc59abb5",
+      "size": 2928,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/smto_site/templates/knowledge.html": {
       "mode": 384,
-      "sha256": "c7f19cb3cc2773ba6ce6f47f4669497781b5d883b1ab850fcc99fc096919ab11",
-      "size": 1826,
+      "sha256": "a019db95701aeecdc273f173709830a8912cbfb7d6f4155ab3212010e2ec46a5",
+      "size": 3158,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/smto_site/templates/page.html": {
       "mode": 384,
-      "sha256": "b8ee3d4a930b5b74d8a32067369fc803d19dd0d36b47c0b1ebc4594cf9ebfa68",
-      "size": 1432,
+      "sha256": "ebfaf2a89d95a44a4422768b07dae0bd91b57176693d68f8a115e27fc7e4b8b9",
+      "size": 1751,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/smto_site/templates/releases.html": {
@@ -61626,8 +61872,8 @@
     },
     "python/lib/python3.12/site-packages/smto_site/validation.py": {
       "mode": 384,
-      "sha256": "e50425547751680e031d38f77d0832e342abee75d31a0c5e84bc3cce18c910b4",
-      "size": 5279,
+      "sha256": "a12a70a28d83cf6219170fa81b71f07bca77115859bac2cf35dd24beab05c9ee",
+      "size": 6751,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/sqlglot-26.33.0.dist-info/INSTALLER": {
@@ -62380,37 +62626,37 @@
       "size": 8518,
       "type": "file"
     },
-    "python/lib/python3.12/site-packages/typer-0.27.2.dist-info/INSTALLER": {
+    "python/lib/python3.12/site-packages/typer-0.27.3.dist-info/INSTALLER": {
       "mode": 384,
       "sha256": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508",
       "size": 4,
       "type": "file"
     },
-    "python/lib/python3.12/site-packages/typer-0.27.2.dist-info/METADATA": {
+    "python/lib/python3.12/site-packages/typer-0.27.3.dist-info/METADATA": {
       "mode": 384,
-      "sha256": "d1b73586e27d662dc32af374a4f073d167706e0b2e5fa025c0a507ba0eeb4ccb",
-      "size": 16414,
+      "sha256": "fc2cbb86c4fd175326b63427e9a3fa13e79364d7333a945414d9c6ac80c0f0e4",
+      "size": 16394,
       "type": "file"
     },
-    "python/lib/python3.12/site-packages/typer-0.27.2.dist-info/RECORD": {
+    "python/lib/python3.12/site-packages/typer-0.27.3.dist-info/RECORD": {
       "mode": 384,
-      "sha256": "3e53b249df3575f594c824609377e211a88077e339438db3343eb0e8fde894d6",
+      "sha256": "c9c88dc3514a9da5117ed9e82dd40f43b694d6bb9184829226265357cfa5a24b",
       "size": 3403,
       "type": "file"
     },
-    "python/lib/python3.12/site-packages/typer-0.27.2.dist-info/WHEEL": {
+    "python/lib/python3.12/site-packages/typer-0.27.3.dist-info/WHEEL": {
       "mode": 384,
-      "sha256": "54ff83e133d2db7d2c304f59def6f720d5efa35cadd3ddb86119b900eb24fdd1",
+      "sha256": "22e224df06da127147d5cc7be623364750a6962448ddd14b5d36d16a482f8054",
       "size": 90,
       "type": "file"
     },
-    "python/lib/python3.12/site-packages/typer-0.27.2.dist-info/entry_points.txt": {
+    "python/lib/python3.12/site-packages/typer-0.27.3.dist-info/entry_points.txt": {
       "mode": 384,
       "sha256": "60ed770728aa59eb9ab3d5742400cb5004591547bf73053fef099336fc41610f",
       "size": 57,
       "type": "file"
     },
-    "python/lib/python3.12/site-packages/typer-0.27.2.dist-info/licenses/LICENSE": {
+    "python/lib/python3.12/site-packages/typer-0.27.3.dist-info/licenses/LICENSE": {
       "mode": 384,
       "sha256": "58992cebcf8dfb6e40c4e2112ed12126c243666dca3912a3d78b7ecac4859d49",
       "size": 1086,
@@ -62418,13 +62664,13 @@
     },
     "python/lib/python3.12/site-packages/typer/.agents/skills/typer/SKILL.md": {
       "mode": 384,
-      "sha256": "dfef816d8d67c9915e277b671c2d1230cef9d6944f503c6aa070f1cb3bef1dd5",
-      "size": 6709,
+      "sha256": "9009daf749d0830e86e61f3ec1b4671666835a77e59fb3d5973bbc5f3ccac146",
+      "size": 6728,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/typer/__init__.py": {
       "mode": 384,
-      "sha256": "0b15941b335a0202a27af49737cfd5df06fd710947c2cd93d1e33cd8dab59007",
+      "sha256": "0a675fdf118d02dcfaa6a9ad044c4acd02f09379933f99246953e9bf034cbb29",
       "size": 1399,
       "type": "file"
     },
@@ -62448,8 +62694,8 @@
     },
     "python/lib/python3.12/site-packages/typer/_click/_compat.py": {
       "mode": 384,
-      "sha256": "15e49a5747136e3adba1595918c168d28f4e61efa4edb75ce0404577738afab8",
-      "size": 16935,
+      "sha256": "3800fd07f40df3ae9f65049c45b1ab6fbfe9bb329c45a63022e7a0234459d2c8",
+      "size": 16901,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/typer/_click/_termui_impl.py": {
@@ -62472,8 +62718,8 @@
     },
     "python/lib/python3.12/site-packages/typer/_click/core.py": {
       "mode": 384,
-      "sha256": "0d04cc6ff70c432061f947059a0391edaf7ff88744df58aa08b7f8099142666f",
-      "size": 39103,
+      "sha256": "8ae5f9d9ce4d554961579e4a2c84221918a1f6753e7b6191bc85aea78e49b2ab",
+      "size": 39205,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/typer/_click/decorators.py": {
@@ -62484,8 +62730,8 @@
     },
     "python/lib/python3.12/site-packages/typer/_click/exceptions.py": {
       "mode": 384,
-      "sha256": "16db25c1c46197ad84e339ae76cabf7a2d4948965d245b78d0bd1f8af8c20772",
-      "size": 7574,
+      "sha256": "b58cf95b09ae9f91bf4d15fbdaaedff1cbf88116e99bacec8ae8e0922a1278cd",
+      "size": 7630,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/typer/_click/formatting.py": {
@@ -62526,14 +62772,14 @@
     },
     "python/lib/python3.12/site-packages/typer/_click/types.py": {
       "mode": 384,
-      "sha256": "af479398c49ad36cdfd44dde8d861a6189576ec89f27d800c216714530415da6",
-      "size": 21556,
+      "sha256": "7d8eaee666135c296c12d0e934328453a7d1fdbf48ee62366bd568ec8e8b860d",
+      "size": 21652,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/typer/_click/utils.py": {
       "mode": 384,
-      "sha256": "d9022cc7ad48a10c2045d3c00718d7f9320fe4b84baf51d419c375155d4cb934",
-      "size": 14571,
+      "sha256": "84f7593e2f0473ceb72ace12cbda1ddd87c12f4cd21c10d2c503d11f9516ebf0",
+      "size": 14812,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/typer/_completion_classes.py": {
@@ -66804,7 +67050,7 @@
     },
     "python/lib/python3.12/site-packages/uvicorn-0.54.0.dist-info/RECORD": {
       "mode": 384,
-      "sha256": "a884f3774b8d79d0da4a00a59ae3b45e03eac827c5671cd5d0f3020b95e0f569",
+      "sha256": "d5baa3242f008853975a91420d0848aeb628e116f4d2e67151fd34ce008bbe1f",
       "size": 4533,
       "type": "file"
     },
@@ -67524,7 +67770,7 @@
     },
     "python/lib/python3.12/site-packages/watchfiles-1.3.0.dist-info/RECORD": {
       "mode": 384,
-      "sha256": "5734dcdda6ad73bf18ebf196f6a456d4904c3e1dc40859c9cde50dc41b5c88d0",
+      "sha256": "52426c50503bbfe8a335b06f8ec4596ec5921409416db07e3fe05ac5e896796d",
       "size": 1512,
       "type": "file"
     },
@@ -67566,8 +67812,8 @@
     },
     "python/lib/python3.12/site-packages/watchfiles/_rust_notify.abi3.so": {
       "mode": 448,
-      "sha256": "40d8a10a9337ea9673b418da53a6e72a3bb8a4fabf629f37b682ec743857eaf8",
-      "size": 1170905,
+      "sha256": "a0f32f4914c7313e535cfd98daf86c87473cc61d502f39c196dd7366220adc9d",
+      "size": 1173017,
       "type": "file"
     },
     "python/lib/python3.12/site-packages/watchfiles/_rust_notify.pyi": {
@@ -67626,7 +67872,7 @@
     },
     "python/lib/python3.12/site-packages/websockets-16.1.1.dist-info/RECORD": {
       "mode": 384,
-      "sha256": "04c3160e0f21a726e717d6c67444d698ebd8af4391aea6ef4fbfaefd8e05eda8",
+      "sha256": "90420c2057b0e65c74d0fe25703ea87b2fe4c4c34689e37d3d351776ea81153b",
       "size": 5042,
       "type": "file"
     },
@@ -70110,8 +70356,8 @@
     },
     "resources/manual-references.json": {
       "mode": 384,
-      "sha256": "c7096addbd850bf5dd7090d2df2637e8be62c3f41475babde8dcd648293bea96",
-      "size": 6084793,
+      "sha256": "f6383708c871f587a9472a6f33f21c869b268a2c84e61ead40e666d76d6e949e",
+      "size": 6187592,
       "type": "file"
     },
     "resources/server-defaults.json": {
@@ -70122,19 +70368,19 @@
     },
     "runtime-dependencies.json": {
       "mode": 384,
-      "sha256": "fbd19116227e41d2086c8283f79f061ccd6296a639359442dc2fd7d72f5c7359",
-      "size": 364891,
+      "sha256": "5e88661026b0a6404cfcf2827bba4a76fad80100db2ede1631257b24327f3a0b",
+      "size": 362933,
       "type": "file"
     },
     "sbom.cdx.json": {
       "mode": 384,
-      "sha256": "7a9d54ca81b594d3a38a618dfcbd9f095c4196b66a656dcb705e83ef5a29351d",
-      "size": 321320,
+      "sha256": "bfc952aeaecc8ee86dbfc419b2013e04b6115143710227af1abf20b136b8bfdb",
+      "size": 319885,
       "type": "file"
     }
   },
   "packaging_backend": "cpp-cpython-v1",
-  "packaging_source_sha256": "83d0e394484298382fd24b1e88d197eca4c45ddcbacba20715be5973c0f412ce",
+  "packaging_source_sha256": "9bf7650d7c405fe22ea7b0bd1843d81c17714dd8979f0e0af4df19c1eb55913c",
   "payload_format": "cpp-file-table-v1",
   "product": "SMTO",
   "product_version": "0.10.0",
@@ -70148,9 +70394,9 @@
   "release": false,
   "schema_version": 1,
   "source_date_epoch": 0,
-  "source_dirty": false,
-  "source_revision": "95742414b496fc017b88cf287646c8b259106242",
-  "source_snapshot_sha256": "d4a0ec4c1e312970350190e9e296d8598a09a1a9a6514dea77e51692acdccf7a",
+  "source_dirty": true,
+  "source_revision": "d5a654af3134690b9ed8247a6d6f5b1e9a6a6cea",
+  "source_snapshot_sha256": "c98bd3a0cb9c4bda2acb6746d015b88e72c654ef2cf1aca611a3fadbd5c5c263",
   "target": "linux-x86_64",
   "target_arch": "x86_64",
   "target_os": "linux"
