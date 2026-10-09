@@ -78,7 +78,7 @@
       "hashes": [
         {
           "alg": "SHA-256",
-          "content": "c38aad31ec86c4948f1148214a3fb7535313fb2c06fa5197b00e9280481ebe95"
+          "content": "f83bd214f85b79107664a4266d44b067f961cbd8592ce7a20f339f60c9ebc74a"
         }
       ],
       "name": "aor-runtime",
@@ -315,11 +315,11 @@
       "version": "0.12.1"
     },
     {
-      "bom-ref": "pkg:pypi/fastapi@0.142.4",
+      "bom-ref": "pkg:pypi/fastapi@0.143.0",
       "hashes": [
         {
           "alg": "SHA-256",
-          "content": "8a651aa071a9f92c8217cca1d0b044bf9c326f336578be0a728a1a1f22ec52d2"
+          "content": "3e9395fd35276425b61b516a31fdd7c77fe2af83e41b4da22e30696fb1304c5d"
         }
       ],
       "licenses": [
@@ -334,9 +334,9 @@
           "value": "review-required"
         }
       ],
-      "purl": "pkg:pypi/fastapi@0.142.4",
+      "purl": "pkg:pypi/fastapi@0.143.0",
       "type": "library",
-      "version": "0.142.4"
+      "version": "0.143.0"
     },
     {
       "bom-ref": "pkg:pypi/fonttools@4.66.1",
@@ -975,11 +975,11 @@
       "version": "0.4.2"
     },
     {
-      "bom-ref": "pkg:pypi/pycparser@3.0",
+      "bom-ref": "pkg:pypi/pycparser@3.11",
       "hashes": [
         {
           "alg": "SHA-256",
-          "content": "b727414169a36b7d524c1c3e31839a521725078d7b2ff038656844266160a992"
+          "content": "51d5a8ba2be0bbe440b99d2112604c95bbbc3c2748a64260186c541e1729cd80"
         }
       ],
       "licenses": [
@@ -994,16 +994,16 @@
           "value": "review-required"
         }
       ],
-      "purl": "pkg:pypi/pycparser@3.0",
+      "purl": "pkg:pypi/pycparser@3.11",
       "type": "library",
-      "version": "3.0"
+      "version": "3.11"
     },
     {
-      "bom-ref": "pkg:pypi/pydantic@2.13.5",
+      "bom-ref": "pkg:pypi/pydantic@2.14.0",
       "hashes": [
         {
           "alg": "SHA-256",
-          "content": "346a034f080da3755d8e9cb5e00e8b07de1d39e4f6e2c87d8ab7cafa0b269a73"
+          "content": "15fab1bea6f1dc5003b54fc2ecab230c1fd1dbade2acd4addc52d81e32416d4b"
         }
       ],
       "licenses": [
@@ -1018,16 +1018,16 @@
           "value": "review-required"
         }
       ],
-      "purl": "pkg:pypi/pydantic@2.13.5",
+      "purl": "pkg:pypi/pydantic@2.14.0",
       "type": "library",
-      "version": "2.13.5"
+      "version": "2.14.0"
     },
     {
-      "bom-ref": "pkg:pypi/pydantic-core@2.46.5",
+      "bom-ref": "pkg:pypi/pydantic-core@2.50.0",
       "hashes": [
         {
           "alg": "SHA-256",
-          "content": "0fc5be0abd4a407e200d844b404e33639a554e7bd0d448e7b9ae181be4789ac2"
+          "content": "f187030fc3d62c668feb0f09e92852e0eb414d7fcefc4748f2e67d245aade37e"
         }
       ],
       "licenses": [
@@ -1042,9 +1042,9 @@
           "value": "review-required"
         }
       ],
-      "purl": "pkg:pypi/pydantic-core@2.46.5",
+      "purl": "pkg:pypi/pydantic-core@2.50.0",
       "type": "library",
-      "version": "2.46.5"
+      "version": "2.50.0"
     },
     {
       "bom-ref": "pkg:pypi/pyee@13.0.1",
@@ -3368,7 +3368,7 @@
       "hashes": [
         {
           "alg": "SHA-256",
-          "content": "e4f3c6b3db7871c01c0542333a9d4d868e33fc7016d9b59725ec50615208adfe"
+          "content": "3d3fb41b8c2b02df6dad9d5e35c315d4bdd13346ddd0b4b10975367be62d09e9"
         }
       ],
       "name": "python/lib/python3.12/site-packages/pydantic_core/_pydantic_core.cpython-312-x86_64-linux-gnu.so",
@@ -3500,7 +3500,7 @@
       "hashes": [
         {
           "alg": "SHA-256",
-          "content": "330d4d6a74795f602f976b1be54e74ccf2d20449e0179922c2831c04de66d459"
+          "content": "fb7ed66cb007b57a6c827d5a23e52d080b73a4d7ed4297b1c3e19ed35b269005"
         }
       ],
       "name": "openfabric-server-linux-x86_64",
@@ -3515,7 +3515,7 @@
         },
         {
           "name": "openfabric:source-sha256",
-          "value": "9bf7650d7c405fe22ea7b0bd1843d81c17714dd8979f0e0af4df19c1eb55913c"
+          "value": "598fd199d73cc98b4a883ed124c263e64246953787f9aedb57821ebd62fe5872"
         },
         {
           "name": "openfabric:runtime-review",
@@ -3541,7 +3541,7 @@
         "pkg:pypi/contourpy@1.4.0",
         "pkg:pypi/cryptography@48.0.1",
         "pkg:pypi/cycler@0.12.1",
-        "pkg:pypi/fastapi@0.142.4",
+        "pkg:pypi/fastapi@0.143.0",
         "pkg:pypi/fonttools@4.66.1",
         "pkg:pypi/google-auth@2.61.0",
         "pkg:pypi/greenlet@3.5.6",
@@ -3568,9 +3568,9 @@
         "pkg:pypi/psutil@7.2.2",
         "pkg:pypi/pyasn1@0.6.4",
         "pkg:pypi/pyasn1-modules@0.4.2",
-        "pkg:pypi/pycparser@3.0",
-        "pkg:pypi/pydantic@2.13.5",
-        "pkg:pypi/pydantic-core@2.46.5",
+        "pkg:pypi/pycparser@3.11",
+        "pkg:pypi/pydantic@2.14.0",
+        "pkg:pypi/pydantic-core@2.50.0",
         "pkg:pypi/pyee@13.0.1",
         "pkg:pypi/pygments@2.21.0",
         "pkg:pypi/pyjwt@2.15.1",
@@ -3775,7 +3775,7 @@
         "pkg:pypi/aor-runtime@0.10.0",
         "pkg:pypi/choreographer@1.4.0",
         "pkg:pypi/cryptography@48.0.1",
-        "pkg:pypi/fastapi@0.142.4",
+        "pkg:pypi/fastapi@0.143.0",
         "pkg:pypi/google-auth@2.61.0",
         "pkg:pypi/jsonschema@4.26.0",
         "pkg:pypi/kaleido@1.5.0",
@@ -3788,13 +3788,14 @@
         "pkg:pypi/playwright@1.63.0",
         "pkg:pypi/plotly@6.9.0",
         "pkg:pypi/psutil@7.2.2",
-        "pkg:pypi/pydantic@2.13.5",
+        "pkg:pypi/pydantic@2.14.0",
         "pkg:pypi/pyjwt@2.15.1",
         "pkg:pypi/python-xlib@0.33",
         "pkg:pypi/pyyaml@6.0.3",
         "pkg:pypi/regex@2026.9.29",
         "pkg:pypi/requests@2.34.2",
         "pkg:pypi/rich@14.3.4",
+        "pkg:pypi/rpds-py@2026.9.1",
         "pkg:pypi/sqlglot@26.33.0",
         "pkg:pypi/typer@0.27.3",
         "pkg:pypi/urllib3@2.8.0",
@@ -3813,7 +3814,7 @@
     },
     {
       "dependsOn": [
-        "pkg:pypi/pycparser@3.0"
+        "pkg:pypi/pycparser@3.11"
       ],
       "ref": "pkg:pypi/cffi@2.1.1"
     },
@@ -3859,14 +3860,14 @@
       "dependsOn": [
         "pkg:pypi/annotated-doc@0.0.5",
         "pkg:pypi/opentelemetry-api@1.45.1",
-        "pkg:pypi/pydantic@2.13.5",
+        "pkg:pypi/pydantic@2.14.0",
         "pkg:pypi/pyyaml@6.0.3",
         "pkg:pypi/starlette@1.7.0",
         "pkg:pypi/typing-extensions@4.16.0",
         "pkg:pypi/typing-inspection@0.4.4",
         "pkg:pypi/uvicorn@0.54.0"
       ],
-      "ref": "pkg:pypi/fastapi@0.142.4"
+      "ref": "pkg:pypi/fastapi@0.143.0"
     },
     {
       "dependsOn": [
@@ -4042,23 +4043,23 @@
     },
     {
       "dependsOn": [],
-      "ref": "pkg:pypi/pycparser@3.0"
+      "ref": "pkg:pypi/pycparser@3.11"
     },
     {
       "dependsOn": [
         "pkg:pypi/annotated-types@0.8.0",
-        "pkg:pypi/pydantic-core@2.46.5",
+        "pkg:pypi/pydantic-core@2.50.0",
         "pkg:pypi/typing-extensions@4.16.0",
         "pkg:pypi/typing-inspection@0.4.4",
         "pkg:pypi/tzdata@2026.5"
       ],
-      "ref": "pkg:pypi/pydantic@2.13.5"
+      "ref": "pkg:pypi/pydantic@2.14.0"
     },
     {
       "dependsOn": [
         "pkg:pypi/typing-extensions@4.16.0"
       ],
-      "ref": "pkg:pypi/pydantic-core@2.46.5"
+      "ref": "pkg:pypi/pydantic-core@2.50.0"
     },
     {
       "dependsOn": [
@@ -5058,7 +5059,7 @@
     },
     {
       "dependsOn": [
-        "pkg:pypi/pydantic-core@2.46.5"
+        "pkg:pypi/pydantic-core@2.50.0"
       ],
       "ref": "native:python/lib/python3.12/site-packages/pydantic_core/_pydantic_core.cpython-312-x86_64-linux-gnu.so"
     },
@@ -5117,7 +5118,7 @@
       "hashes": [
         {
           "alg": "SHA-256",
-          "content": "330d4d6a74795f602f976b1be54e74ccf2d20449e0179922c2831c04de66d459"
+          "content": "fb7ed66cb007b57a6c827d5a23e52d080b73a4d7ed4297b1c3e19ed35b269005"
         }
       ],
       "name": "OpenFabric server",

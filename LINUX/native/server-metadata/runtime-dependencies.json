@@ -77,7 +77,7 @@
     },
     {
       "artifact": "aor_runtime-0.10.0-py3-none-any.whl",
-      "artifact_sha256": "c38aad31ec86c4948f1148214a3fb7535313fb2c06fa5197b00e9280481ebe95",
+      "artifact_sha256": "f83bd214f85b79107664a4266d44b067f961cbd8592ce7a20f339f60c9ebc74a",
       "declared_license": "",
       "kind": "python",
       "license_files": [
@@ -324,18 +324,18 @@
       "version": "0.12.1"
     },
     {
-      "artifact": "fastapi-0.142.4-py3-none-any.whl",
-      "artifact_sha256": "8a651aa071a9f92c8217cca1d0b044bf9c326f336578be0a728a1a1f22ec52d2",
+      "artifact": "fastapi-0.143.0-py3-none-any.whl",
+      "artifact_sha256": "3e9395fd35276425b61b516a31fdd7c77fe2af83e41b4da22e30696fb1304c5d",
       "declared_license": "MIT",
       "kind": "python",
       "license_files": [
-        "LICENSES/fastapi-0.142.4/licenses/LICENSE"
+        "LICENSES/fastapi-0.143.0/licenses/LICENSE"
       ],
       "license_files_sha256": {
-        "LICENSES/fastapi-0.142.4/licenses/LICENSE": "4ec89ffc81485b97fec584b2d4a961032eeffe834453894fd9c1274906cc744e"
+        "LICENSES/fastapi-0.143.0/licenses/LICENSE": "4ec89ffc81485b97fec584b2d4a961032eeffe834453894fd9c1274906cc744e"
       },
       "name": "fastapi",
-      "purl": "pkg:pypi/fastapi@0.142.4",
+      "purl": "pkg:pypi/fastapi@0.143.0",
       "review": null,
       "review_state": "review-required",
       "source_urls": [
@@ -347,7 +347,7 @@
       ],
       "spdx_expression": "MIT",
       "supplier": "Sebasti\u00e1n Ram\u00edrez <tiangolo@gmail.com>",
-      "version": "0.142.4"
+      "version": "0.143.0"
     },
     {
       "artifact": "fonttools-4.66.1-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.whl",
@@ -1030,18 +1030,18 @@
       "version": "0.4.2"
     },
     {
-      "artifact": "pycparser-3.0-py3-none-any.whl",
-      "artifact_sha256": "b727414169a36b7d524c1c3e31839a521725078d7b2ff038656844266160a992",
+      "artifact": "pycparser-3.11-py3-none-any.whl",
+      "artifact_sha256": "51d5a8ba2be0bbe440b99d2112604c95bbbc3c2748a64260186c541e1729cd80",
       "declared_license": "BSD-3-Clause",
       "kind": "python",
       "license_files": [
-        "LICENSES/pycparser-3.0/licenses/LICENSE"
+        "LICENSES/pycparser-3.11/licenses/LICENSE"
       ],
       "license_files_sha256": {
-        "LICENSES/pycparser-3.0/licenses/LICENSE": "0c846399369ea76ddd7b5c44fe6d16497415fcf015f5cbb508c24bf98b81c5b1"
+        "LICENSES/pycparser-3.11/licenses/LICENSE": "0a9e78156ae8b96caf1b4f11ac2df424b83de29736f9e757630548a6272fdf90"
       },
       "name": "pycparser",
-      "purl": "pkg:pypi/pycparser@3.0",
+      "purl": "pkg:pypi/pycparser@3.11",
       "review": null,
       "review_state": "review-required",
       "source_urls": [
@@ -1049,47 +1049,47 @@
       ],
       "spdx_expression": "BSD-3-Clause",
       "supplier": "Eli Bendersky <eliben@gmail.com>",
-      "version": "3.0"
+      "version": "3.11"
     },
     {
-      "artifact": "pydantic-2.13.5-py3-none-any.whl",
-      "artifact_sha256": "346a034f080da3755d8e9cb5e00e8b07de1d39e4f6e2c87d8ab7cafa0b269a73",
+      "artifact": "pydantic-2.14.0-py3-none-any.whl",
+      "artifact_sha256": "15fab1bea6f1dc5003b54fc2ecab230c1fd1dbade2acd4addc52d81e32416d4b",
       "declared_license": "MIT",
       "kind": "python",
       "license_files": [
-        "LICENSES/pydantic-2.13.5/licenses/LICENSE"
+        "LICENSES/pydantic-2.14.0/licenses/LICENSE"
       ],
       "license_files_sha256": {
-        "LICENSES/pydantic-2.13.5/licenses/LICENSE": "a9e186f3ca16b5eef84318e7a701721351a00cb7b8ae3a4394b67b49e3529ef3"
+        "LICENSES/pydantic-2.14.0/licenses/LICENSE": "a9e186f3ca16b5eef84318e7a701721351a00cb7b8ae3a4394b67b49e3529ef3"
       },
       "name": "pydantic",
-      "purl": "pkg:pypi/pydantic@2.13.5",
+      "purl": "pkg:pypi/pydantic@2.14.0",
       "review": null,
       "review_state": "review-required",
       "source_urls": [
         "Homepage, https://github.com/pydantic/pydantic",
-        "Documentation, https://docs.pydantic.dev",
+        "Documentation, https://pydantic.dev/docs/validation/latest/get-started/",
         "Funding, https://github.com/sponsors/samuelcolvin",
         "Source, https://github.com/pydantic/pydantic",
-        "Changelog, https://docs.pydantic.dev/latest/changelog/"
+        "Changelog, https://pydantic.dev/docs/validation/latest/get-started/changelog/"
       ],
       "spdx_expression": "MIT",
       "supplier": "Samuel Colvin <s@muelcolvin.com>, Eric Jolibois <em.jolibois@gmail.com>, Hasan Ramezani <hasan.r67@gmail.com>, Adrian Garcia Badaracco <1755071+adriangb@users.noreply.github.com>, Terrence Dorsey <terry@pydantic.dev>, David Montague <david@pydantic.dev>, Serge Matveenko <lig@countzero.co>, Marcelo Trylesinski <marcelotryle@gmail.com>, Sydney Runkle <sydneymarierunkle@gmail.com>, David Hewitt <mail@davidhewitt.dev>, Alex Hall <alex.mojaki@gmail.com>, Victorien Plot <contact@vctrn.dev>",
-      "version": "2.13.5"
+      "version": "2.14.0"
     },
     {
-      "artifact": "pydantic_core-2.46.5-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
-      "artifact_sha256": "0fc5be0abd4a407e200d844b404e33639a554e7bd0d448e7b9ae181be4789ac2",
+      "artifact": "pydantic_core-2.50.0-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+      "artifact_sha256": "f187030fc3d62c668feb0f09e92852e0eb414d7fcefc4748f2e67d245aade37e",
       "declared_license": "MIT",
       "kind": "python",
       "license_files": [
-        "LICENSES/pydantic-core-2.46.5/licenses/LICENSE"
+        "LICENSES/pydantic-core-2.50.0/licenses/LICENSE"
       ],
       "license_files_sha256": {
-        "LICENSES/pydantic-core-2.46.5/licenses/LICENSE": "2afdd30d54b4d62b6f488a6bcc1546e84ec5061f13f4209c03d012348783795a"
+        "LICENSES/pydantic-core-2.50.0/licenses/LICENSE": "2afdd30d54b4d62b6f488a6bcc1546e84ec5061f13f4209c03d012348783795a"
       },
       "name": "pydantic-core",
-      "purl": "pkg:pypi/pydantic-core@2.46.5",
+      "purl": "pkg:pypi/pydantic-core@2.50.0",
       "review": null,
       "review_state": "review-required",
       "source_urls": [
@@ -1100,7 +1100,7 @@
       ],
       "spdx_expression": "MIT",
       "supplier": "Samuel Colvin <s@muelcolvin.com>, Adrian Garcia Badaracco <1755071+adriangb@users.noreply.github.com>, David Montague <david@pydantic.dev>, David Hewitt <mail@davidhewitt.dev>, Sydney Runkle <sydneymarierunkle@gmail.com>, Victorien Plot <contact@vctrn.dev>",
-      "version": "2.46.5"
+      "version": "2.50.0"
     },
     {
       "artifact": "pyee-13.0.1-py3-none-any.whl",
@@ -1921,7 +1921,7 @@
       "name": "frontend:python/lib/python3.12/site-packages/agent_runtime/skills/proxmox/vendor/apidoc.js.gz",
       "review": null,
       "review_state": "review-required",
-      "version": "d5a654af3134690b9ed8247a6d6f5b1e9a6a6cea"
+      "version": "9693b169b78bd04dde32f306c88cfb99b16932ee"
     },
     {
       "artifact_sha256": "5a8ec91820bd55afef049068489369910e5d6ce70c8103952f27e29d3e76e8bc",
@@ -1935,7 +1935,7 @@
       "name": "frontend:python/lib/python3.12/site-packages/manual/static/vendor/mermaid/mermaid.min.js",
       "review": null,
       "review_state": "review-required",
-      "version": "d5a654af3134690b9ed8247a6d6f5b1e9a6a6cea"
+      "version": "9693b169b78bd04dde32f306c88cfb99b16932ee"
     },
     {
       "artifact_sha256": "8d6127ea5ca24a004f56874abb72b4b3f9974092f49838976aacf54dab7d15e8",
@@ -1949,7 +1949,7 @@
       "name": "frontend:python/lib/python3.12/site-packages/kaleido/vendor/kaleido_scopes.js",
       "review": null,
       "review_state": "review-required",
-      "version": "d5a654af3134690b9ed8247a6d6f5b1e9a6a6cea"
+      "version": "9693b169b78bd04dde32f306c88cfb99b16932ee"
     }
   ],
   "native_files": [
@@ -3745,14 +3745,14 @@
         "libc.so.6",
         "ld-linux-x86-64.so.2"
       ],
-      "owner": "pkg:pypi/pydantic-core@2.46.5",
+      "owner": "pkg:pypi/pydantic-core@2.50.0",
       "path": "python/lib/python3.12/site-packages/pydantic_core/_pydantic_core.cpython-312-x86_64-linux-gnu.so",
       "review": null,
       "review_state": "review-required",
       "search_paths": [
         "$ORIGIN/../../../openfabric-libs"
       ],
-      "sha256": "e4f3c6b3db7871c01c0542333a9d4d868e33fc7016d9b59725ec50615208adfe"
+      "sha256": "3d3fb41b8c2b02df6dad9d5e35c315d4bdd13346ddd0b4b10975367be62d09e9"
     },
     {
       "dependencies": [
@@ -3875,23 +3875,10 @@
       "cryptography<49,>=44",
       "PyJWT[crypto]<3,>=2.10",
       "jsonschema<5.0,>=4.23",
-      "numpy<3.0,>=1.26",
-      "pandas<3.0,>=2.2",
-      "matplotlib<4.0,>=3.9",
-      "Pillow<13,>=10.4",
+      "rpds-py>=0.18",
       "packaging<27,>=24",
-      "playwright<2.0,>=1.49",
-      "plotly<7.0,>=6.1.1",
-      "kaleido<2.0,>=1.0",
-      "choreographer<2.0,>=1.3",
       "fastapi<1.0,>=0.116",
       "psutil<8.0,>=5.9",
-      "python-xlib<1,>=0.33; sys_platform == \"linux\"",
-      "comtypes<2,>=1.4; sys_platform == \"win32\"",
-      "pyobjc-framework-Cocoa<13,>=10; sys_platform == \"darwin\"",
-      "pyobjc-framework-Quartz<13,>=10; sys_platform == \"darwin\"",
-      "pyobjc-framework-ScreenCaptureKit<13,>=10; sys_platform == \"darwin\"",
-      "pyobjc-framework-ApplicationServices<13,>=10; sys_platform == \"darwin\"",
       "pydantic<3.0,>=2.11",
       "google-auth<3.0,>=2.30",
       "pyyaml<7.0,>=6.0.2",
@@ -3903,14 +3890,30 @@
       "typer<1.0,>=0.16",
       "uvicorn[standard]<1.0,>=0.35",
       "websockets<17.0,>=16.0",
-      "aor-runtime[docker,http-negotiate,http-ntlm,manual,office,pdf,python-tools,site,ui-linux]; extra == \"full\"",
+      "aor-runtime[browser,desktop,docker,http-negotiate,http-ntlm,manual,office,pdf,python-tools,site,ui-linux,visualization]; extra == \"full\"",
       "nvidia-ml-py<14,>=12; extra == \"full\"",
       "docker<8,>=7.1; extra == \"docker\"",
+      "aor-runtime[images]; extra == \"pdf\"",
       "pypdf[crypto]<7,>=6.19; extra == \"pdf\"",
       "pypdfium2<6,>=5; extra == \"pdf\"",
       "python-docx<2,>=1.2; extra == \"office\"",
       "openpyxl<4,>=3.1.5; extra == \"office\"",
       "python-pptx<2,>=1.0.2; extra == \"office\"",
+      "playwright<2.0,>=1.49; extra == \"browser\"",
+      "numpy<3.0,>=1.26; extra == \"visualization\"",
+      "pandas<3.0,>=2.2; extra == \"visualization\"",
+      "matplotlib<4.0,>=3.9; extra == \"visualization\"",
+      "plotly<7.0,>=6.1.1; extra == \"visualization\"",
+      "kaleido<2.0,>=1.0; extra == \"visualization\"",
+      "choreographer<2.0,>=1.3; extra == \"visualization\"",
+      "Pillow<13,>=10.4; extra == \"images\"",
+      "aor-runtime[images]; extra == \"desktop\"",
+      "python-xlib<1,>=0.33; sys_platform == \"linux\" and extra == \"desktop\"",
+      "comtypes<2,>=1.4; sys_platform == \"win32\" and extra == \"desktop\"",
+      "pyobjc-framework-Cocoa<13,>=10; sys_platform == \"darwin\" and extra == \"desktop\"",
+      "pyobjc-framework-Quartz<13,>=10; sys_platform == \"darwin\" and extra == \"desktop\"",
+      "pyobjc-framework-ScreenCaptureKit<13,>=10; sys_platform == \"darwin\" and extra == \"desktop\"",
+      "pyobjc-framework-ApplicationServices<13,>=10; sys_platform == \"darwin\" and extra == \"desktop\"",
       "PyGObject<4,>=3.46; sys_platform == \"linux\" and extra == \"ui-linux\"",
       "httpx<1.0,>=0.27; extra == \"dev\"",
       "ipython<10.0,>=9.0; extra == \"dev\"",
@@ -4451,14 +4454,14 @@
     "pycparser": [],
     "pydantic": [
       "annotated-types>=0.6.0",
-      "pydantic-core==2.46.5",
-      "typing-extensions>=4.14.1",
-      "typing-inspection>=0.4.2",
+      "pydantic-core==2.50.0",
+      "typing-extensions>=4.16.0",
+      "typing-inspection>=0.4.4",
       "email-validator>=2.0.0; extra == 'email'",
-      "tzdata; (python_version >= '3.9' and platform_system == 'Windows') and extra == 'timezone'"
+      "tzdata; (platform_system == 'Windows') and extra == 'timezone'"
     ],
     "pydantic-core": [
-      "typing-extensions>=4.14.1"
+      "typing-extensions>=4.16.0"
     ],
     "pyee": [
       "typing-extensions",
@@ -4621,7 +4624,7 @@
     "contourpy@1.4.0: review-required",
     "cryptography@48.0.1: review-required",
     "cycler@0.12.1: review-required",
-    "fastapi@0.142.4: review-required",
+    "fastapi@0.143.0: review-required",
     "fonttools@4.66.1: review-required",
     "google-auth@2.61.0: review-required",
     "greenlet@3.5.6: review-required",
@@ -4648,9 +4651,9 @@
     "psutil@7.2.2: review-required",
     "pyasn1@0.6.4: review-required",
     "pyasn1-modules@0.4.2: review-required",
-    "pycparser@3.0: review-required",
-    "pydantic@2.13.5: review-required",
-    "pydantic-core@2.46.5: review-required",
+    "pycparser@3.11: review-required",
+    "pydantic@2.14.0: review-required",
+    "pydantic-core@2.50.0: review-required",
     "pyee@13.0.1: review-required",
     "pygments@2.21.0: review-required",
     "pyjwt@2.15.1: review-required",

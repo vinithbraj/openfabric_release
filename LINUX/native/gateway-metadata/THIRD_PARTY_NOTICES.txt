@@ -843,10 +843,10 @@ CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
 OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-fastapi 0.142.4
+fastapi 0.143.0
 MIT
 
---- LICENSES/fastapi-0.142.4/licenses/LICENSE ---
+--- LICENSES/fastapi-0.143.0/licenses/LICENSE ---
 The MIT License (MIT)
 
 Copyright (c) 2018 Sebastián Ramírez
@@ -11374,13 +11374,13 @@ ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
 POSSIBILITY OF SUCH DAMAGE. 
 
 
-pycparser 3.0
+pycparser 3.11
 BSD-3-Clause
 
---- LICENSES/pycparser-3.0/licenses/LICENSE ---
+--- LICENSES/pycparser-3.11/licenses/LICENSE ---
 pycparser -- A C parser in Python
 
-Copyright (c) 2008-2022, Eli Bendersky
+Copyright (c) 2008-2027, Eli Bendersky
 All rights reserved.
 
 Redistribution and use in source and binary forms, with or without modification,
@@ -11407,10 +11407,10 @@ LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT
 OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 
-pydantic 2.13.5
+pydantic 2.14.0
 MIT
 
---- LICENSES/pydantic-2.13.5/licenses/LICENSE ---
+--- LICENSES/pydantic-2.14.0/licenses/LICENSE ---
 The MIT License (MIT)
 
 Copyright (c) 2017 to present Pydantic Services Inc. and individual contributors.
@@ -11434,10 +11434,10 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 
-pydantic-core 2.46.5
+pydantic-core 2.50.0
 MIT
 
---- LICENSES/pydantic-core-2.46.5/licenses/LICENSE ---
+--- LICENSES/pydantic-core-2.50.0/licenses/LICENSE ---
 The MIT License (MIT)
 
 Copyright (c) 2022 Samuel Colvin

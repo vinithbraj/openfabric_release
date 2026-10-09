@@ -1394,7 +1394,7 @@
       "search_paths": [
         "$ORIGIN/../../../openfabric-libs"
       ],
-      "sha256": "e4f3c6b3db7871c01c0542333a9d4d868e33fc7016d9b59725ec50615208adfe"
+      "sha256": "3d3fb41b8c2b02df6dad9d5e35c315d4bdd13346ddd0b4b10975367be62d09e9"
     },
     {
       "dependencies": [
